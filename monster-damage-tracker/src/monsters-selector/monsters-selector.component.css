@@ -1,0 +1,16 @@
+.MonstersSelector {
+  font-size: 1rem;
+  overflow: hidden;
+  max-height: 100%;
+  display: flex;
+  padding: 1em;
+}
+
+.MonstersSelector-notSelected,
+.MonstersSelector-selected {
+  flex: 1 1 50%;
+}
+
+.MonstersSelector-notSelected {
+  margin-right: 1em;
+}
