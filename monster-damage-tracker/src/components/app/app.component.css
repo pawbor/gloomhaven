@@ -1,0 +1,9 @@
+.App {
+  display: block;
+  height: 100vh;
+  overflow: hidden;
+}
+
+.App > * {
+  height: 100%;
+}

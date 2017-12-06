@@ -1,0 +1,32 @@
+.ScenarioCreator {
+  font-size: 1rem;
+  display: flex;
+  align-items: stretch;
+  justify-content: center;
+}
+
+.ScenarioCreator-Card {
+  display: flex;
+  flex-flow: column;
+  min-width: 50vw;
+  border: 1px solid black;
+  margin: 2em;
+  overflow: hidden;
+}
+
+.ScenarioCreator-MonsterList {
+  flex: 1 1 0;
+  overflow: hidden;
+}
+
+.ScenarioCreator-Actions {
+  flex: none;
+  margin-top: 1em;
+  display: flex;
+  flex-flow: row;
+  padding: 1em;
+}
+
+.ScenarioCreator-StartButton {
+  margin-left: auto;
+}

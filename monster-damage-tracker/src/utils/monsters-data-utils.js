@@ -4,12 +4,16 @@ import {
   toHashMap,
 } from './hash-map-utils';
 
+import monstersData from 'monsters.json';
+
 const MonsterType = {
   Common: 'Common',
   Boss: 'Boss',
 };
 
-export function prepareMonsters(monstersData) {
+export const monsters = prepareMonsters(monstersData);
+
+function prepareMonsters(monstersData) {
   const commonMonstersProcessor = toArray(
     processCommonMonsterData
   );

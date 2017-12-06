@@ -1,0 +1,8 @@
+.WelcomePage {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.WelcomePage-NewScenarioButton {
+}
