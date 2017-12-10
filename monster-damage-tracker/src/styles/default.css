@@ -1,0 +1,7 @@
+:root {
+  --bg-color-primary: #ffffff;
+  --bg-color-secondary: #e0e0e0;
+  --text-color-secondary: rgba(0, 0, 0, 0.54);
+  --text-color-hint: rgba(0, 0, 0, 0.38);
+  --divider-color: rgba(0, 0, 0, 0.12);
+}

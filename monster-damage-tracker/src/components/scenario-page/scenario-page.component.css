@@ -1,1 +1,13 @@
+.ScenarioPage {
+  font-size: 1rem;
+  display: flex;
+  flex-flow: row wrap;
+  align-items: stretch;
+  justify-content: space-around;
+  padding: 1.5em;
+}
 
+.MonsterGroupTracker {
+  flex: 1 1 0;
+  margin: 1em;
+}

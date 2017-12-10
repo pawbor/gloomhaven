@@ -1,0 +1,4 @@
+.Card {
+  --elevation: 2;
+  background-color: var(--bg-color-primary);
+}

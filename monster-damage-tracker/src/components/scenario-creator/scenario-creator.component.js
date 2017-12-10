@@ -1,9 +1,10 @@
 import React from 'react';
 
+import Card from 'components/card/card.component';
 import MonsterGroupList from 'components/monster-group-list/monster-group-list.component';
 import Scrollable from 'components/scrollable/scrollable.component';
 import { noop } from 'utils/function-utils';
-import { monsters } from 'utils/monsters-data-utils';
+import { allMonsters } from 'utils/monsters-data-utils';
 import { toggleArrayElement } from 'utils/array-utils';
 
 import './scenario-creator.component.css';
@@ -45,10 +46,10 @@ class ScenarioCreator extends React.Component {
 
     return (
       <div className="ScenarioCreator">
-        <div className="ScenarioCreator-Card">
+        <Card className="ScenarioCreator-Card">
           <Scrollable className="ScenarioCreator-MonsterList">
             <MonsterGroupList
-              monsters={monsters}
+              monsters={allMonsters}
               selectedMonsters={selectedMonsters}
               onClickMonster={handleClickMonster}
             />
@@ -67,7 +68,7 @@ class ScenarioCreator extends React.Component {
               Start
             </button>
           </div>
-        </div>
+        </Card>
       </div>
     );
   }

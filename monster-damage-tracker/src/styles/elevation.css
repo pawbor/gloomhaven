@@ -1,0 +1,27 @@
+.Elevated {
+  --elevation: 1;
+  --depth-offset: calc(1/2 * var(--elevation));
+  --depth-blur: calc(1/2 * var(--elevation));
+  --depth-spread: calc(-1/4 * var(--elevation));
+  --depth-shadow: 0 calc(1px * var(--depth-offset))
+    calc(1px * var(--depth-blur))
+    calc(1px * var(--depth-spread)) rgba(0, 0, 0, 0.2);
+
+  --directional-blur: calc(4/5 * var(--elevation));
+  --directional-spread: calc(1/7 * var(--elevation));
+  --directional-offset: calc(3/5 * var(--elevation));
+  --directional-shadow: 0
+    calc(1px * var(--directional-offset))
+    calc(1px * var(--directional-blur))
+    calc(1px * var(--directional-spread)) rgba(0, 0, 0, 0.1);
+
+  --ambient-offset: calc(1/5 * var(--elevation));
+  --ambient-blur: calc(4/5 * var(--elevation));
+  --ambient-spread: calc(1/4 * var(--elevation));
+  --ambient-shadow: 0 calc(1px * var(--ambient-offset))
+    calc(1px * var(--ambient-blur))
+    calc(1px * var(--ambient-spread)) rgba(0, 0, 0, 0.1);
+
+  box-shadow: var(--depth-shadow), var(--directional-shadow),
+    var(--ambient-shadow);
+}

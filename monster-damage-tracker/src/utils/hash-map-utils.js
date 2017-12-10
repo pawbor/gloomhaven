@@ -1,14 +1,10 @@
-export const toArray = mapper => hashMap =>
-  Object.keys(hashMap).map(key =>
-    mapper(hashMap[key], key)
-  );
+export const hashMapToArray = hashMap =>
+  Object.keys(hashMap).map(key => ({
+    key,
+    value: hashMap[key],
+  }));
 
-export const toKeyValuePairs = toArray((value, key) => ({
-  key,
-  value,
-}));
-
-export const toHashMap = keyExtractor => array =>
+export const arrayToHashMap = keyExtractor => array =>
   array.reduce((hashMap, value) => {
     const key = keyExtractor(value);
     return {
@@ -16,6 +12,9 @@ export const toHashMap = keyExtractor => array =>
       [key]: value,
     };
   }, {});
+
+export const arrayToHashMapByProperty = propertyName =>
+  arrayToHashMap(extractKeyFromProperty(propertyName));
 
 export const extractKeyFromProperty = propertyName => value => {
   const key = value[propertyName];

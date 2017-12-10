@@ -1,39 +1,40 @@
 button {
-  --button-bg-color-main: #eee;
-  --button-bg-color-active: #ddd;
-  --button-text-color-main: rgba(0, 0, 0, 0.9);
-  --button-text-color-active: rgba(0, 0, 0, 0.9);
-  --button-bg-color: var(--button-bg-color-main, red);
-  --button-text-color: var(
-    --button-text-color-main,
-    yellow
-  );
+  --button-bg-color-main: #fafafa;
+  --button-bg-color-active: #f5f5f5;
+  --button-text-color-main: var(--text-color-primary);
+  --button-text-color-active: var(--text-color-primary);
 
   font-size: 1.5rem;
   font-weight: bold;
   text-transform: uppercase;
-  color: var(--button-text-color);
-  background-color: var(--button-bg-color);
+  color: var(--button-text-color-main);
+  background-color: var(--button-bg-color-main);
   padding: 0.5em 1em;
   border-radius: 2px;
   margin: 0.2em;
 }
+
 button:focus {
-  --button-outline-color: #222;
+  --button-outline-color: var(--divider-color);
+
   outline-width: 1px;
   outline-color: var(--button-outline-color);
   outline-style: dotted;
   outline-offset: 2px;
 }
+
 button:active {
-  --button-bg-color: var(--button-bg-color-active);
+  color: var(--button-text-color-active);
+  background-color: var(--button-bg-color-active);
 }
+
 button.Button-primary {
   --button-bg-color-main: rgb(13, 127, 255);
   --button-bg-color-active: rgb(47, 144, 252);
   --button-text-color-main: white;
   --button-text-color-active: white;
 }
+
 button.Button-danger {
   --button-bg-color-main: rgb(246, 44, 44);
   --button-bg-color-active: rgb(206, 33, 33);

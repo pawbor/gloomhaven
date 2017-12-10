@@ -1,54 +1,76 @@
-import {
-  toArray,
-  extractKeyFromProperty,
-  toHashMap,
-} from './hash-map-utils';
-
 import monstersData from 'monsters.json';
 
-const MonsterType = {
+import { mapElements } from './array-utils';
+import {
+  hashMapToArray,
+  arrayToHashMapByProperty,
+} from './hash-map-utils';
+import { pipe } from './function-utils';
+
+export const MonsterType = {
   Common: 'Common',
   Boss: 'Boss',
 };
 
-export const monsters = prepareMonsters(monstersData);
+const emptyMonster = () => ({});
 
-function prepareMonsters(monstersData) {
-  const commonMonstersProcessor = toArray(
-    processCommonMonsterData
-  );
-  const common = commonMonstersProcessor(
-    monstersData.monsters
-  );
+const appendMonsterName = (
+  partialMonster,
+  { key: name }
+) => ({
+  name,
+});
 
-  const bossesProcessor = toArray(processBossData);
-  const bosses = bossesProcessor(monstersData.bosses);
+const appendMonsterType = type => partialMonster => ({
+  ...partialMonster,
+  type,
+});
+
+const processMonsterStats = arrayToHashMapByProperty(
+  'level'
+);
+
+const appendMonsterStats = (
+  partialMonster,
+  { value: monsterData }
+) => ({
+  ...partialMonster,
+  stats: processMonsterStats(monsterData.level),
+});
+
+const processCommonGroupData = pipe(
+  emptyMonster,
+  appendMonsterName,
+  appendMonsterStats,
+  appendMonsterType(MonsterType.Common)
+);
+
+const processBossGroupData = pipe(
+  emptyMonster,
+  appendMonsterName,
+  appendMonsterStats,
+  appendMonsterType(MonsterType.Boss)
+);
+
+const processCommonGroups = pipe(
+  hashMapToArray,
+  mapElements(processCommonGroupData)
+);
+
+const processBossGroups = pipe(
+  hashMapToArray,
+  mapElements(processBossGroupData)
+);
+
+function processMonsters(monstersData) {
+  const common = processCommonGroups(monstersData.monsters);
+
+  const bosses = processBossGroups(monstersData.bosses);
 
   return [...common, ...bosses];
 }
 
-function processCommonMonsterData(
-  monsterData,
-  monsterName
-) {
-  const stats = processMonsterStats(monsterData.level);
-  return {
-    name: monsterName,
-    type: MonsterType.Common,
-    stats,
-  };
-}
-
-function processBossData(monsterData, monsterName) {
-  const stats = processMonsterStats(monsterData.level);
-  return {
-    name: monsterName,
-    type: MonsterType.Boss,
-    stats,
-  };
-}
-
-function processMonsterStats(monsterStats) {
-  const keyExtractor = extractKeyFromProperty('level');
-  return toHashMap(keyExtractor)(monsterStats);
-}
+export const allMonsters = processMonsters(monstersData);
+export const monstersByName = arrayToHashMapByProperty(
+  'name'
+)(allMonsters);

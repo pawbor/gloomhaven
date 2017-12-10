@@ -1,6 +1,9 @@
 export const arraysDiff = (array1, array2) =>
   array1.filter(el => array2.indexOf(el) < 0);
 
+export const mapElements = mapper => array =>
+  array.map(mapper);
+
 export const toggleArrayElement = (array, element) =>
   array.indexOf(element) < 0
     ? [...array, element]

@@ -1,7 +1,7 @@
-import { toKeyValuePairs } from './hash-map-utils';
+import { hashMapToArray } from './hash-map-utils';
 
 export const classNameFromHashMap = hashMap =>
-  toKeyValuePairs(hashMap)
+  hashMapToArray(hashMap)
     .filter(({ value }) => value)
     .map(({ key }) => key)
     .join(' ');

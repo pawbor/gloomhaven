@@ -9,9 +9,10 @@
   display: flex;
   flex-flow: column;
   min-width: 50vw;
-  border: 1px solid black;
-  margin: 2em;
+  padding: 1em;
   overflow: hidden;
+  border-radius: 2px;
+  margin: 2em;
 }
 
 .ScenarioCreator-MonsterList {
@@ -24,7 +25,6 @@
   margin-top: 1em;
   display: flex;
   flex-flow: row;
-  padding: 1em;
 }
 
 .ScenarioCreator-StartButton {

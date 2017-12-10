@@ -1,5 +1,8 @@
 import React from 'react';
 
+import { monstersByName } from 'utils/monsters-data-utils';
+
+import MonsterGroupTracker from './monster-group-tracker.component';
 import './scenario-page.component.css';
 
 class ScenarioPage extends React.Component {
@@ -11,11 +14,20 @@ class ScenarioPage extends React.Component {
 
   render() {
     const { currentScenario } = this.props;
-    console.log(currentScenario);
+
+    const monsterGroupTrackers = currentScenario.monsterGroups
+      .map(monsterName => monstersByName[monsterName])
+      .map(monsterGroup => (
+        <MonsterGroupTracker
+          monsterGroup={monsterGroup}
+          groupLevel={0}
+          key={monsterGroup.name}
+        />
+      ));
     return (
-      <div className="ScenarioPage">
-        Scenario: {JSON.stringify(currentScenario)}
-      </div>
+      <ul className="ScenarioPage">
+        {monsterGroupTrackers}
+      </ul>
     );
   }
 }
