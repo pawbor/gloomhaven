@@ -4,17 +4,19 @@ import MonsterGroupListElement from './monster-group-list-element.component';
 import './monster-group-list.component.css';
 
 export default ({
-  monsters,
-  selectedMonsters,
-  onClickMonster,
+  monsterGroups,
+  selectedMonsterGroups,
+  onClickMonsterGroup,
 }) => (
   <ul className="MonsterGroupList">
-    {monsters.map(monster => (
+    {monsterGroups.map(monster => (
       <MonsterGroupListElement
         key={monster.name}
         monster={monster}
-        isSelected={selectedMonsters.indexOf(monster) > -1}
-        onClick={onClickMonster}
+        isSelected={
+          selectedMonsterGroups.indexOf(monster) > -1
+        }
+        onClick={onClickMonsterGroup}
       />
     ))}
   </ul>

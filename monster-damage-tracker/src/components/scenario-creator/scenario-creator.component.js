@@ -4,7 +4,7 @@ import Card from 'components/card/card.component';
 import MonsterGroupList from 'components/monster-group-list/monster-group-list.component';
 import Scrollable from 'components/scrollable/scrollable.component';
 import { noop } from 'utils/function-utils';
-import { allMonsters } from 'utils/monsters-data-utils';
+import { allMonsterGroups } from 'utils/monsters-data-utils';
 import { toggleArrayElement } from 'utils/array-utils';
 
 import './scenario-creator.component.css';
@@ -19,7 +19,7 @@ class ScenarioCreator extends React.Component {
     super(props);
 
     this.state = {
-      selectedMonsters: [],
+      selectedMonsterGroups: [],
     };
 
     this.handleClickMonster = this.handleClickMonster.bind(
@@ -36,7 +36,7 @@ class ScenarioCreator extends React.Component {
   }
 
   render() {
-    const { selectedMonsters } = this.state;
+    const { selectedMonsterGroups } = this.state;
 
     const {
       handleClickMonster,
@@ -49,9 +49,9 @@ class ScenarioCreator extends React.Component {
         <Card className="ScenarioCreator-Card">
           <Scrollable className="ScenarioCreator-MonsterList">
             <MonsterGroupList
-              monsters={allMonsters}
-              selectedMonsters={selectedMonsters}
-              onClickMonster={handleClickMonster}
+              monsterGroups={allMonsterGroups}
+              selectedMonsterGroups={selectedMonsterGroups}
+              onClickMonsterGroup={handleClickMonster}
             />
           </Scrollable>
           <div className="ScenarioCreator-Actions">
@@ -76,8 +76,8 @@ class ScenarioCreator extends React.Component {
   handleClickMonster(monster) {
     this.setState(prevState => {
       return {
-        selectedMonsters: toggleArrayElement(
-          prevState.selectedMonsters,
+        selectedMonsterGroups: toggleArrayElement(
+          prevState.selectedMonsterGroups,
           monster
         ),
       };
@@ -90,11 +90,18 @@ class ScenarioCreator extends React.Component {
       onCloseScenarioCreator,
     } = this.props;
 
-    const { selectedMonsters } = this.state;
+    const { selectedMonsterGroups } = this.state;
 
     const scenario = {
-      monsterGroups: selectedMonsters.map(
-        monster => monster.name
+      monsterGroups: selectedMonsterGroups.map(
+        ({ name }) => name
+      ),
+      monsterGroupLevels: selectedMonsterGroups.reduce(
+        (levels, { name }) => ({
+          ...levels,
+          [name]: 0,
+        }),
+        {}
       ),
     };
 

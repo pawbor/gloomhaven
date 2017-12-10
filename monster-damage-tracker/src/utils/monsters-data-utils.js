@@ -70,7 +70,9 @@ function processMonsters(monstersData) {
   return [...common, ...bosses];
 }
 
-export const allMonsters = processMonsters(monstersData);
-export const monstersByName = arrayToHashMapByProperty(
+export const allMonsterGroups = processMonsters(
+  monstersData
+);
+export const monsterGroupsByName = arrayToHashMapByProperty(
   'name'
-)(allMonsters);
+)(allMonsterGroups);

@@ -1,0 +1,22 @@
+.Counter {
+  display: flex;
+  flex-flow: row;
+  align-items: center;
+}
+
+.Counter-Value {
+  min-width: 2em;
+  text-align: center;
+}
+
+.Counter-Up,
+.Counter-Down {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 1.5em;
+  height: 1.5em;
+  line-height: 1;
+  cursor: pointer;
+  user-select: none;
+}

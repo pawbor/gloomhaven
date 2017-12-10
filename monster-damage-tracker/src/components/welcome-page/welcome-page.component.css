@@ -1,8 +1,30 @@
 .WelcomePage {
+  font-size: 1rem;
   display: flex;
+  height: 100%;
+  flex-flow: row;
   align-items: center;
   justify-content: center;
 }
 
-.WelcomePage-NewScenarioButton {
+.WelcomePage-Content {
+  display: flex;
+  flex-flow: column;
+  align-items: center;
+  justify-content: center;
+  margin-top: -10em;
+}
+
+.WelcomePage-Message {
+  font-size: 3em;
+  color: var(--text-color-secondary);
+  text-align: center;
+}
+
+.WelcomePage-Message::first-line {
+  font-size: 1.2em;
+}
+
+.WelcomePage-NewScenario {
+  margin-top: 2em;
 }

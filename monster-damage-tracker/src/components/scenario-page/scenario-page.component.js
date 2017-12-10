@@ -1,11 +1,16 @@
 import React from 'react';
 
-import { monstersByName } from 'utils/monsters-data-utils';
+import { monsterGroupsByName } from 'utils/monsters-data-utils';
+import { noop } from 'utils/function-utils';
 
 import MonsterGroupTracker from './monster-group-tracker.component';
 import './scenario-page.component.css';
 
 class ScenarioPage extends React.Component {
+  static defaultProps = {
+    onChangeCurrentScenario: noop,
+  };
+
   constructor(props) {
     super(props);
 
@@ -16,19 +21,46 @@ class ScenarioPage extends React.Component {
     const { currentScenario } = this.props;
 
     const monsterGroupTrackers = currentScenario.monsterGroups
-      .map(monsterName => monstersByName[monsterName])
-      .map(monsterGroup => (
-        <MonsterGroupTracker
-          monsterGroup={monsterGroup}
-          groupLevel={0}
-          key={monsterGroup.name}
-        />
-      ));
+      .map(groupName => monsterGroupsByName[groupName])
+      .map(monsterGroup => {
+        const { monsterGroupLevels } = currentScenario;
+        const groupLevel =
+          monsterGroupLevels[monsterGroup.name];
+        const handleChangeGroupLevel = this.makeHandleChangeGroupLevel(
+          monsterGroup.name
+        );
+        return (
+          <MonsterGroupTracker
+            monsterGroup={monsterGroup}
+            groupLevel={groupLevel}
+            onChangeGroupLevel={handleChangeGroupLevel}
+            key={monsterGroup.name}
+          />
+        );
+      });
+
     return (
       <ul className="ScenarioPage">
         {monsterGroupTrackers}
       </ul>
     );
+  }
+
+  makeHandleChangeGroupLevel(monsterName) {
+    const {
+      currentScenario,
+      onChangeCurrentScenario,
+    } = this.props;
+
+    return groupLevel => {
+      onChangeCurrentScenario({
+        ...currentScenario,
+        monsterGroupLevels: {
+          ...currentScenario.monsterGroupLevels,
+          [monsterName]: groupLevel,
+        },
+      });
+    };
   }
 }
 

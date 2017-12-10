@@ -1,4 +1,5 @@
 import React from 'react';
+import classNames from 'classnames';
 
 import basicStatConfigs from './basic-stats';
 import './common-group-stats.component.css';
@@ -21,7 +22,9 @@ export default ({ groupStats, className }) => {
     </li>
   ));
   return (
-    <ul className={`CommonGroupStats ${className}`}>
+    <ul
+      className={classNames('CommonGroupStats', className)}
+    >
       {stats}
     </ul>
   );

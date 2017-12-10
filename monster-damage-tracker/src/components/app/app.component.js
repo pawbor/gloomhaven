@@ -26,6 +26,10 @@ class App extends React.Component {
     this.handleStartScenario = this.handleStartScenario.bind(
       this
     );
+
+    this.handleChangeCurrentScenario = this.handleChangeCurrentScenario.bind(
+      this
+    );
   }
 
   render() {
@@ -51,11 +55,18 @@ class App extends React.Component {
     });
   }
 
+  handleChangeCurrentScenario(currentScenario) {
+    this.setState({
+      currentScenario,
+    });
+  }
+
   getContent() {
     const {
       handleOpenScenarioCreator,
       handleCloseScenarioCreator,
       handleStartScenario,
+      handleChangeCurrentScenario,
     } = this;
 
     const {
@@ -76,7 +87,12 @@ class App extends React.Component {
 
     if (currentScenario) {
       return (
-        <ScenarioPage currentScenario={currentScenario} />
+        <ScenarioPage
+          currentScenario={currentScenario}
+          onChangeCurrentScenario={
+            handleChangeCurrentScenario
+          }
+        />
       );
     }
 
