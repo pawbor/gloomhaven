@@ -8,6 +8,6 @@
 }
 
 .MonsterGroupTracker {
-  flex: 1 1 0;
+  flex: auto;
   margin: 1em;
 }

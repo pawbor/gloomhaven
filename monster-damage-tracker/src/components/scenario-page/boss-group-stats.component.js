@@ -1,7 +1,10 @@
 import React from 'react';
 import classNames from 'classnames';
 
-import basicStatConfigs from './basic-stats';
+import MonsterBasicStat from './monster-basic-stats.component';
+import MonsterConditionsImmunity from './monster-conditions-immunity.component';
+import MonsterSpecials from './monster-specials.component';
+import MonsterNotes from './monster-notes.component';
 import './boss-group-stats.component.css';
 
 export default ({ groupStats, className }) => {
@@ -9,7 +12,12 @@ export default ({ groupStats, className }) => {
     <div
       className={classNames('BossGroupStats', className)}
     >
-      Boss stats
+      <MonsterBasicStat stats={groupStats} />
+      <MonsterConditionsImmunity
+        conditions={groupStats.immunities}
+      />
+      <MonsterSpecials specials={groupStats} />
+      <MonsterNotes notes={groupStats.notes} />
     </div>
   );
 };

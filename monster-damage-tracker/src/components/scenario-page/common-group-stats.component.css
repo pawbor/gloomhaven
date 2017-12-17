@@ -1,28 +1,17 @@
 .CommonGroupStats {
   font-size: 1rem;
-  display: inline-flex;
-  flex-flow: column;
 }
 
-.CommonGroupStats-BasicStat {
-  font-size: 1.5em;
-  display: flex;
-  flex-flow: row;
-  margin-top: 0.2em;
-}
-
-.CommonGroupStats-Label {
-  flex: 1 1 100%;
-}
-
-.CommonGroupStats-Value {
-  flex: none;
-  width: 2em;
-  margin-left: 1em;
-  font-weight: bold;
-  text-align: center;
+.CommonGroupStats-Normal,
+.CommonGroupStats-Elite {
+  padding: 0.5em;
 }
 
 .CommonGroupStats-Elite {
-  background-color: yellow;
+  margin-top: 1em;
+  background-color: var(--elite-monster-color);
+}
+
+.MonsterTraits {
+  margin-top: 0.5em;
 }

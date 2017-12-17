@@ -1,0 +1,15 @@
+.MonsterConditionsImmunity {
+  font-size: 1rem;
+  display: flex;
+  flex-flow: row wrap;
+}
+
+.MonsterConditionsImmunity-Label,
+.MonsterConditionsImmunity-Element {
+  font-size: 1.5em;
+  display: inline;
+}
+
+* ~ .MonsterConditionsImmunity-Element {
+  margin-left: 1em;
+}

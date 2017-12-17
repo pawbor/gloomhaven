@@ -14,31 +14,28 @@ export default ({
   onChangeGroupLevel = noop,
 }) => {
   return (
-    <li className="MonsterGroupTracker">
-      <Card>
-        <header className="MonsterGroupTracker-Header">
-          <span className="MonsterGroupTracker-MonsterName">
-            {monsterGroup.name}
-          </span>
+    <Card className="MonsterGroupTracker">
+      <header className="MonsterGroupTracker-Header">
+        <span className="MonsterGroupTracker-MonsterName">
+          {monsterGroup.name}
+        </span>
 
-          <Counter
-            className="MonsterGroupTracker-GroupLevel"
-            value={groupLevel}
-            onChangeValue={handleChangeGroupLevel}
-          />
-        </header>
-        <MonsterGroupStats
-          className="MonsterGroupTracker-Stats"
-          monsterGroup={monsterGroup}
-          groupLevel={groupLevel}
+        <Counter
+          className="MonsterGroupTracker-GroupLevel"
+          value={groupLevel}
+          onChangeValue={handleChangeGroupLevel}
         />
-      </Card>
-    </li>
+      </header>
+      <MonsterGroupStats
+        className="MonsterGroupTracker-Stats"
+        monsterGroup={monsterGroup}
+        groupLevel={groupLevel}
+      />
+    </Card>
   );
 
   function handleChangeGroupLevel(groupLevel) {
     const isInvalid = groupLevel < 0 || groupLevel > 7;
-    console.log(groupLevel, 'isInvalid:', isInvalid);
     if (isInvalid) {
       return;
     }

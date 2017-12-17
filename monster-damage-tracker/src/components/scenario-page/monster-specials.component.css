@@ -1,0 +1,19 @@
+.MonsterSpecials {
+  font-size: 1rem;
+  display: flex;
+  flex-flow: column;
+}
+
+.MonsterSpecials-Element {
+  display: flex;
+  flex-flow: column;
+  margin-top: 0.5em;
+}
+
+.MonsterSpecials-Element > * {
+  font-size: 1.5em;
+}
+
+.MonsterSpecials-Action {
+  margin-left: 1em;
+}

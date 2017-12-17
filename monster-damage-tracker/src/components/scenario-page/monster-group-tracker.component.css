@@ -1,21 +1,20 @@
 .MonsterGroupTracker {
   font-size: 1rem;
-}
-
-.MonsterGroupTracker > .Card {
+  overflow: hidden;
   padding: 1em;
-  height: 100%;
 }
 
 .MonsterGroupTracker-Header {
   font-size: 2.5em;
   display: flex;
-  display: row;
+  flex-flow: row;
+  align-items: center;
 }
 
 .MonsterGroupTracker-MonsterName {
-  flex: none;
+  flex: auto;
   white-space: nowrap;
+  overflow: hidden;
   text-overflow: ellipsis;
 }
 

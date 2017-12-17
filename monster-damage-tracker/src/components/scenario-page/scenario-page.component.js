@@ -18,33 +18,37 @@ class ScenarioPage extends React.Component {
   }
 
   render() {
+    const { renderMonsterGroupTracker } = this;
     const { currentScenario } = this.props;
 
     const monsterGroupTrackers = currentScenario.monsterGroups
-      .map(groupName => monsterGroupsByName[groupName])
-      .map(monsterGroup => {
-        const { monsterGroupLevels } = currentScenario;
-        const groupLevel =
-          monsterGroupLevels[monsterGroup.name];
-        const handleChangeGroupLevel = this.makeHandleChangeGroupLevel(
-          monsterGroup.name
-        );
-        return (
-          <MonsterGroupTracker
-            monsterGroup={monsterGroup}
-            groupLevel={groupLevel}
-            onChangeGroupLevel={handleChangeGroupLevel}
-            key={monsterGroup.name}
-          />
-        );
-      });
+      .map((groupName) => monsterGroupsByName[groupName])
+      .map(renderMonsterGroupTracker);
 
     return (
-      <ul className="ScenarioPage">
+      <div className="ScenarioPage">
         {monsterGroupTrackers}
-      </ul>
+      </div>
     );
   }
+
+  renderMonsterGroupTracker = (monsterGroup) => {
+    const { currentScenario } = this.props;
+    const { monsterGroupLevels } = currentScenario;
+    const groupLevel =
+      monsterGroupLevels[monsterGroup.name];
+    const handleChangeGroupLevel = this.makeHandleChangeGroupLevel(
+      monsterGroup.name
+    );
+    return (
+      <MonsterGroupTracker
+        monsterGroup={monsterGroup}
+        groupLevel={groupLevel}
+        onChangeGroupLevel={handleChangeGroupLevel}
+        key={monsterGroup.name}
+      />
+    );
+  };
 
   makeHandleChangeGroupLevel(monsterName) {
     const {
@@ -52,7 +56,7 @@ class ScenarioPage extends React.Component {
       onChangeCurrentScenario,
     } = this.props;
 
-    return groupLevel => {
+    return (groupLevel) => {
       onChangeCurrentScenario({
         ...currentScenario,
         monsterGroupLevels: {

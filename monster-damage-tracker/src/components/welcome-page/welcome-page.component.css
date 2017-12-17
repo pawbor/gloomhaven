@@ -16,13 +16,13 @@
 }
 
 .WelcomePage-Message {
-  font-size: 3em;
+  font-size: 2em;
   color: var(--text-color-secondary);
   text-align: center;
 }
 
-.WelcomePage-Message::first-line {
-  font-size: 1.2em;
+.WelcomePage-Message :first-child {
+  font-size: 1.5em;
 }
 
 .WelcomePage-NewScenario {

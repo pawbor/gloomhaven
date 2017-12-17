@@ -1,0 +1,21 @@
+.MonsterBasicStats {
+  font-size: 1rem;
+  display: flex;
+  flex-flow: row;
+}
+
+.MonsterBasicStats-Element {
+  font-size: 1.5em;
+  display: inline;
+}
+
+.MonsterBasicStats-Element ~ .MonsterBasicStats-Element {
+  margin-left: 1em;
+}
+
+.MonsterBasicStats-Value {
+  font-weight: bold;
+  text-align: center;
+  display: inline-block;
+  width: 3em;
+}
