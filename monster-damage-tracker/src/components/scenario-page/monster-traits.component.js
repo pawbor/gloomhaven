@@ -5,7 +5,7 @@ import { TemplateMaterializer } from 'components/template-materializer';
 
 import './monster-traits.component.css';
 
-export default ({ traits, className }) => {
+const MonsterTraits = ({ traits, className }) => {
   const elements = traits.length
     ? traits.map(renderElement)
     : renderEmptyElement();
@@ -33,3 +33,5 @@ export default ({ traits, className }) => {
     );
   }
 };
+
+export default MonsterTraits;

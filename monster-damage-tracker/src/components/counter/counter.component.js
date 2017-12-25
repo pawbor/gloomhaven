@@ -5,7 +5,7 @@ import { noop } from 'utils/function-utils';
 
 import './counter.component.css';
 
-export default ({
+const Counter = ({
   value,
   onChangeValue = noop,
   className,
@@ -33,3 +33,5 @@ export default ({
     onChangeValue(value + 1);
   }
 };
+
+export default Counter;

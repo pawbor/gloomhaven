@@ -1,8 +1,10 @@
 import React from 'react';
 
+import { noop } from 'utils/function-utils';
+
 import './welcome-page.component.css';
 
-export default ({ onOpenScenarioCreator }) => {
+const WelcomePage = ({ onStartNewScenario = noop }) => {
   const welcomeMessage1 = 'Welcome to monster tracker.';
   const welcomeMessage2 =
     'Press button below to start your adventure.';
@@ -25,6 +27,8 @@ export default ({ onOpenScenarioCreator }) => {
   );
 
   function handleClickNewScenarioButton() {
-    onOpenScenarioCreator();
+    onStartNewScenario();
   }
 };
+
+export default WelcomePage;

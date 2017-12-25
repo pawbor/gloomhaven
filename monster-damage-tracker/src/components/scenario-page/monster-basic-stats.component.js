@@ -22,7 +22,7 @@ const basicStatConfigs = [
   },
 ];
 
-export default ({ stats, className }) => {
+const MonsterBasicStats = ({ stats, className }) => {
   const elements = basicStatConfigs.map(renderElement);
 
   return (
@@ -49,3 +49,5 @@ export default ({ stats, className }) => {
     );
   }
 };
+
+export default MonsterBasicStats;

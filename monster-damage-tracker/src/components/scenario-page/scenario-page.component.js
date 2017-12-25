@@ -1,7 +1,8 @@
 import React from 'react';
 
-import { monsterGroupsByName } from 'utils/monsters-data-utils';
+import { hashMapToArray } from 'utils/hash-map-utils';
 import { noop } from 'utils/function-utils';
+import { monsterGroupsByName } from 'utils/monsters-data-utils';
 
 import MonsterGroupTracker from './monster-group-tracker.component';
 import './scenario-page.component.css';
@@ -21,8 +22,13 @@ class ScenarioPage extends React.Component {
     const { renderMonsterGroupTracker } = this;
     const { currentScenario } = this.props;
 
-    const monsterGroupTrackers = currentScenario.monsterGroups
-      .map((groupName) => monsterGroupsByName[groupName])
+    const monsterGroupTrackers = hashMapToArray(
+      currentScenario.monsterGroups
+    )
+      .map(({ key: groupName, value: groupState }) => ({
+        groupData: monsterGroupsByName[groupName],
+        groupState,
+      }))
       .map(renderMonsterGroupTracker);
 
     return (
@@ -32,40 +38,39 @@ class ScenarioPage extends React.Component {
     );
   }
 
-  renderMonsterGroupTracker = (monsterGroup) => {
-    const { currentScenario } = this.props;
-    const { monsterGroupLevels } = currentScenario;
-    const groupLevel =
-      monsterGroupLevels[monsterGroup.name];
-    const handleChangeGroupLevel = this.makeHandleChangeGroupLevel(
-      monsterGroup.name
+  renderMonsterGroupTracker = ({
+    groupData,
+    groupState,
+  }) => {
+    const handleChangeGroupState = this.makeHandleChangeGroupState(
+      groupData.name
     );
     return (
       <MonsterGroupTracker
-        monsterGroup={monsterGroup}
-        groupLevel={groupLevel}
-        onChangeGroupLevel={handleChangeGroupLevel}
-        key={monsterGroup.name}
+        groupData={groupData}
+        groupState={groupState}
+        onChangeGroupState={handleChangeGroupState}
+        key={groupData.name}
       />
     );
   };
 
-  makeHandleChangeGroupLevel(monsterName) {
+  makeHandleChangeGroupState = (monsterGroupName) => {
     const {
       currentScenario,
       onChangeCurrentScenario,
     } = this.props;
 
-    return (groupLevel) => {
+    return (groupState) => {
       onChangeCurrentScenario({
         ...currentScenario,
-        monsterGroupLevels: {
-          ...currentScenario.monsterGroupLevels,
-          [monsterName]: groupLevel,
+        monsterGroups: {
+          ...currentScenario.monsterGroups,
+          [monsterGroupName]: groupState,
         },
       });
     };
-  }
+  };
 }
 
 export default ScenarioPage;

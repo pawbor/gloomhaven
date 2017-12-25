@@ -1,23 +1,34 @@
 import React from 'react';
 
+import { noop } from 'utils/function-utils';
+
 import MonsterGroupListElement from './monster-group-list-element.component';
 import './monster-group-list.component.css';
 
-export default ({
+const MonsterGroupList = ({
   monsterGroups,
   selectedMonsterGroups,
-  onClickMonsterGroup,
-}) => (
-  <ul className="MonsterGroupList">
-    {monsterGroups.map(monster => (
+  onClickMonsterGroup = noop,
+}) => {
+  return (
+    <ul className="MonsterGroupList">
+      {monsterGroups.map(renderListElement)}
+    </ul>
+  );
+
+  function renderListElement(groupData) {
+    const isSelected =
+      selectedMonsterGroups.indexOf(groupData.name) > -1;
+
+    return (
       <MonsterGroupListElement
-        key={monster.name}
-        monster={monster}
-        isSelected={
-          selectedMonsterGroups.indexOf(monster) > -1
-        }
+        key={groupData.name}
+        groupData={groupData}
+        isSelected={isSelected}
         onClick={onClickMonsterGroup}
       />
-    ))}
-  </ul>
-);
+    );
+  }
+};
+
+export default MonsterGroupList;

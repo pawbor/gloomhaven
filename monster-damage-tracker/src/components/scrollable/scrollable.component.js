@@ -3,8 +3,10 @@ import classNames from 'classnames';
 
 import './scrollable.component.css';
 
-export default ({ children, className }) => (
+const Scrollable = ({ children, className }) => (
   <div className={classNames('Scrollable', className)}>
     <div className="Scrollable-Wrapper">{children}</div>
   </div>
 );
+
+export default Scrollable;

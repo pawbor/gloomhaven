@@ -5,7 +5,10 @@ import { TemplateMaterializer } from 'components/template-materializer';
 
 import './monster-conditions-immunity.component.css';
 
-export default ({ conditions, className }) => {
+const MonsterConditionsImmunity = ({
+  conditions,
+  className,
+}) => {
   const elements = conditions.length
     ? conditions.map(renderElement)
     : renderEmptyElement();
@@ -43,3 +46,5 @@ export default ({ conditions, className }) => {
     );
   }
 };
+
+export default MonsterConditionsImmunity;

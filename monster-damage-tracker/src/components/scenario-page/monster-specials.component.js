@@ -5,7 +5,7 @@ import { TemplateMaterializer } from 'components/template-materializer';
 
 import './monster-specials.component.css';
 
-export default ({ specials, className }) => {
+const MonsterSpecials = ({ specials, className }) => {
   const { special1, special2 } = specials;
   const special1Actions = special1.map(renderSpecialAction);
   const special2Actions = special2.map(renderSpecialAction);
@@ -37,3 +37,5 @@ export default ({ specials, className }) => {
     );
   }
 };
+
+export default MonsterSpecials;

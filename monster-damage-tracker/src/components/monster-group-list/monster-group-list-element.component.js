@@ -5,8 +5,8 @@ import { noop } from 'utils/function-utils';
 
 import './monster-group-list-element.component.css';
 
-export default ({
-  monster,
+const MonsterGroupListElement = ({
+  groupData,
   isSelected = false,
   onClick = noop,
 }) => {
@@ -17,15 +17,17 @@ export default ({
   });
 
   const handleClick = () => {
-    onClick(monster);
+    onClick(groupData);
   };
 
   return (
     <li className={className} onClick={handleClick}>
       <span className="MonsterGroupListElement-Checkbox" />
       <span className="MonsterGroupListElement-Label">
-        {monster.name}
+        {groupData.name}
       </span>
     </li>
   );
 };
+
+export default MonsterGroupListElement;

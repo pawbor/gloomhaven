@@ -3,7 +3,7 @@ import classNames from 'classnames';
 
 import './monster-notes.component.css';
 
-export default ({ notes, className }) => {
+const MonsterNotes = ({ notes, className }) => {
   return notes ? (
     <div className={classNames('MonsterNotes', className)}>
       <span className="MonsterNotes-Label">Notes:</span>
@@ -11,3 +11,5 @@ export default ({ notes, className }) => {
     </div>
   ) : null;
 };
+
+export default MonsterNotes;

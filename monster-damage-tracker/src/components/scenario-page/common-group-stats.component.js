@@ -6,7 +6,7 @@ import MonsterTraits from './monster-traits.component';
 
 import './common-group-stats.component.css';
 
-export default ({ groupStats, className }) => {
+const CommonGroupStats = ({ groupStats, className }) => {
   const normalStats = groupStats.normal;
   const eliteStats = groupStats.elite;
 
@@ -25,3 +25,5 @@ export default ({ groupStats, className }) => {
     </div>
   );
 };
+
+export default CommonGroupStats;

@@ -1,6 +1,6 @@
 import React from 'react';
 
-import ScenarioCreator from 'components/scenario-creator/scenario-creator.component';
+import MonsterGroupsSelector from 'components/monster-groups-selector/monster-groups-selector.component';
 import ScenarioPage from 'components/scenario-page/scenario-page.component';
 import WelcomePage from 'components/welcome-page/welcome-page.component';
 
@@ -11,75 +11,58 @@ class App extends React.Component {
     super(props);
 
     this.state = {
-      isScenarioCreatorOpened: false,
+      isMonsterGroupsSelectorOpened: false,
       currentScenario: null,
     };
-
-    this.handleOpenScenarioCreator = this.handleOpenScenarioCreator.bind(
-      this
-    );
-
-    this.handleCloseScenarioCreator = this.handleCloseScenarioCreator.bind(
-      this
-    );
-
-    this.handleStartScenario = this.handleStartScenario.bind(
-      this
-    );
-
-    this.handleChangeCurrentScenario = this.handleChangeCurrentScenario.bind(
-      this
-    );
   }
 
   render() {
-    const content = this.getContent();
+    const content = this.renderContent();
     return <div className="App">{content}</div>;
   }
 
-  handleOpenScenarioCreator(currentScenario) {
+  handleStartNewScenario = (currentScenario) => {
     this.setState({
-      isScenarioCreatorOpened: true,
+      isMonsterGroupsSelectorOpened: true,
+      currentScenario: {
+        monsterGroups: {},
+      },
     });
-  }
+  };
 
-  handleCloseScenarioCreator() {
+  handleCloseMonsterGroupsSelector = () => {
     this.setState({
-      isScenarioCreatorOpened: false,
+      isMonsterGroupsSelectorOpened: false,
     });
-  }
+  };
 
-  handleStartScenario(currentScenario) {
-    this.setState({
-      currentScenario,
-    });
-  }
-
-  handleChangeCurrentScenario(currentScenario) {
+  handleChangeCurrentScenario = (currentScenario) => {
     this.setState({
       currentScenario,
     });
-  }
+  };
 
-  getContent() {
+  renderContent = () => {
     const {
-      handleOpenScenarioCreator,
-      handleCloseScenarioCreator,
-      handleStartScenario,
+      handleStartNewScenario,
+      handleCloseMonsterGroupsSelector,
       handleChangeCurrentScenario,
     } = this;
 
     const {
-      isScenarioCreatorOpened,
+      isMonsterGroupsSelectorOpened,
       currentScenario,
     } = this.state;
 
-    if (isScenarioCreatorOpened) {
+    if (isMonsterGroupsSelectorOpened) {
       return (
-        <ScenarioCreator
-          onStartScenario={handleStartScenario}
-          onCloseScenarioCreator={
-            handleCloseScenarioCreator
+        <MonsterGroupsSelector
+          currentScenario={currentScenario}
+          onChangeCurrentScenario={
+            handleChangeCurrentScenario
+          }
+          onCloseMonsterGroupsSelector={
+            handleCloseMonsterGroupsSelector
           }
         />
       );
@@ -98,10 +81,10 @@ class App extends React.Component {
 
     return (
       <WelcomePage
-        onOpenScenarioCreator={handleOpenScenarioCreator}
+        onStartNewScenario={handleStartNewScenario}
       />
     );
-  }
+  };
 }
 
 export default App;

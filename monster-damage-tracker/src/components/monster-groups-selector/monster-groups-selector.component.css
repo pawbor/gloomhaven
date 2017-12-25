@@ -1,11 +1,11 @@
-.ScenarioCreator {
+.MonsterGroupsSelector {
   font-size: 1rem;
   display: flex;
   align-items: stretch;
   justify-content: center;
 }
 
-.ScenarioCreator-Card {
+.MonsterGroupsSelector-Card {
   display: flex;
   flex-flow: column;
   min-width: 50vw;
@@ -15,18 +15,18 @@
   margin: 2em;
 }
 
-.ScenarioCreator-MonsterList {
+.MonsterGroupsSelector-List {
   flex: 1 1 0;
   overflow: hidden;
 }
 
-.ScenarioCreator-Actions {
+.MonsterGroupsSelector-Actions {
   flex: none;
   margin-top: 1em;
   display: flex;
   flex-flow: row;
 }
 
-.ScenarioCreator-CancelButton {
+.MonsterGroupsSelector-CancelButton {
   margin-left: auto;
 }
