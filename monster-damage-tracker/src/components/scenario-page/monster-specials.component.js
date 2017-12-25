@@ -1,6 +1,8 @@
 import React from 'react';
 import classNames from 'classnames';
 
+import { TemplateMaterializer } from 'components/template-materializer';
+
 import './monster-specials.component.css';
 
 export default ({ specials, className }) => {
@@ -30,7 +32,7 @@ export default ({ specials, className }) => {
   function renderSpecialAction(action, index) {
     return (
       <span className="MonsterSpecials-Action" key={index}>
-        {action}
+        <TemplateMaterializer template={action} />
       </span>
     );
   }

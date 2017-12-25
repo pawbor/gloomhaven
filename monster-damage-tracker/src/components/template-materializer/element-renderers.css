@@ -1,0 +1,10 @@
+.ElementMacro {
+  --element-macro-icon-size: 1.2em;
+  width: var(--element-macro-icon-size);
+  height: var(--element-macro-icon-size);
+  vertical-align: middle;
+}
+
+.ElementMacro-Overlay {
+  margin-left: calc(-1 * var(--element-macro-icon-size));
+}

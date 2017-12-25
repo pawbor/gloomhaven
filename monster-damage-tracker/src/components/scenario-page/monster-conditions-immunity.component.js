@@ -1,6 +1,8 @@
 import React from 'react';
 import classNames from 'classnames';
 
+import { TemplateMaterializer } from 'components/template-materializer';
+
 import './monster-conditions-immunity.component.css';
 
 export default ({ conditions, className }) => {
@@ -28,7 +30,7 @@ export default ({ conditions, className }) => {
         className="MonsterConditionsImmunity-Element"
         key={index}
       >
-        {condition}
+        <TemplateMaterializer template={condition} />
       </span>
     );
   }

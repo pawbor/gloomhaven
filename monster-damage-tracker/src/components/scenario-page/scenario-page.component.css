@@ -3,11 +3,11 @@
   display: flex;
   flex-flow: row wrap;
   align-items: stretch;
-  justify-content: space-around;
+  justify-content: flex-start;
   padding: 1.5em;
 }
 
 .MonsterGroupTracker {
-  flex: auto;
+  flex: none;
   margin: 1em;
 }

@@ -1,0 +1,22 @@
+.AoeMacro {
+  --aoe-macro-icon-size: 0;
+  width: var(--aoe-macro-icon-size);
+  height: var(--aoe-macro-icon-size);
+  vertical-align: middle;
+}
+
+.AoeMacro-small {
+  --aoe-macro-icon-size: 1.5em;
+}
+
+.AoeMacro-medium {
+  --aoe-macro-icon-size: 2em;
+}
+
+.AoeMacro-large {
+  --aoe-macro-icon-size: 2.75em;
+}
+
+.AoeMacro-extraLarge {
+  --aoe-macro-icon-size: 3.5em;
+}

@@ -1,0 +1,15 @@
+.AbilityMacro {
+  --ability-macro-icon-size: 1.2em;
+
+  white-space: nowrap;
+  padding: 0.2em 0;
+}
+
+.AbilityMacro-Icon {
+  background-color: var(--text-color-hint);
+  width: var(--ability-macro-icon-size);
+  height: var(--ability-macro-icon-size);
+  padding: 0.2em;
+  border-radius: 0.2em;
+  vertical-align: text-bottom;
+}

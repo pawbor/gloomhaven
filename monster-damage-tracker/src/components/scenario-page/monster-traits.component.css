@@ -1,12 +1,11 @@
 .MonsterTraits {
-  font-size: 1rem;
   display: flex;
   flex-flow: row wrap;
+  align-items: baseline;
 }
 
 .MonsterTraits-Label,
 .MonsterTraits-Element {
-  font-size: 1.5em;
   display: inline;
 }
 

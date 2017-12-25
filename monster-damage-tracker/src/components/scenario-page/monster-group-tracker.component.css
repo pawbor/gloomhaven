@@ -1,14 +1,15 @@
 .MonsterGroupTracker {
   font-size: 1rem;
-  overflow: hidden;
+  width: 40em;
   padding: 1em;
+  overflow: hidden;
 }
 
 .MonsterGroupTracker-Header {
   font-size: 2.5em;
   display: flex;
   flex-flow: row;
-  align-items: center;
+  align-items: baseline;
 }
 
 .MonsterGroupTracker-MonsterName {
@@ -24,5 +25,6 @@
 }
 
 .MonsterGroupTracker-Stats {
+  font-size: 1.75em;
   margin-top: 1em;
 }

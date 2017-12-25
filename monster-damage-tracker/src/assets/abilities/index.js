@@ -1,0 +1,10 @@
+export { default as attackIcon } from './attack.svg';
+export { default as flyIcon } from './fly.svg';
+export { default as healIcon } from './heal.svg';
+export { default as jumpIcon } from './jump.svg';
+export { default as lootIcon } from './loot.svg';
+export { default as moveIcon } from './move.svg';
+export { default as rangeIcon } from './range.svg';
+export { default as retaliateIcon } from './retaliate.svg';
+export { default as shieldIcon } from './shield.svg';
+export { default as targetIcon } from './target.svg';

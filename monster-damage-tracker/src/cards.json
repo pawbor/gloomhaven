@@ -1,0 +1,1778 @@
+[
+  {
+    "class": "Ancient Artillery",
+    "cards": [
+      [
+        false,
+        "46",
+        "* {{ability-attack}} -1",
+        "** {{ability-range}} +2"
+      ],
+      [
+        true,
+        "71",
+        "* {{ability-attack}} +0",
+        "** {{ability-range}} +0",
+        "** All adjacent enemies suffer 2 damage"
+      ],
+      [
+        true,
+        "71",
+        "* {{ability-attack}} +0",
+        "** {{ability-range}} +0",
+        "** All adjacent enemies suffer 2 damage"
+      ],
+      [
+        false,
+        "37",
+        "* {{condition-push}} 1",
+        "** Target all adjacent enemies",
+        "* {{ability-attack}} -1 {{aoe-triangle-2-side}}",
+        "** {{ability-range}} -1"
+      ],
+      [
+        false,
+        "37",
+        "* {{condition-push}} 1",
+        "** Target all adjacent enemies",
+        "* {{ability-attack}} -1 {{aoe-circle}}",
+        "** {{ability-range}} -1"
+      ],
+      [
+        false,
+        "17",
+        "* {{condition-push}} 2",
+        "** Target all adjacent enemies",
+        "* {{ability-shield}} 2",
+        "* {{ability-attack}} -2",
+        "** {{ability-range}} +0"
+      ],
+      [
+        false,
+        "95",
+        "* {{ability-attack}} +1",
+        "** {{ability-range}} +0"
+      ],
+      [
+        false,
+        "46",
+        "* {{ability-attack}} -1 {{aoe-triangle-2-side}}",
+        "** {{ability-range}} +0",
+        "** {{condition-immobilize}}"
+      ]
+    ]
+  },
+  {
+    "class": "Archer",
+    "cards": [
+      [
+        false,
+        "16",
+        "* {{ability-move}} +1",
+        "* {{ability-attack}} -1",
+        "** {{ability-range}} +0"
+      ],
+      [
+        false,
+        "31",
+        "* {{ability-move}} +0",
+        "* {{ability-attack}} +0",
+        "** {{ability-range}} +0"
+      ],
+      [
+        false,
+        "32",
+        "* {{ability-move}} +0",
+        "* {{ability-attack}} +1",
+        "** {{ability-range}} -1"
+      ],
+      [
+        false,
+        "44",
+        "* {{ability-move}} -1",
+        "* {{ability-attack}} +1",
+        "** {{ability-range}} +0"
+      ],
+      [
+        false,
+        "56",
+        "* {{ability-attack}} -1",
+        "** {{ability-range}} +0",
+        "** {{ability-target}} 2"
+      ],
+      [
+        true,
+        "68",
+        "* {{ability-attack}} +1",
+        "** {{ability-range}} +1"
+      ],
+      [
+        false,
+        "14",
+        "* {{ability-move}} -1",
+        "* {{ability-attack}} -1",
+        "** {{ability-range}} +0",
+        "* <span class='small'> Create a 3 damage trap in an adjacent empty hex closest to an enemy </span>"
+      ],
+      [
+        true,
+        "29",
+        "* {{ability-move}} +0",
+        "* {{ability-attack}} -1",
+        "** {{ability-range}} +1",
+        "** {{condition-immobilize}}"
+      ]
+    ]
+  },
+  {
+    "class": "Boss",
+    "cards": [
+      [false, "11", "* Special 2"],
+      [false, "14", "* Special 2"],
+      [true, "17", "* Special 2"],
+      [true, "85", "* Special 1"],
+      [false, "79", "* Special 1"],
+      [false, "73", "* Special 1"],
+      [
+        false,
+        "36",
+        "* {{ability-move}} +0",
+        "* {{ability-attack}} +0"
+      ],
+      [
+        false,
+        "52",
+        "* {{ability-move}} -1",
+        "* {{ability-attack}} -1",
+        "** {{ability-range}} 3",
+        "** {{ability-target}} 2"
+      ]
+    ]
+  },
+  {
+    "class": "Cave Bear",
+    "cards": [
+      [
+        false,
+        "13",
+        "* {{ability-move}} +1",
+        "* {{ability-attack}} -1"
+      ],
+      [
+        false,
+        "14",
+        "* {{ability-move}} -1",
+        "* {{ability-attack}} -1",
+        "** {{condition-immobilize}}"
+      ],
+      [
+        true,
+        "34",
+        "* {{ability-attack}} +1",
+        "** {{condition-wound}}"
+      ],
+      [
+        false,
+        "41",
+        "* {{ability-move}} +0",
+        "* {{ability-attack}} +0"
+      ],
+      [
+        false,
+        "60",
+        "* {{ability-move}} -1",
+        "* {{ability-attack}} +1"
+      ],
+      [
+        true,
+        "80",
+        "* {{ability-attack}} -1",
+        "* {{ability-move}} -2",
+        "* {{ability-attack}} -1",
+        "** {{condition-wound}}"
+      ],
+      [
+        false,
+        "61",
+        "* {{ability-move}} +0",
+        "* {{ability-attack}} -1",
+        "** {{ability-target}} 2"
+      ],
+      [
+        false,
+        "03",
+        "* {{ability-shield}} 1",
+        "* {{ability-retaliate}} 2",
+        "* {{ability-heal}} 2",
+        "** Self"
+      ]
+    ]
+  },
+  {
+    "class": "Cultist",
+    "cards": [
+      [
+        false,
+        "10",
+        "* {{ability-move}} -1",
+        "* {{ability-attack}} -1",
+        "* On Death:",
+        "** {{ability-attack}} +2 {{aoe-circle-with-middle-black}}"
+      ],
+      [
+        false,
+        "10",
+        "* {{ability-move}} -1",
+        "* {{ability-attack}} -1",
+        "* On Death:",
+        "** {{ability-attack}} +2 {{aoe-circle-with-middle-black}}"
+      ],
+      [
+        false,
+        "27",
+        "* {{ability-move}} +0",
+        "* {{ability-attack}} +0"
+      ],
+      [
+        false,
+        "27",
+        "* {{ability-move}} +0",
+        "* {{ability-attack}} +0"
+      ],
+      [
+        false,
+        "39",
+        "* {{ability-move}} -1",
+        "* {{ability-attack}} +0",
+        "* {{ability-heal}} 1",
+        "** Self"
+      ],
+      [
+        true,
+        "63",
+        "* Summon normal Living Bones",
+        "* Cultist suffers 2 damage."
+      ],
+      [
+        true,
+        "63",
+        "* Summon normal Living Bones",
+        "* Cultist suffers 2 damage."
+      ],
+      [
+        false,
+        "31",
+        "* {{ability-move}} -1",
+        "* {{ability-heal}} 3",
+        "** {{ability-range}} 3"
+      ]
+    ]
+  },
+  {
+    "class": "Deep Terror",
+    "cards": [
+      [
+        false,
+        "65",
+        "* {{ability-attack}} +0",
+        "** {{ability-range}} 3",
+        "** {{ability-target}} 3",
+        "** {{condition-curse}}"
+      ],
+      [
+        true,
+        "60",
+        "* {{ability-attack}} +0 {{aoe-line-6-with-black}}",
+        "** {{condition-pierce}} 3"
+      ],
+      [
+        true,
+        "60",
+        "* {{ability-attack}} +0 {{aoe-line-6-with-black}}",
+        "** {{condition-pierce}} 3"
+      ],
+      [
+        false,
+        "84",
+        "* {{ability-attack}} -1",
+        "** Target all adjacent enemies",
+        "* {{ability-attack}} +0",
+        "** {{ability-range}} 4",
+        "** {{condition-wound}}"
+      ],
+      [
+        false,
+        "75",
+        "* {{ability-attack}} +0",
+        "** {{condition-poison}}",
+        "* {{ability-attack}} -1",
+        "** {{ability-range}} 5",
+        "** {{condition-immobilize}}"
+      ],
+      [
+        false,
+        "75",
+        "* {{ability-attack}} -2",
+        "** Target all adjacent enemies",
+        "** {{condition-disarm}}",
+        "* {{ability-attack}} +0",
+        "** {{ability-range}} 3",
+        "** {{ability-target}} 2"
+      ],
+      [
+        false,
+        "96",
+        "* {{ability-attack}} -2",
+        "** {{ability-range}} 6",
+        "** Summon normal Deep Terror in a hex adjacent to the target"
+      ],
+      [
+        false,
+        "54",
+        "* {{condition-wound}} and {{condition-poison}}",
+        "** Target all adjacent enemies",
+        "* {{ability-attack}} +0",
+        "** {{ability-range}} 4"
+      ]
+    ]
+  },
+  {
+    "class": "Earth Demon",
+    "cards": [
+      [
+        true,
+        "40",
+        "* {{ability-heal}} 3",
+        "** Self",
+        "* {{element-earth}}{{element-use}}: <span class='small'>{{condition-immobilize}} Target all enemies within {{ability-range}} 3</span>"
+      ],
+      [
+        true,
+        "42",
+        "* {{ability-move}} +1",
+        "* {{ability-attack}} -1"
+      ],
+      [
+        false,
+        "62",
+        "* {{ability-move}} +0",
+        "* {{ability-attack}} +0",
+        "* {{element-earth}}"
+      ],
+      [
+        false,
+        "71",
+        "* {{ability-attack}} +0",
+        "** {{ability-range}} 4",
+        "** {{element-earth}}{{element-use}}: {{ability-target}} 2"
+      ],
+      [
+        false,
+        "83",
+        "* {{ability-move}} -1",
+        "* {{ability-attack}} +1",
+        "* {{element-earth}}"
+      ],
+      [
+        false,
+        "93",
+        "* {{ability-move}} -1",
+        "* {{ability-attack}} -1",
+        "** Target all adjacent enemies",
+        "* {{element-earth}}{{element-use}}: {{condition-push}} 1"
+      ],
+      [
+        false,
+        "79",
+        "* {{ability-move}} +1",
+        "* {{ability-attack}} +0",
+        "** {{element-air}}{{element-use}}: -2 {{ability-attack}}"
+      ],
+      [
+        false,
+        "87",
+        "* {{ability-move}} +0",
+        "* {{ability-attack}} -1 <div class='collapse'>{{aoe-rhomb-2-with-black}}</div>",
+        "* {{element-any}}{{element-use}}: {{element-earth}}"
+      ]
+    ]
+  },
+  {
+    "class": "Flame Demon",
+    "cards": [
+      [
+        false,
+        "03",
+        "* {{ability-move}} +1",
+        "* {{ability-attack}} -1",
+        "** {{ability-range}} +0",
+        "* {{element-fire}}"
+      ],
+      [
+        false,
+        "24",
+        "* {{ability-move}} +0",
+        "* {{ability-attack}} +0",
+        "** {{ability-range}} +0",
+        "* {{element-fire}}"
+      ],
+      [
+        true,
+        "46",
+        "* {{ability-attack}} +0",
+        "** {{ability-range}} +0",
+        "** {{element-fire}}{{element-use}}:  {{aoe-circle}}"
+      ],
+      [
+        false,
+        "49",
+        "* {{ability-attack}} +0 {{aoe-line-3-with-black}}",
+        "** <table align='center'><tr><td>{{element-fire}}{{element-use}}:</td> <td> +1 {{ability-attack}} <br> {{condition-wound}} </td> </tr> </table>"
+      ],
+      [
+        false,
+        "67",
+        "* {{ability-move}} -1",
+        "* {{ability-attack}} +1",
+        "** {{ability-range}} -1",
+        "* {{element-fire}}"
+      ],
+      [
+        false,
+        "77",
+        "* {{ability-attack}} +0",
+        "** Target all adjacent enemies",
+        "** {{element-ice}}{{element-use}}:Flame Demon suffers 1 damage."
+      ],
+      [
+        true,
+        "30",
+        "* <table align='center'><tr> <td>  {{element-fire}}{{element-use}}: </td> <td> <span class='small'>All adjacent enemies<br/>suffer 2 damage.</span> </td> </tr> </table>",
+        "* {{ability-move}} +0",
+        "* {{ability-attack}} -2",
+        "** {{condition-wound}}",
+        "** {{ability-target}} 2"
+      ],
+      [
+        false,
+        "08",
+        "* {{ability-move}} -1",
+        "* <span class='small'> Create a 4 damage trap in an adjacent empty hex closest to an enemy </span>",
+        "* {{element-any}}{{element-use}}: {{element-fire}}"
+      ]
+    ]
+  },
+  {
+    "class": "Frost Demon",
+    "cards": [
+      [
+        false,
+        "18",
+        "* {{condition-immobilize}}",
+        "** Target all enemies within {{ability-range}} 2",
+        "* {{element-ice}}{{element-use}}: <span class='small'>{{ability-heal}} 3<br/>Self</span>"
+      ],
+      [
+        false,
+        "38",
+        "* {{ability-move}} +1",
+        "* {{ability-attack}} -1"
+      ],
+      [
+        false,
+        "58",
+        "* {{ability-move}} +0",
+        "* {{ability-attack}} +0"
+      ],
+      [
+        false,
+        "58",
+        "* {{ability-move}} -1",
+        "* {{ability-attack}} +0",
+        "** {{ability-range}} 2",
+        "** {{element-ice}}{{element-use}}: +2 {{ability-attack}}, +1 {{ability-range}}"
+      ],
+      [
+        true,
+        "78",
+        "* {{ability-move}} -1",
+        "* {{ability-attack}} +0 {{aoe-triangle-2-side-with-black}}",
+        "* {{element-ice}}"
+      ],
+      [
+        true,
+        "78",
+        "* {{ability-move}} -1",
+        "* {{ability-attack}} +0 {{aoe-triangle-2-side-with-black}}",
+        "* {{element-ice}}"
+      ],
+      [
+        false,
+        "58",
+        "* {{ability-move}} -1",
+        "* {{ability-attack}} -1",
+        "** {{condition-pierce}} 3",
+        "* {{element-any}}{{element-use}}: {{element-ice}}"
+      ],
+      [
+        false,
+        "18",
+        "* {{ability-shield}} 2",
+        "* {{ability-move}} +1",
+        "* {{element-fire}}{{element-use}}: <span class='small'>Frost Demon suffers 1 damage</span>"
+      ]
+    ]
+  },
+  {
+    "class": "Giant Viper",
+    "cards": [
+      [
+        true,
+        "32",
+        "* {{ability-move}} +0",
+        "* {{ability-attack}} +0",
+        "** Add +2 Attack if the target is adjacent to any of the Giant Viper's allies."
+      ],
+      [
+        true,
+        "32",
+        "* {{ability-move}} +0",
+        "* {{ability-attack}} +0",
+        "** Add +2 Attack if the target is adjacent to any of the Giant Viper's allies."
+      ],
+      [
+        false,
+        "11",
+        "* {{ability-shield}} 1",
+        "* {{ability-attack}} -1"
+      ],
+      [
+        false,
+        "43",
+        "* {{ability-move}} +1",
+        "** {{ability-jump}}",
+        "* {{ability-attack}} -1",
+        "** Target all adjacent enemies."
+      ],
+      [
+        false,
+        "58",
+        "* {{ability-move}} -1",
+        "* {{ability-attack}} +1"
+      ],
+      [
+        false,
+        "58",
+        "* {{ability-move}} +1",
+        "** {{ability-jump}}",
+        "* {{ability-attack}} -1",
+        "** All attacks targeting Giant Viper this round gain Disadvantage."
+      ],
+      [
+        false,
+        "43",
+        "* {{ability-move}} -1",
+        "** {{ability-jump}}",
+        "* {{ability-attack}} +0",
+        "** {{ability-target}} 2"
+      ],
+      [
+        false,
+        "23",
+        "* {{ability-move}} -1",
+        "* {{ability-attack}} -1",
+        "** {{condition-immobilize}}",
+        "* {{ability-attack}} -1"
+      ]
+    ]
+  },
+  {
+    "class": "Guard",
+    "cards": [
+      [
+        true,
+        "15",
+        "* {{ability-shield}} 1",
+        "* {{ability-retaliate}} 2"
+      ],
+      [
+        false,
+        "30",
+        "* {{ability-move}} +1",
+        "* {{ability-attack}} -1"
+      ],
+      [
+        false,
+        "35",
+        "* {{ability-move}} -1",
+        "* {{ability-attack}} +0",
+        "** {{ability-range}} 2"
+      ],
+      [
+        false,
+        "50",
+        "* {{ability-move}} +0",
+        "* {{ability-attack}} +0"
+      ],
+      [
+        false,
+        "50",
+        "* {{ability-move}} +0",
+        "* {{ability-attack}} +0"
+      ],
+      [
+        false,
+        "70",
+        "* {{ability-move}} -1",
+        "* {{ability-attack}} +1"
+      ],
+      [
+        false,
+        "55",
+        "* {{ability-move}} -1",
+        "* {{ability-attack}} +0",
+        "* {{condition-strengthen}}",
+        "** Self"
+      ],
+      [
+        true,
+        "15",
+        "* {{ability-shield}} 1",
+        "* {{ability-attack}} +0",
+        "** {{condition-poison}}"
+      ]
+    ]
+  },
+  {
+    "class": "Harrower Infester",
+    "cards": [
+      [
+        false,
+        "38",
+        "* {{ability-move}} -1",
+        "* {{ability-attack}} +1",
+        "** {{ability-target}} 2"
+      ],
+      [
+        false,
+        "07",
+        "* {{ability-move}} +0",
+        "* {{ability-attack}} -1",
+        "** {{condition-poison}}",
+        "* {{element-dark}}"
+      ],
+      [
+        false,
+        "16",
+        "* {{ability-move}} -1",
+        "* {{ability-attack}} -1",
+        "* {{ability-heal}} 5",
+        "** Self"
+      ],
+      [
+        false,
+        "16",
+        "* {{ability-attack}} +2",
+        "** {{condition-immobilize}}",
+        "* {{ability-retaliate}} 2"
+      ],
+      [
+        true,
+        "02",
+        "* {{ability-shield}} 2",
+        "* {{ability-retaliate}} 2",
+        "** {{ability-range}} 3"
+      ],
+      [
+        false,
+        "30",
+        "* {{ability-move}} -1",
+        "* {{ability-attack}} +0 {{aoe-line-4-with-black}}",
+        "** {{element-dark}}{{element-use}}: Perform \"{{ability-heal}} 2, Self\" </br>for each target damaged"
+      ],
+      [
+        false,
+        "38",
+        "* {{ability-move}} +0",
+        "* {{ability-attack}} -1",
+        "** {{ability-target}} 2",
+        "** {{element-dark}}{{element-use}}: +2 {{ability-attack}}, {{condition-disarm}}"
+      ],
+      [
+        true,
+        "07",
+        "* {{ability-attack}} -1",
+        "** {{ability-range}} 3",
+        "** {{condition-muddle}}",
+        "* {{ability-heal}} 4",
+        "** Self"
+      ]
+    ]
+  },
+  {
+    "class": "Hound",
+    "cards": [
+      [
+        false,
+        "06",
+        "* {{ability-move}} -1",
+        "* {{ability-attack}} +0",
+        "** {{condition-immobilize}}"
+      ],
+      [
+        false,
+        "07",
+        "* {{ability-move}} +0",
+        "* {{condition-muddle}}",
+        "** Target all adjacent enemies"
+      ],
+      [
+        true,
+        "19",
+        "* {{ability-move}} +1",
+        "* {{ability-attack}} +0",
+        "** Add +2 Attack if the target is adjacent to any of the Hound's allies"
+      ],
+      [
+        true,
+        "19",
+        "* {{ability-move}} +1",
+        "* {{ability-attack}} +0",
+        "** Add +2 Attack if the target is adjacent to any of the Hound's allies"
+      ],
+      [
+        false,
+        "26",
+        "* {{ability-move}} +0",
+        "* {{ability-attack}} +0"
+      ],
+      [
+        false,
+        "26",
+        "* {{ability-move}} +0",
+        "* {{ability-attack}} +0"
+      ],
+      [
+        false,
+        "83",
+        "* {{ability-move}} -2",
+        "* {{ability-attack}} +1"
+      ],
+      [
+        false,
+        "72",
+        "* {{ability-attack}} -1",
+        "** {{condition-pierce}} 2",
+        "* {{ability-move}} -2",
+        "* {{ability-attack}} -1",
+        "** {{condition-pierce}} 2"
+      ]
+    ]
+  },
+  {
+    "class": "Imp",
+    "cards": [
+      [
+        false,
+        "05",
+        "* {{ability-shield}} 5",
+        "* {{ability-heal}} 1",
+        "** Self"
+      ],
+      [
+        false,
+        "37",
+        "* {{ability-move}} +0",
+        "* {{ability-attack}} +0",
+        "** {{ability-range}} +0"
+      ],
+      [
+        false,
+        "37",
+        "* {{ability-move}} +0",
+        "* {{ability-attack}} +0",
+        "** {{ability-range}} +0"
+      ],
+      [
+        false,
+        "42",
+        "* {{ability-move}} +1",
+        "* {{ability-heal}} 2"
+      ],
+      [
+        true,
+        "43",
+        "* {{ability-move}} +0",
+        "* {{ability-attack}} -1",
+        "** {{ability-range}} +0, {{ability-target}} 2, {{condition-poison}}"
+      ],
+      [
+        false,
+        "76",
+        "* {{ability-move}} -1",
+        "* {{ability-attack}} +1",
+        "** {{ability-range}} +0"
+      ],
+      [
+        true,
+        "43",
+        "* {{ability-move}} +0",
+        "* {{ability-attack}} -1",
+        "** {{ability-range}} +0, {{ability-target}} 2, {{condition-curse}}"
+      ],
+      [
+        false,
+        "24",
+        "* {{condition-strengthen}}",
+        "** Affect all allies within {{ability-range}} 2",
+        "* {{condition-muddle}}",
+        "** Target all enemies within {{ability-range}} 2"
+      ]
+    ]
+  },
+  {
+    "class": "Living Bones",
+    "cards": [
+      [
+        false,
+        "64",
+        "* {{ability-move}} -1",
+        "* {{ability-attack}} +1"
+      ],
+      [
+        true,
+        "20",
+        "* {{ability-move}} -2",
+        "* {{ability-attack}} +0",
+        "* {{ability-heal}} 2",
+        "** Self"
+      ],
+      [
+        false,
+        "25",
+        "* {{ability-move}} +1",
+        "* {{ability-attack}} -1"
+      ],
+      [
+        false,
+        "45",
+        "* {{ability-move}} +0",
+        "* {{ability-attack}} +0"
+      ],
+      [
+        false,
+        "45",
+        "* {{ability-move}} +0",
+        "* {{ability-attack}} +0"
+      ],
+      [false, "81", "* {{ability-attack}} +2"],
+      [
+        false,
+        "74",
+        "* {{ability-move}} +0",
+        "* {{ability-attack}} +0",
+        "** Target one enemy with all attacks"
+      ],
+      [
+        true,
+        "12",
+        "* {{ability-shield}} 1",
+        "* {{ability-heal}} 2",
+        "** Self"
+      ]
+    ]
+  },
+  {
+    "class": "Living Corpse",
+    "cards": [
+      [
+        false,
+        "21",
+        "* {{ability-move}} +1",
+        "* {{condition-muddle}} and {{condition-immobilize}}",
+        "** Target one adjacent enemy"
+      ],
+      [
+        false,
+        "47",
+        "* {{ability-move}} +1",
+        "* {{ability-attack}} -1"
+      ],
+      [
+        true,
+        "66",
+        "* {{ability-move}} +0",
+        "* {{ability-attack}} +0"
+      ],
+      [
+        true,
+        "66",
+        "* {{ability-move}} +0",
+        "* {{ability-attack}} +0"
+      ],
+      [
+        false,
+        "82",
+        "* {{ability-move}} -1",
+        "* {{ability-attack}} +1"
+      ],
+      [
+        false,
+        "91",
+        "* {{ability-move}} +1",
+        "* Living Corpse suffers 1 damage."
+      ],
+      [
+        false,
+        "71",
+        "* {{ability-move}} +0",
+        "* {{ability-attack}} +1",
+        "* {{condition-poison}}",
+        "** Target all adjacent enemies"
+      ],
+      [
+        false,
+        "32",
+        "* {{ability-attack}} +2",
+        "** {{condition-push}} 1",
+        "* Living Corpse suffers 1 damage."
+      ]
+    ]
+  },
+  {
+    "class": "Living Spirit",
+    "cards": [
+      [
+        true,
+        "22",
+        "* {{ability-move}} -1",
+        "* {{ability-attack}} -1",
+        "** {{ability-range}} +0",
+        "** {{condition-muddle}}"
+      ],
+      [
+        true,
+        "33",
+        "* {{ability-move}} +0",
+        "* {{ability-attack}} -1",
+        "** {{ability-range}} +0",
+        "** Target all enemies within range"
+      ],
+      [
+        false,
+        "48",
+        "* {{ability-move}} +0",
+        "* {{ability-attack}} +0",
+        "** {{ability-range}} +0"
+      ],
+      [
+        false,
+        "48",
+        "* {{ability-move}} +0",
+        "* {{ability-attack}} +0",
+        "** {{ability-range}} +0"
+      ],
+      [
+        false,
+        "61",
+        "* {{ability-attack}} +0",
+        "** {{ability-range}} -1",
+        "** {{ability-target}} 2"
+      ],
+      [
+        false,
+        "75",
+        "* {{ability-move}} -1",
+        "* {{ability-attack}} +1",
+        "** {{ability-range}} -1",
+        "* {{ability-heal}} 1",
+        "** Self"
+      ],
+      [
+        false,
+        "55",
+        "* {{ability-move}} +0",
+        "* {{condition-curse}}",
+        "** {{ability-range}} +0",
+        "** Target all enemies within range",
+        "* {{element-ice}}"
+      ],
+      [
+        false,
+        "67",
+        "* {{ability-move}} -1",
+        "* {{ability-attack}} +1",
+        "** {{ability-range}} +0",
+        "** {{element-ice}}{{element-use}}: {{condition-stun}}"
+      ]
+    ]
+  },
+  {
+    "class": "Lurker",
+    "cards": [
+      [
+        true,
+        "11",
+        "* {{ability-shield}} 1",
+        "** {{element-ice}}{{element-use}}: {{ability-shield}} 2 instead",
+        "* {{condition-wound}}",
+        "** Target all adjacent enemies"
+      ],
+      [
+        false,
+        "28",
+        "* {{ability-move}} +1",
+        "* {{ability-attack}} -1"
+      ],
+      [
+        false,
+        "38",
+        "* {{ability-move}} +0",
+        "* {{ability-attack}} +0"
+      ],
+      [
+        false,
+        "38",
+        "* {{ability-move}} +0",
+        "* {{ability-attack}} +0",
+        "** Target one enemy with all attacks"
+      ],
+      [
+        false,
+        "61",
+        "* {{ability-move}} -1",
+        "* {{ability-attack}} +1"
+      ],
+      [
+        false,
+        "64",
+        "* {{ability-attack}} +1",
+        "** Target all adjacent enemies"
+      ],
+      [
+        false,
+        "41",
+        "* {{element-ice}}{{element-use}}: {{condition-strengthen}}",
+        "** Self",
+        "* {{ability-move}} +0",
+        "* {{ability-attack}} -1",
+        "** {{condition-wound}}"
+      ],
+      [
+        true,
+        "23",
+        "* {{ability-shield}} 1",
+        "* {{ability-move}} +0",
+        "* {{ability-attack}} -1",
+        "* {{element-ice}}"
+      ]
+    ]
+  },
+  {
+    "class": "Night Demon",
+    "cards": [
+      [
+        false,
+        "04",
+        "* {{ability-move}} +1",
+        "* {{ability-attack}} -1",
+        "* {{element-dark}}"
+      ],
+      [
+        false,
+        "07",
+        "* {{ability-move}} +1",
+        "* {{ability-attack}} -1",
+        "* {{element-dark}}{{element-use}}: {{condition-invisible}}",
+        "** Self"
+      ],
+      [
+        false,
+        "22",
+        "* {{ability-move}} +0",
+        "* {{ability-attack}} +0",
+        "* {{element-dark}}"
+      ],
+      [
+        false,
+        "26",
+        "* {{ability-attack}} -2",
+        "** {{ability-range}} 3",
+        "** {{ability-target}} 3",
+        "** {{element-dark}}{{element-use}}: {{condition-muddle}}"
+      ],
+      [
+        true,
+        "46",
+        "* {{ability-move}} -1",
+        "* {{ability-attack}} +1",
+        "** {{element-dark}}{{element-use}}: +2 {{ability-attack}}"
+      ],
+      [
+        true,
+        "41",
+        "* {{ability-move}} -1",
+        "* {{ability-attack}} +1",
+        "* {{element-dark}}"
+      ],
+      [
+        false,
+        "35",
+        "* {{ability-attack}} -1",
+        "* {{ability-attack}} -1",
+        "** {{condition-pierce}} 2",
+        "* {{element-light}}{{element-use}}: {{condition-curse}}",
+        "** Self"
+      ],
+      [
+        false,
+        "15",
+        "* {{ability-move}} +0",
+        "* {{ability-attack}} -1",
+        "* <span class='small'>All adjacent enemies and allies suffer 1 damage.</span>",
+        "* <span class='small'>{{element-any}}{{element-use}}: {{element-dark}}</span>"
+      ]
+    ]
+  },
+  {
+    "class": "Ooze",
+    "cards": [
+      [
+        false,
+        "36",
+        "* {{ability-move}} +1",
+        "* {{ability-attack}} -1",
+        "** {{ability-range}} +0"
+      ],
+      [
+        false,
+        "57",
+        "* {{ability-move}} +0",
+        "* {{ability-attack}} +0",
+        "** {{ability-range}} +0"
+      ],
+      [
+        false,
+        "59",
+        "* {{ability-attack}} +0",
+        "** {{ability-range}} +0",
+        "** {{ability-target}} 2",
+        "** {{condition-poison}}"
+      ],
+      [
+        false,
+        "66",
+        "* {{ability-move}} -1",
+        "* {{ability-attack}} +1",
+        "** {{ability-range}} +1"
+      ],
+      [
+        true,
+        "94",
+        "* Ooze suffers 2 damage ",
+        "** <span class='small'>Summons normal Ooze with a hit point value equal to the summoning Ooze's current hit point value (limited by a normal Ooze's specified maximum hit point value)</span>"
+      ],
+      [
+        true,
+        "94",
+        "* Ooze suffers 2 damage ",
+        "** <span class='small'>Summons normal Ooze with a hit point value equal to the summoning Ooze's current hit point value (limited by a normal Ooze's specified maximum hit point value)</span>"
+      ],
+      [
+        false,
+        "85",
+        "* {{condition-push}} 1 and",
+        "* {{condition-poison}}",
+        "** Target all adjacent enemies",
+        "* {{ability-attack}} +1",
+        "** {{ability-range}} -1"
+      ],
+      [
+        false,
+        "66",
+        "* {{ability-move}} -1",
+        "* {{ability-loot}} 1",
+        "* {{ability-heal}} 2",
+        "** Self"
+      ]
+    ]
+  },
+  {
+    "class": "Rending Drake",
+    "cards": [
+      [
+        false,
+        "12",
+        "* {{ability-move}} +1",
+        "* {{ability-attack}} -1"
+      ],
+      [
+        true,
+        "13",
+        "* {{ability-attack}} -1",
+        "* {{ability-move}} -1",
+        "* {{ability-attack}} -1"
+      ],
+      [
+        false,
+        "25",
+        "* {{ability-move}} +0",
+        "* {{ability-attack}} +0"
+      ],
+      [
+        false,
+        "39",
+        "* {{ability-move}} -1",
+        "* {{ability-attack}} +1"
+      ],
+      [
+        false,
+        "54",
+        "* {{ability-move}} -2",
+        "* {{ability-attack}} -1",
+        "** {{ability-range}} 3",
+        "** {{ability-target}} 2",
+        "** {{condition-poison}}"
+      ],
+      [
+        false,
+        "59",
+        "* {{ability-move}} -2",
+        "* {{ability-attack}} +1",
+        "** {{ability-target}} 2"
+      ],
+      [
+        false,
+        "06",
+        "* {{ability-shield}} 2",
+        "* {{ability-heal}} 2",
+        "** Self",
+        "* {{condition-strengthen}}",
+        "** Self"
+      ],
+      [
+        true,
+        "72",
+        "* {{ability-attack}} -1",
+        "* {{ability-attack}} -1",
+        "* {{ability-attack}} -2"
+      ]
+    ]
+  },
+  {
+    "class": "Savvas Icestorm",
+    "cards": [
+      [
+        false,
+        "70",
+        "* {{condition-push}} 2",
+        "** Target all adjacent enemies",
+        "** {{element-air}}{{element-use}}: {{condition-push}} 4 instead",
+        "* {{ability-attack}} +1",
+        "** {{ability-range}} +1"
+      ],
+      [
+        false,
+        "98",
+        "* Summon normal Wind Demon",
+        "* {{element-air}}"
+      ],
+      [
+        false,
+        "98",
+        "* Summon normal Frost Demon",
+        "* {{element-ice}}"
+      ],
+      [
+        false,
+        "19",
+        "* {{ability-move}} +0",
+        "* {{ability-attack}} -1",
+        "** {{ability-range}} -1",
+        "* {{ability-shield}} 1",
+        "** Affect self and all allies within {{ability-range}} 2",
+        "* {{element-ice}}"
+      ],
+      [
+        false,
+        "14",
+        "* {{ability-attack}} +0",
+        "** {{ability-range}} +0",
+        "** {{element-ice}}{{element-use}}: +2 {{ability-attack}}, {{condition-immobilize}}",
+        "* {{ability-retaliate}} 2",
+        "* {{element-air}}"
+      ],
+      [
+        false,
+        "14",
+        "* {{ability-shield}} 4",
+        "* {{ability-heal}} 2",
+        "** {{element-ice}}{{element-use}}: +3 {{ability-heal}}",
+        "* {{element-air}}{{element-use}}: {{ability-attack}} +0"
+      ],
+      [
+        true,
+        "47",
+        "* {{condition-disarm}}",
+        "** Target all adjacent enemies",
+        "* {{ability-move}} +0",
+        "* {{ability-attack}} -1",
+        "** {{ability-range}} +0",
+        "* {{element-air}}"
+      ],
+      [
+        true,
+        "35",
+        "* {{ability-move}} -1",
+        "* {{ability-attack}} -1 {{aoe-triangle-3-side-with-corner-black}} ",
+        "* {{element-ice}}"
+      ]
+    ]
+  },
+  {
+    "class": "Savvas Lavaflow",
+    "cards": [
+      [
+        false,
+        "97",
+        "* Summon normal Flame Demon",
+        "* {{element-fire}}"
+      ],
+      [
+        false,
+        "97",
+        "* Summon normal Earth Demon",
+        "* {{element-earth}}"
+      ],
+      [
+        false,
+        "22",
+        "* {{ability-move}} +1",
+        "* {{ability-attack}} -1",
+        "** Target all adjacent enemies",
+        "* {{element-fire}}{{element-use}}: {{ability-retaliate}} 3"
+      ],
+      [
+        true,
+        "68",
+        "* {{ability-move}} -1",
+        "* {{ability-attack}} +1",
+        "** {{ability-range}} 3",
+        "** All allies and enemies adjacent to the target suffer 2 damage.",
+        "* {{element-earth}}"
+      ],
+      [
+        false,
+        "41",
+        "* {{ability-move}} +0",
+        "* {{ability-attack}} -1 {{aoe-line-4-with-black}} ",
+        "** {{element-earth}}{{element-use}}: +2 {{ability-attack}}, {{condition-immobilize}}"
+      ],
+      [
+        false,
+        "51",
+        "* All enemies suffer 2 damage.",
+        "* {{element-fire}}{{element-use}}: {{condition-wound}} all enemies",
+        "* {{element-earth}}{{element-use}}: {{condition-disarm}} all enemies"
+      ],
+      [
+        false,
+        "31",
+        "* {{ability-heal}} 4",
+        "** {{ability-range}} 3",
+        "** {{element-earth}}{{element-use}}: {{ability-target}} 3"
+      ],
+      [
+        true,
+        "68",
+        "* {{ability-move}} -1",
+        "* {{ability-attack}} -1",
+        "** {{ability-range}} 3",
+        "** {{ability-target}} 2",
+        "* {{element-fire}}"
+      ]
+    ]
+  },
+  {
+    "class": "Scout",
+    "cards": [
+      [
+        false,
+        "29",
+        "* {{ability-move}} -1",
+        "* {{ability-attack}} -1",
+        "** {{ability-range}} 3"
+      ],
+      [
+        false,
+        "40",
+        "* {{ability-move}} +1",
+        "* {{ability-attack}} -1"
+      ],
+      [
+        false,
+        "53",
+        "* {{ability-move}} +0",
+        "* {{ability-attack}} +0"
+      ],
+      [
+        false,
+        "54",
+        "* {{ability-move}} -2",
+        "* {{ability-attack}} +0",
+        "** {{ability-range}} 3",
+        "** {{condition-poison}}"
+      ],
+      [
+        false,
+        "69",
+        "* {{ability-move}} -1",
+        "* {{ability-attack}} +1"
+      ],
+      [
+        true,
+        "92",
+        "* {{ability-attack}} +2",
+        "** {{condition-poison}} "
+      ],
+      [
+        true,
+        "35",
+        "* {{ability-move}} +1",
+        "** {{ability-jump}}",
+        "* {{ability-loot}} 1"
+      ],
+      [
+        false,
+        "79",
+        "* {{ability-attack}} -1",
+        "** {{ability-range}} 4",
+        "** {{ability-target}} 2"
+      ]
+    ]
+  },
+  {
+    "class": "Shaman",
+    "cards": [
+      [
+        false,
+        "08",
+        "* {{ability-move}} +0",
+        "* {{ability-attack}} -1",
+        "** {{ability-range}} +0",
+        "** {{condition-disarm}}"
+      ],
+      [
+        false,
+        "08",
+        "* {{ability-move}} -1",
+        "* {{ability-attack}} +0",
+        "** {{ability-range}} +0",
+        "** {{condition-immobilize}}"
+      ],
+      [
+        true,
+        "23",
+        "* {{ability-move}} +0",
+        "* {{ability-heal}} 3"
+      ],
+      [
+        true,
+        "23",
+        "* {{ability-move}} +0",
+        "* {{ability-heal}} 3"
+      ],
+      [
+        false,
+        "62",
+        "* {{ability-move}} +0",
+        "* {{ability-attack}} +0",
+        "** {{ability-range}} +0"
+      ],
+      [
+        false,
+        "74",
+        "* {{ability-move}} -1",
+        "* {{ability-attack}} +1",
+        "** {{ability-range}} +0"
+      ],
+      [
+        false,
+        "89",
+        "* {{ability-move}} -1",
+        "* {{ability-heal}} 1",
+        "** Affect all adjacent allies",
+        "* {{condition-bless}}",
+        "** Self"
+      ],
+      [
+        false,
+        "09",
+        "* {{ability-move}} +1",
+        "* {{ability-attack}} -1",
+        "** {{ability-range}} +0, {{condition-curse}}, {{ability-target}} 2"
+      ]
+    ]
+  },
+  {
+    "class": "Spitting Drake",
+    "cards": [
+      [
+        false,
+        "32",
+        "* {{ability-move}} +1",
+        "* {{ability-attack}} -1",
+        "** {{ability-range}} +0"
+      ],
+      [
+        false,
+        "52",
+        "* {{ability-move}} +0",
+        "* {{ability-attack}} +0",
+        "** {{ability-range}} +0"
+      ],
+      [
+        true,
+        "57",
+        "* {{ability-move}} +0",
+        "* {{ability-attack}} -1 {{aoe-triangle-2-side}}",
+        "** {{ability-range}} +0"
+      ],
+      [
+        false,
+        "27",
+        "* {{ability-attack}} +0",
+        "** {{ability-range}} +0,  {{ability-target}} 2, {{condition-poison}}"
+      ],
+      [
+        false,
+        "87",
+        "* {{ability-move}} -1",
+        "* {{ability-attack}} +1",
+        "** {{ability-range}} +0"
+      ],
+      [
+        false,
+        "89",
+        "* {{ability-attack}} -2",
+        "** {{ability-range}} +0",
+        "** {{condition-stun}}"
+      ],
+      [
+        false,
+        "06",
+        "* {{ability-shield}} 2",
+        "* {{ability-heal}} 2",
+        "** Self",
+        "* {{condition-strengthen}}",
+        "** Self"
+      ],
+      [
+        true,
+        "89",
+        "* {{ability-move}} -1",
+        "* {{ability-attack}} -2 {{aoe-circle}}",
+        "** {{ability-range}} +0",
+        "** {{condition-poison}}"
+      ]
+    ]
+  },
+  {
+    "class": "Stone Golem",
+    "cards": [
+      [
+        false,
+        "11",
+        "* {{ability-retaliate}} 3",
+        "** {{ability-range}} 3"
+      ],
+      [
+        false,
+        "28",
+        "* {{ability-move}} +1",
+        "* {{ability-attack}} +0",
+        "* Stone Golem suffers 1 damage."
+      ],
+      [
+        true,
+        "51",
+        "* {{ability-move}} +1",
+        "* {{ability-attack}} -1"
+      ],
+      [
+        false,
+        "65",
+        "* {{ability-move}} +0",
+        "* {{ability-attack}} +0"
+      ],
+      [
+        false,
+        "72",
+        "* {{ability-attack}} +1",
+        "** {{ability-range}} 3",
+        "* Stone Golem suffers 2 damage"
+      ],
+      [
+        true,
+        "90",
+        "* {{ability-move}} -1",
+        "* {{ability-attack}} +1"
+      ],
+      [
+        false,
+        "28",
+        "* {{ability-move}} +1",
+        "* {{ability-attack}} -2",
+        "** {{ability-range}} 3",
+        "* {{condition-pull}} 2",
+        "** {{condition-immobilize}}"
+      ],
+      [
+        false,
+        "83",
+        "* {{ability-move}} +0",
+        "* {{ability-attack}} -1",
+        "** Target all adjacent enemies"
+      ]
+    ]
+  },
+  {
+    "class": "Sun Demon",
+    "cards": [
+      [
+        true,
+        "17",
+        "* {{ability-heal}} 3",
+        "** {{ability-range}} 3",
+        "** {{element-light}}{{element-use}}: Target all allies within range"
+      ],
+      [
+        false,
+        "36",
+        "* {{ability-move}} +0",
+        "* {{ability-attack}} +0",
+        "** Target all adjacent enemies",
+        "* {{element-light}}"
+      ],
+      [
+        false,
+        "36",
+        "* {{ability-move}} +0",
+        "* {{ability-attack}} +0",
+        "** Target all adjacent enemies",
+        "* {{element-light}}"
+      ],
+      [
+        false,
+        "68",
+        "* {{ability-move}} +0",
+        "* {{ability-attack}} +1",
+        "* {{element-light}}"
+      ],
+      [
+        true,
+        "73",
+        "* {{ability-move}} +0",
+        "* {{ability-attack}} +1",
+        "* {{element-light}}{{element-use}}: {{ability-heal}} 3",
+        "** Self"
+      ],
+      [
+        false,
+        "95",
+        "* {{ability-move}} -1",
+        "* {{ability-attack}} +0",
+        "** {{ability-range}} 4",
+        "** {{element-light}}{{element-use}}: Target all enemies within range"
+      ],
+      [
+        false,
+        "88",
+        "* {{ability-move}} -1",
+        "* {{ability-attack}} -1",
+        "** Target all adjacent enemies",
+        "* {{element-dark}}{{element-use}}: {{condition-muddle}}",
+        "** Self"
+      ],
+      [
+        false,
+        "50",
+        "* {{ability-move}} +0",
+        "* {{ability-attack}} +0",
+        "** {{ability-range}} 3",
+        "* {{element-any}}{{element-use}}: {{element-light}}"
+      ]
+    ]
+  },
+  {
+    "class": "Wind Demon",
+    "cards": [
+      [
+        false,
+        "09",
+        "* {{ability-attack}} -1",
+        "** {{ability-range}} +0",
+        "* {{ability-heal}} 1",
+        "** Self",
+        "* {{element-air}}{{element-use}}: {{condition-invisible}}<br/><span class='small'>Self</span>"
+      ],
+      [
+        true,
+        "21",
+        "* {{ability-move}} +0",
+        "* {{ability-attack}} +0",
+        "** {{ability-range}} +0, {{condition-pull}} 1",
+        "* {{element-air}}"
+      ],
+      [
+        true,
+        "21",
+        "* {{ability-move}} +0",
+        "* {{ability-attack}} +0",
+        "** {{ability-range}} +0, {{condition-pull}} 1",
+        "* {{element-air}}"
+      ],
+      [
+        false,
+        "29",
+        "* {{ability-move}} +0",
+        "* {{ability-attack}} -1",
+        "** {{ability-range}} +0, {{ability-target}} 2",
+        "** {{element-air}}{{element-use}}: {{condition-push}} 2"
+      ],
+      [
+        false,
+        "37",
+        "* {{ability-move}} +0",
+        "* {{ability-attack}} +0 <div style='display: inline-block; width: 0; margin-top: -1.5em; vertical-align: bottom'>{{aoe-rhomb-2-with-black}}</div>",
+        "** {{element-air}}{{element-use}}: +1 Attack <div style='display: inline-block; margin-right: -3em'>{{aoe-circle-with-side-black}}</div>"
+      ],
+      [
+        false,
+        "43",
+        "* {{ability-move}} -1",
+        "* {{ability-attack}} +1",
+        "** {{ability-range}} +0",
+        "** {{element-air}}{{element-use}}: {{ability-target}} 2"
+      ],
+      [
+        false,
+        "43",
+        "* {{condition-push}} 1",
+        "** Target all adjacent enemies",
+        "* {{ability-attack}} +0",
+        "** {{ability-range}} +0",
+        "** {{element-earth}}{{element-use}}: -2 {{ability-range}}"
+      ],
+      [
+        false,
+        "02",
+        "* {{ability-shield}} 1",
+        "* {{ability-move}} -1",
+        "* {{ability-attack}} -1",
+        "** {{ability-range}} +0",
+        "* {{element-any}}{{element-use}}: {{element-air}}"
+      ]
+    ]
+  }
+]

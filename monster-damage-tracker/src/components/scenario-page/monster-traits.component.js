@@ -1,6 +1,8 @@
 import React from 'react';
 import classNames from 'classnames';
 
+import { TemplateMaterializer } from 'components/template-materializer';
+
 import './monster-traits.component.css';
 
 export default ({ traits, className }) => {
@@ -18,7 +20,7 @@ export default ({ traits, className }) => {
   function renderElement(trait, index) {
     return (
       <span className="MonsterTraits-Element" key={index}>
-        {trait}
+        <TemplateMaterializer template={trait} />
       </span>
     );
   }

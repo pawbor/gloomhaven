@@ -1,11 +1,9 @@
 .MonsterBasicStats {
-  font-size: 1rem;
   display: flex;
   flex-flow: row;
 }
 
 .MonsterBasicStats-Element {
-  font-size: 1.5em;
   display: inline;
 }
 

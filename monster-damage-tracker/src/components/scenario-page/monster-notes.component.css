@@ -1,12 +1,6 @@
 .MonsterNotes {
-  font-size: 1rem;
   display: flex;
   flex-flow: column;
-}
-
-.MonsterNotes-Label,
-.MonsterNotes-Value {
-  font-size: 1.5em;
 }
 
 .MonsterNotes-Value {
