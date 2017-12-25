@@ -26,15 +26,15 @@ const makeAoeRenderer = (props) => (key) => (
 export default {
   'aoe-circle': makeAoeRenderer({
     icon: aoeIcons.circleIcon,
-    size: AoeSize.Large,
+    size: AoeSize.Medium,
   }),
   'aoe-circle-with-middle-black': makeAoeRenderer({
     icon: aoeIcons.circleWithMiddleBlackIcon,
-    size: AoeSize.Large,
+    size: AoeSize.Medium,
   }),
   'aoe-circle-with-side-black': makeAoeRenderer({
     icon: aoeIcons.circleWithSideBlackIcon,
-    size: AoeSize.Large,
+    size: AoeSize.Medium,
   }),
   'aoe-elder-drake-sp1': makeAoeRenderer({
     icon: aoeIcons.elderDrakeSpecial1Icon,
@@ -42,15 +42,15 @@ export default {
   }),
   'aoe-inox-bodyguard-sp1': makeAoeRenderer({
     icon: aoeIcons.inoxBodyguardSpecial1Icon,
-    size: AoeSize.Large,
+    size: AoeSize.Medium,
   }),
   'aoe-line-3-with-black': makeAoeRenderer({
     icon: aoeIcons.line3WithBlackIcon,
-    size: AoeSize.Small,
+    size: AoeSize.Medium,
   }),
   'aoe-line-4-with-black': makeAoeRenderer({
     icon: aoeIcons.line4WithBlackIcon,
-    size: AoeSize.Small,
+    size: AoeSize.Large,
   }),
   'aoe-line-6-with-black': makeAoeRenderer({
     icon: aoeIcons.line6WithBlackIcon,
@@ -62,7 +62,7 @@ export default {
   }),
   'aoe-sightless-eye-sp1': makeAoeRenderer({
     icon: aoeIcons.sightlessEyeSpecial1Icon,
-    size: AoeSize.Large,
+    size: AoeSize.ExtraLarge,
   }),
   'aoe-sightless-eye-sp2': makeAoeRenderer({
     icon: aoeIcons.sightlessEyeSpecial2Icon,
@@ -70,14 +70,14 @@ export default {
   }),
   'aoe-triangle-2-side': makeAoeRenderer({
     icon: aoeIcons.triangle2SideIcon,
-    size: AoeSize.Medium,
+    size: AoeSize.Small,
   }),
   'aoe-triangle-2-side-with-black': makeAoeRenderer({
     icon: aoeIcons.triangle2SideWithBlackIcon,
-    size: AoeSize.Medium,
+    size: AoeSize.Small,
   }),
   'aoe-triangle-3-side-with-corner-black': makeAoeRenderer({
     icon: aoeIcons.triangle3SideWithCornerBlackIcon,
-    size: AoeSize.Large,
+    size: AoeSize.Medium,
   }),
 };

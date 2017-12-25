@@ -1,18 +1,18 @@
 .MonsterBasicStats {
   display: flex;
   flex-flow: row;
+  padding: 0.5em;
 }
 
-.MonsterBasicStats-Element {
-  display: inline;
-}
-
-.MonsterBasicStats-Element ~ .MonsterBasicStats-Element {
+* ~ .MonsterBasicStats-Element {
   margin-left: 1em;
 }
 
-.MonsterBasicStats-Value {
+.MonsterBasicStats-Label {
   font-weight: bold;
+}
+
+.MonsterBasicStats-Value {
   text-align: center;
   display: inline-block;
   width: 3em;

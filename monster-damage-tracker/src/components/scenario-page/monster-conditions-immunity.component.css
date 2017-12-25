@@ -2,11 +2,11 @@
   display: flex;
   flex-flow: row wrap;
   align-items: baseline;
+  padding: 0.5em;
 }
 
-.MonsterConditionsImmunity-Label,
-.MonsterConditionsImmunity-Element {
-  display: inline;
+.MonsterConditionsImmunity-Label {
+  font-weight: bold;
 }
 
 * ~ .MonsterConditionsImmunity-Element {

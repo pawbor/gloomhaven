@@ -2,11 +2,16 @@
   display: flex;
   flex-flow: row wrap;
   align-items: baseline;
+  padding: 0.5em;
 }
 
 .MonsterTraits-Label,
 .MonsterTraits-Element {
   display: inline;
+}
+
+.MonsterTraits-Label {
+  font-weight: bold;
 }
 
 * ~ .MonsterTraits-Element {

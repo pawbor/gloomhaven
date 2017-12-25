@@ -1,8 +1,3 @@
-.CommonGroupStats-Normal,
-.CommonGroupStats-Elite {
-  padding: 0.5em;
-}
-
 .CommonGroupStats-Elite {
   margin-top: 1em;
   background-color: var(--elite-monster-color);
