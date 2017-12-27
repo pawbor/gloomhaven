@@ -224,7 +224,7 @@
             "move": 3,
             "attack": 4,
             "range": 6,
-            "attributes": ["{{condition-poison}}"]
+            "attributes": ["{{effect-poison}}"]
           }
         },
         {
@@ -241,7 +241,7 @@
             "move": 4,
             "attack": 4,
             "range": 6,
-            "attributes": ["{{condition-poison}}"]
+            "attributes": ["{{effect-poison}}"]
           }
         },
         {
@@ -258,7 +258,7 @@
             "move": 4,
             "attack": 5,
             "range": 6,
-            "attributes": ["{{condition-poison}}"]
+            "attributes": ["{{effect-poison}}"]
           }
         },
         {
@@ -275,7 +275,7 @@
             "move": 4,
             "attack": 5,
             "range": 6,
-            "attributes": ["{{condition-poison}}"]
+            "attributes": ["{{effect-poison}}"]
           }
         }
       ]
@@ -365,7 +365,7 @@
             "attack": 4,
             "range": 0,
             "attributes": [
-              "{{condition-muddle}}",
+              "{{effect-muddle}}",
               "{{ability-shield}} 2"
             ]
           }
@@ -385,7 +385,7 @@
             "attack": 5,
             "range": 0,
             "attributes": [
-              "{{condition-muddle}}",
+              "{{effect-muddle}}",
               "{{ability-shield}} 2"
             ]
           }
@@ -405,7 +405,7 @@
             "attack": 5,
             "range": 0,
             "attributes": [
-              "{{condition-muddle}}",
+              "{{effect-muddle}}",
               "{{ability-shield}} 2"
             ]
           }
@@ -425,7 +425,7 @@
             "attack": 5,
             "range": 0,
             "attributes": [
-              "{{condition-muddle}}",
+              "{{effect-muddle}}",
               "{{ability-shield}} 3"
             ]
           }
@@ -448,7 +448,7 @@
             "move": 1,
             "attack": 2,
             "range": 3,
-            "attributes": ["{{condition-poison}}"]
+            "attributes": ["{{effect-poison}}"]
           }
         },
         {
@@ -458,14 +458,14 @@
             "move": 1,
             "attack": 1,
             "range": 3,
-            "attributes": ["{{condition-poison}}"]
+            "attributes": ["{{effect-poison}}"]
           },
           "elite": {
             "health": 6,
             "move": 1,
             "attack": 2,
             "range": 3,
-            "attributes": ["{{condition-poison}}"]
+            "attributes": ["{{effect-poison}}"]
           }
         },
         {
@@ -475,14 +475,14 @@
             "move": 1,
             "attack": 1,
             "range": 4,
-            "attributes": ["{{condition-poison}}"]
+            "attributes": ["{{effect-poison}}"]
           },
           "elite": {
             "health": 8,
             "move": 1,
             "attack": 2,
             "range": 4,
-            "attributes": ["{{condition-poison}}"]
+            "attributes": ["{{effect-poison}}"]
           }
         },
         {
@@ -492,7 +492,7 @@
             "move": 1,
             "attack": 2,
             "range": 4,
-            "attributes": ["{{condition-poison}}"]
+            "attributes": ["{{effect-poison}}"]
           },
           "elite": {
             "health": 8,
@@ -501,7 +501,7 @@
             "range": 4,
             "attributes": [
               "Attackers gain Disadvantage",
-              "{{condition-poison}}"
+              "{{effect-poison}}"
             ]
           }
         },
@@ -512,7 +512,7 @@
             "move": 1,
             "attack": 2,
             "range": 4,
-            "attributes": ["{{condition-poison}}"]
+            "attributes": ["{{effect-poison}}"]
           },
           "elite": {
             "health": 11,
@@ -521,7 +521,7 @@
             "range": 4,
             "attributes": [
               "Attackers gain Disadvantage",
-              "{{condition-poison}}"
+              "{{effect-poison}}"
             ]
           }
         },
@@ -532,7 +532,7 @@
             "move": 1,
             "attack": 2,
             "range": 4,
-            "attributes": ["{{condition-poison}}"]
+            "attributes": ["{{effect-poison}}"]
           },
           "elite": {
             "health": 12,
@@ -541,7 +541,7 @@
             "range": 5,
             "attributes": [
               "Attackers gain Disadvantage",
-              "{{condition-poison}}"
+              "{{effect-poison}}"
             ]
           }
         },
@@ -552,7 +552,7 @@
             "move": 1,
             "attack": 3,
             "range": 4,
-            "attributes": ["{{condition-poison}}"]
+            "attributes": ["{{effect-poison}}"]
           },
           "elite": {
             "health": 14,
@@ -561,7 +561,7 @@
             "range": 5,
             "attributes": [
               "Attackers gain Disadvantage",
-              "{{condition-poison}}"
+              "{{effect-poison}}"
             ]
           }
         },
@@ -572,7 +572,7 @@
             "move": 1,
             "attack": 3,
             "range": 4,
-            "attributes": ["{{condition-poison}}"]
+            "attributes": ["{{effect-poison}}"]
           },
           "elite": {
             "health": 17,
@@ -581,7 +581,7 @@
             "range": 5,
             "attributes": [
               "Attackers gain Disadvantage",
-              "{{condition-poison}}"
+              "{{effect-poison}}"
             ]
           }
         }
@@ -671,7 +671,7 @@
             "move": 5,
             "attack": 5,
             "range": 0,
-            "attributes": ["{{condition-wound}}"]
+            "attributes": ["{{effect-wound}}"]
           }
         },
         {
@@ -681,14 +681,14 @@
             "move": 5,
             "attack": 4,
             "range": 0,
-            "attributes": ["{{condition-wound}}"]
+            "attributes": ["{{effect-wound}}"]
           },
           "elite": {
             "health": 24,
             "move": 5,
             "attack": 6,
             "range": 0,
-            "attributes": ["{{condition-wound}}"]
+            "attributes": ["{{effect-wound}}"]
           }
         },
         {
@@ -698,14 +698,14 @@
             "move": 5,
             "attack": 5,
             "range": 0,
-            "attributes": ["{{condition-wound}}"]
+            "attributes": ["{{effect-wound}}"]
           },
           "elite": {
             "health": 28,
             "move": 5,
             "attack": 7,
             "range": 0,
-            "attributes": ["{{condition-wound}}"]
+            "attributes": ["{{effect-wound}}"]
           }
         },
         {
@@ -715,14 +715,14 @@
             "move": 5,
             "attack": 5,
             "range": 0,
-            "attributes": ["{{condition-wound}}"]
+            "attributes": ["{{effect-wound}}"]
           },
           "elite": {
             "health": 33,
             "move": 5,
             "attack": 7,
             "range": 0,
-            "attributes": ["{{condition-wound}}"]
+            "attributes": ["{{effect-wound}}"]
           }
         }
       ]
@@ -761,7 +761,7 @@
             "attack": 3,
             "range": 5,
             "attributes": [
-              "{{condition-pierce}} 1",
+              "{{effect-pierce}} 1",
               "{{ability-shield}} 1"
             ]
           }
@@ -781,7 +781,7 @@
             "attack": 4,
             "range": 5,
             "attributes": [
-              "{{condition-pierce}} 2",
+              "{{effect-pierce}} 2",
               "{{ability-shield}} 1"
             ]
           }
@@ -801,7 +801,7 @@
             "attack": 4,
             "range": 5,
             "attributes": [
-              "{{condition-pierce}} 2",
+              "{{effect-pierce}} 2",
               "{{ability-shield}} 2"
             ]
           }
@@ -821,7 +821,7 @@
             "attack": 4,
             "range": 6,
             "attributes": [
-              "{{condition-pierce}} 2",
+              "{{effect-pierce}} 2",
               "{{ability-shield}} 2"
             ]
           }
@@ -841,7 +841,7 @@
             "attack": 5,
             "range": 6,
             "attributes": [
-              "{{condition-pierce}} 3",
+              "{{effect-pierce}} 3",
               "{{ability-shield}} 2"
             ]
           }
@@ -861,7 +861,7 @@
             "attack": 6,
             "range": 6,
             "attributes": [
-              "{{condition-pierce}} 3",
+              "{{effect-pierce}} 3",
               "{{ability-shield}} 2"
             ]
           }
@@ -881,7 +881,7 @@
             "attack": 6,
             "range": 7,
             "attributes": [
-              "{{condition-pierce}} 3",
+              "{{effect-pierce}} 3",
               "{{ability-shield}} 3"
             ]
           }
@@ -1110,7 +1110,7 @@
             "move": 3,
             "attack": 2,
             "range": 0,
-            "attributes": ["{{condition-curse}}"]
+            "attributes": ["{{effect-curse}}"]
           }
         },
         {
@@ -1127,7 +1127,7 @@
             "move": 3,
             "attack": 3,
             "range": 0,
-            "attributes": ["{{condition-curse}}"]
+            "attributes": ["{{effect-curse}}"]
           }
         },
         {
@@ -1137,14 +1137,14 @@
             "move": 3,
             "attack": 2,
             "range": 0,
-            "attributes": ["{{condition-curse}}"]
+            "attributes": ["{{effect-curse}}"]
           },
           "elite": {
             "health": 18,
             "move": 3,
             "attack": 3,
             "range": 0,
-            "attributes": ["{{condition-curse}}"]
+            "attributes": ["{{effect-curse}}"]
           }
         },
         {
@@ -1154,14 +1154,14 @@
             "move": 3,
             "attack": 2,
             "range": 0,
-            "attributes": ["{{condition-curse}}"]
+            "attributes": ["{{effect-curse}}"]
           },
           "elite": {
             "health": 22,
             "move": 3,
             "attack": 3,
             "range": 0,
-            "attributes": ["{{condition-curse}}"]
+            "attributes": ["{{effect-curse}}"]
           }
         },
         {
@@ -1171,14 +1171,14 @@
             "move": 3,
             "attack": 3,
             "range": 0,
-            "attributes": ["{{condition-curse}}"]
+            "attributes": ["{{effect-curse}}"]
           },
           "elite": {
             "health": 25,
             "move": 3,
             "attack": 4,
             "range": 0,
-            "attributes": ["{{condition-curse}}"]
+            "attributes": ["{{effect-curse}}"]
           }
         }
       ]
@@ -1390,7 +1390,7 @@
             "move": 2,
             "attack": 4,
             "range": 0,
-            "attributes": ["{{condition-immobilize}}"]
+            "attributes": ["{{effect-immobilize}}"]
           }
         },
         {
@@ -1407,7 +1407,7 @@
             "move": 3,
             "attack": 5,
             "range": 0,
-            "attributes": ["{{condition-immobilize}}"]
+            "attributes": ["{{effect-immobilize}}"]
           }
         },
         {
@@ -1417,14 +1417,14 @@
             "move": 2,
             "attack": 4,
             "range": 0,
-            "attributes": ["{{condition-immobilize}}"]
+            "attributes": ["{{effect-immobilize}}"]
           },
           "elite": {
             "health": 25,
             "move": 3,
             "attack": 5,
             "range": 0,
-            "attributes": ["{{condition-immobilize}}"]
+            "attributes": ["{{effect-immobilize}}"]
           }
         },
         {
@@ -1434,14 +1434,14 @@
             "move": 2,
             "attack": 4,
             "range": 0,
-            "attributes": ["{{condition-immobilize}}"]
+            "attributes": ["{{effect-immobilize}}"]
           },
           "elite": {
             "health": 27,
             "move": 3,
             "attack": 6,
             "range": 0,
-            "attributes": ["{{condition-immobilize}}"]
+            "attributes": ["{{effect-immobilize}}"]
           }
         },
         {
@@ -1451,14 +1451,14 @@
             "move": 3,
             "attack": 4,
             "range": 0,
-            "attributes": ["{{condition-immobilize}}"]
+            "attributes": ["{{effect-immobilize}}"]
           },
           "elite": {
             "health": 32,
             "move": 3,
             "attack": 6,
             "range": 0,
-            "attributes": ["{{condition-immobilize}}"]
+            "attributes": ["{{effect-immobilize}}"]
           }
         }
       ]
@@ -1870,7 +1870,7 @@
             "range": 3,
             "attributes": [
               "{{ability-flying}}",
-              "{{condition-curse}}",
+              "{{effect-curse}}",
               "{{ability-shield}} 1"
             ]
           }
@@ -1894,7 +1894,7 @@
             "range": 4,
             "attributes": [
               "{{ability-flying}}",
-              "{{condition-curse}}",
+              "{{effect-curse}}",
               "{{ability-shield}} 1"
             ]
           }
@@ -1918,7 +1918,7 @@
             "range": 4,
             "attributes": [
               "{{ability-flying}}",
-              "{{condition-curse}}",
+              "{{effect-curse}}",
               "{{ability-shield}} 2"
             ]
           }
@@ -1932,7 +1932,7 @@
             "range": 4,
             "attributes": [
               "{{ability-flying}}",
-              "{{condition-curse}}",
+              "{{effect-curse}}",
               "{{ability-shield}} 2"
             ]
           },
@@ -1943,7 +1943,7 @@
             "range": 4,
             "attributes": [
               "{{ability-flying}}",
-              "{{condition-curse}}",
+              "{{effect-curse}}",
               "{{ability-shield}} 2"
             ]
           }
@@ -1957,7 +1957,7 @@
             "range": 4,
             "attributes": [
               "{{ability-flying}}",
-              "{{condition-curse}}",
+              "{{effect-curse}}",
               "{{ability-shield}} 2"
             ]
           },
@@ -1968,7 +1968,7 @@
             "range": 4,
             "attributes": [
               "{{ability-flying}}",
-              "{{condition-curse}}",
+              "{{effect-curse}}",
               "{{ability-shield}} 2"
             ]
           }
@@ -1982,7 +1982,7 @@
             "range": 4,
             "attributes": [
               "{{ability-flying}}",
-              "{{condition-curse}}",
+              "{{effect-curse}}",
               "{{ability-shield}} 2"
             ]
           },
@@ -1993,7 +1993,7 @@
             "range": 4,
             "attributes": [
               "{{ability-flying}}",
-              "{{condition-curse}}",
+              "{{effect-curse}}",
               "{{ability-shield}} 2"
             ]
           }
@@ -2009,14 +2009,14 @@
             "move": 2,
             "attack": 1,
             "range": 0,
-            "attributes": ["{{condition-poison}}"]
+            "attributes": ["{{effect-poison}}"]
           },
           "elite": {
             "health": 3,
             "move": 2,
             "attack": 2,
             "range": 0,
-            "attributes": ["{{condition-poison}}"]
+            "attributes": ["{{effect-poison}}"]
           }
         },
         {
@@ -2026,14 +2026,14 @@
             "move": 2,
             "attack": 1,
             "range": 0,
-            "attributes": ["{{condition-poison}}"]
+            "attributes": ["{{effect-poison}}"]
           },
           "elite": {
             "health": 5,
             "move": 2,
             "attack": 2,
             "range": 0,
-            "attributes": ["{{condition-poison}}"]
+            "attributes": ["{{effect-poison}}"]
           }
         },
         {
@@ -2043,14 +2043,14 @@
             "move": 3,
             "attack": 1,
             "range": 0,
-            "attributes": ["{{condition-poison}}"]
+            "attributes": ["{{effect-poison}}"]
           },
           "elite": {
             "health": 7,
             "move": 3,
             "attack": 2,
             "range": 0,
-            "attributes": ["{{condition-poison}}"]
+            "attributes": ["{{effect-poison}}"]
           }
         },
         {
@@ -2060,14 +2060,14 @@
             "move": 3,
             "attack": 2,
             "range": 0,
-            "attributes": ["{{condition-poison}}"]
+            "attributes": ["{{effect-poison}}"]
           },
           "elite": {
             "health": 8,
             "move": 3,
             "attack": 3,
             "range": 0,
-            "attributes": ["{{condition-poison}}"]
+            "attributes": ["{{effect-poison}}"]
           }
         },
         {
@@ -2077,14 +2077,14 @@
             "move": 3,
             "attack": 2,
             "range": 0,
-            "attributes": ["{{condition-poison}}"]
+            "attributes": ["{{effect-poison}}"]
           },
           "elite": {
             "health": 11,
             "move": 3,
             "attack": 3,
             "range": 0,
-            "attributes": ["{{condition-poison}}"]
+            "attributes": ["{{effect-poison}}"]
           }
         },
         {
@@ -2094,14 +2094,14 @@
             "move": 3,
             "attack": 3,
             "range": 0,
-            "attributes": ["{{condition-poison}}"]
+            "attributes": ["{{effect-poison}}"]
           },
           "elite": {
             "health": 13,
             "move": 4,
             "attack": 3,
             "range": 0,
-            "attributes": ["{{condition-poison}}"]
+            "attributes": ["{{effect-poison}}"]
           }
         },
         {
@@ -2111,14 +2111,14 @@
             "move": 4,
             "attack": 3,
             "range": 0,
-            "attributes": ["{{condition-poison}}"]
+            "attributes": ["{{effect-poison}}"]
           },
           "elite": {
             "health": 14,
             "move": 4,
             "attack": 4,
             "range": 0,
-            "attributes": ["{{condition-poison}}"]
+            "attributes": ["{{effect-poison}}"]
           }
         },
         {
@@ -2128,14 +2128,14 @@
             "move": 4,
             "attack": 3,
             "range": 0,
-            "attributes": ["{{condition-poison}}"]
+            "attributes": ["{{effect-poison}}"]
           },
           "elite": {
             "health": 17,
             "move": 4,
             "attack": 4,
             "range": 0,
-            "attributes": ["{{condition-poison}}"]
+            "attributes": ["{{effect-poison}}"]
           }
         }
       ]
@@ -2504,7 +2504,7 @@
             "move": 3,
             "attack": 4,
             "range": 4,
-            "attributes": ["{{condition-wound}}"]
+            "attributes": ["{{effect-wound}}"]
           }
         },
         {
@@ -2521,7 +2521,7 @@
             "move": 3,
             "attack": 4,
             "range": 5,
-            "attributes": ["{{condition-wound}}"]
+            "attributes": ["{{effect-wound}}"]
           }
         },
         {
@@ -2531,14 +2531,14 @@
             "move": 3,
             "attack": 4,
             "range": 4,
-            "attributes": ["{{condition-wound}}"]
+            "attributes": ["{{effect-wound}}"]
           },
           "elite": {
             "health": 19,
             "move": 3,
             "attack": 5,
             "range": 5,
-            "attributes": ["{{condition-wound}}"]
+            "attributes": ["{{effect-wound}}"]
           }
         },
         {
@@ -2548,14 +2548,14 @@
             "move": 3,
             "attack": 4,
             "range": 4,
-            "attributes": ["{{condition-wound}}"]
+            "attributes": ["{{effect-wound}}"]
           },
           "elite": {
             "health": 23,
             "move": 3,
             "attack": 5,
             "range": 5,
-            "attributes": ["{{condition-wound}}"]
+            "attributes": ["{{effect-wound}}"]
           }
         }
       ]
@@ -3106,7 +3106,7 @@
             "move": 2,
             "attack": 5,
             "range": 0,
-            "attributes": ["{{condition-poison}}"]
+            "attributes": ["{{effect-poison}}"]
           }
         },
         {
@@ -3123,7 +3123,7 @@
             "move": 2,
             "attack": 6,
             "range": 0,
-            "attributes": ["{{condition-poison}}"]
+            "attributes": ["{{effect-poison}}"]
           }
         },
         {
@@ -3133,14 +3133,14 @@
             "move": 2,
             "attack": 4,
             "range": 0,
-            "attributes": ["{{condition-poison}}"]
+            "attributes": ["{{effect-poison}}"]
           },
           "elite": {
             "health": 21,
             "move": 2,
             "attack": 6,
             "range": 0,
-            "attributes": ["{{condition-poison}}"]
+            "attributes": ["{{effect-poison}}"]
           }
         },
         {
@@ -3150,14 +3150,14 @@
             "move": 2,
             "attack": 5,
             "range": 0,
-            "attributes": ["{{condition-poison}}"]
+            "attributes": ["{{effect-poison}}"]
           },
           "elite": {
             "health": 25,
             "move": 2,
             "attack": 6,
             "range": 0,
-            "attributes": ["{{condition-poison}}"]
+            "attributes": ["{{effect-poison}}"]
           }
         }
       ]
@@ -3381,7 +3381,7 @@
             "range": 0,
             "attributes": [
               "{{ability-target}} 2",
-              "{{condition-pierce}} 1"
+              "{{effect-pierce}} 1"
             ]
           },
           "elite": {
@@ -3391,7 +3391,7 @@
             "range": 0,
             "attributes": [
               "{{ability-target}} 2",
-              "{{condition-pierce}} 1",
+              "{{effect-pierce}} 1",
               "{{ability-shield}} 1"
             ]
           }
@@ -3405,7 +3405,7 @@
             "range": 0,
             "attributes": [
               "{{ability-target}} 2",
-              "{{condition-pierce}} 1"
+              "{{effect-pierce}} 1"
             ]
           },
           "elite": {
@@ -3415,7 +3415,7 @@
             "range": 0,
             "attributes": [
               "{{ability-target}} 2",
-              "{{condition-pierce}} 2",
+              "{{effect-pierce}} 2",
               "{{ability-shield}} 1"
             ]
           }
@@ -3429,7 +3429,7 @@
             "range": 0,
             "attributes": [
               "{{ability-target}} 2",
-              "{{condition-pierce}} 2"
+              "{{effect-pierce}} 2"
             ]
           },
           "elite": {
@@ -3439,7 +3439,7 @@
             "range": 0,
             "attributes": [
               "{{ability-target}} 2",
-              "{{condition-pierce}} 2",
+              "{{effect-pierce}} 2",
               "{{ability-shield}} 1"
             ]
           }
@@ -3453,7 +3453,7 @@
             "range": 0,
             "attributes": [
               "{{ability-target}} 2",
-              "{{condition-pierce}} 2",
+              "{{effect-pierce}} 2",
               "{{ability-shield}} 1"
             ]
           },
@@ -3464,7 +3464,7 @@
             "range": 0,
             "attributes": [
               "{{ability-target}} 2",
-              "{{condition-pierce}} 3",
+              "{{effect-pierce}} 3",
               "{{ability-shield}} 2"
             ]
           }
@@ -3478,7 +3478,7 @@
             "range": 0,
             "attributes": [
               "{{ability-target}} 2",
-              "{{condition-pierce}} 2",
+              "{{effect-pierce}} 2",
               "{{ability-shield}} 1"
             ]
           },
@@ -3489,7 +3489,7 @@
             "range": 0,
             "attributes": [
               "{{ability-target}} 2",
-              "{{condition-pierce}} 3",
+              "{{effect-pierce}} 3",
               "{{ability-shield}} 2"
             ]
           }
@@ -3503,7 +3503,7 @@
             "range": 0,
             "attributes": [
               "{{ability-target}} 2",
-              "{{condition-pierce}} 3",
+              "{{effect-pierce}} 3",
               "{{ability-shield}} 1"
             ]
           },
@@ -3514,7 +3514,7 @@
             "range": 0,
             "attributes": [
               "{{ability-target}} 2",
-              "{{condition-pierce}} 4",
+              "{{effect-pierce}} 4",
               "{{ability-shield}} 2"
             ]
           }
@@ -3528,7 +3528,7 @@
             "range": 0,
             "attributes": [
               "{{ability-target}} 2",
-              "{{condition-pierce}} 3",
+              "{{effect-pierce}} 3",
               "{{ability-shield}} 1"
             ]
           },
@@ -3539,7 +3539,7 @@
             "range": 0,
             "attributes": [
               "{{ability-target}} 2",
-              "{{condition-pierce}} 4",
+              "{{effect-pierce}} 4",
               "{{ability-shield}} 2"
             ]
           }
@@ -3614,7 +3614,7 @@
             "attack": 3,
             "range": 4,
             "attributes": [
-              "{{condition-poison}}",
+              "{{effect-poison}}",
               "{{ability-shield}} 1"
             ]
           }
@@ -3634,7 +3634,7 @@
             "attack": 4,
             "range": 4,
             "attributes": [
-              "{{condition-poison}}",
+              "{{effect-poison}}",
               "{{ability-shield}} 1"
             ]
           }
@@ -3647,7 +3647,7 @@
             "attack": 3,
             "range": 3,
             "attributes": [
-              "{{condition-poison}}",
+              "{{effect-poison}}",
               "{{ability-shield}} 1"
             ]
           },
@@ -3657,7 +3657,7 @@
             "attack": 4,
             "range": 4,
             "attributes": [
-              "{{condition-poison}}",
+              "{{effect-poison}}",
               "{{ability-shield}} 1"
             ]
           }
@@ -3670,7 +3670,7 @@
             "attack": 4,
             "range": 3,
             "attributes": [
-              "{{condition-poison}}",
+              "{{effect-poison}}",
               "{{ability-shield}} 1"
             ]
           },
@@ -3680,7 +3680,7 @@
             "attack": 4,
             "range": 4,
             "attributes": [
-              "{{condition-poison}}",
+              "{{effect-poison}}",
               "{{ability-shield}} 2"
             ]
           }
@@ -3693,7 +3693,7 @@
             "attack": 4,
             "range": 3,
             "attributes": [
-              "{{condition-poison}}",
+              "{{effect-poison}}",
               "{{ability-shield}} 1"
             ]
           },
@@ -3703,7 +3703,7 @@
             "attack": 5,
             "range": 4,
             "attributes": [
-              "{{condition-poison}}",
+              "{{effect-poison}}",
               "{{ability-shield}} 2"
             ]
           }
@@ -3876,14 +3876,14 @@
             "move": 3,
             "attack": 3,
             "range": 0,
-            "attributes": ["{{condition-wound}}"]
+            "attributes": ["{{effect-wound}}"]
           },
           "elite": {
             "health": 7,
             "move": 4,
             "attack": 5,
             "range": 0,
-            "attributes": ["{{condition-wound}}"]
+            "attributes": ["{{effect-wound}}"]
           }
         },
         {
@@ -3893,14 +3893,14 @@
             "move": 4,
             "attack": 3,
             "range": 0,
-            "attributes": ["{{condition-wound}}"]
+            "attributes": ["{{effect-wound}}"]
           },
           "elite": {
             "health": 9,
             "move": 5,
             "attack": 5,
             "range": 0,
-            "attributes": ["{{condition-wound}}"]
+            "attributes": ["{{effect-wound}}"]
           }
         },
         {
@@ -3910,14 +3910,14 @@
             "move": 4,
             "attack": 4,
             "range": 0,
-            "attributes": ["{{condition-wound}}"]
+            "attributes": ["{{effect-wound}}"]
           },
           "elite": {
             "health": 10,
             "move": 5,
             "attack": 6,
             "range": 0,
-            "attributes": ["{{condition-wound}}"]
+            "attributes": ["{{effect-wound}}"]
           }
         },
         {
@@ -3927,14 +3927,14 @@
             "move": 4,
             "attack": 4,
             "range": 0,
-            "attributes": ["{{condition-wound}}"]
+            "attributes": ["{{effect-wound}}"]
           },
           "elite": {
             "health": 11,
             "move": 6,
             "attack": 6,
             "range": 0,
-            "attributes": ["{{condition-wound}}"]
+            "attributes": ["{{effect-wound}}"]
           }
         },
         {
@@ -3944,14 +3944,14 @@
             "move": 4,
             "attack": 5,
             "range": 0,
-            "attributes": ["{{condition-wound}}"]
+            "attributes": ["{{effect-wound}}"]
           },
           "elite": {
             "health": 14,
             "move": 6,
             "attack": 6,
             "range": 0,
-            "attributes": ["{{condition-wound}}"]
+            "attributes": ["{{effect-wound}}"]
           }
         },
         {
@@ -3961,14 +3961,14 @@
             "move": 5,
             "attack": 5,
             "range": 0,
-            "attributes": ["{{condition-wound}}"]
+            "attributes": ["{{effect-wound}}"]
           },
           "elite": {
             "health": 15,
             "move": 6,
             "attack": 7,
             "range": 0,
-            "attributes": ["{{condition-wound}}"]
+            "attributes": ["{{effect-wound}}"]
           }
         },
         {
@@ -3978,14 +3978,14 @@
             "move": 5,
             "attack": 5,
             "range": 0,
-            "attributes": ["{{condition-wound}}"]
+            "attributes": ["{{effect-wound}}"]
           },
           "elite": {
             "health": 18,
             "move": 6,
             "attack": 7,
             "range": 0,
-            "attributes": ["{{condition-wound}}"]
+            "attributes": ["{{effect-wound}}"]
           }
         }
       ]
@@ -3999,14 +3999,14 @@
             "move": 2,
             "attack": 2,
             "range": 3,
-            "attributes": ["{{condition-pierce}} 3"]
+            "attributes": ["{{effect-pierce}} 3"]
           },
           "elite": {
             "health": 12,
             "move": 2,
             "attack": 3,
             "range": 4,
-            "attributes": ["{{condition-pierce}} 3"]
+            "attributes": ["{{effect-pierce}} 3"]
           }
         },
         {
@@ -4016,7 +4016,7 @@
             "move": 2,
             "attack": 2,
             "range": 4,
-            "attributes": ["{{condition-pierce}} 3"]
+            "attributes": ["{{effect-pierce}} 3"]
           },
           "elite": {
             "health": 12,
@@ -4024,7 +4024,7 @@
             "attack": 3,
             "range": 5,
             "attributes": [
-              "{{condition-pierce}} 3",
+              "{{effect-pierce}} 3",
               "{{ability-shield}} 1"
             ]
           }
@@ -4036,7 +4036,7 @@
             "move": 3,
             "attack": 2,
             "range": 4,
-            "attributes": ["{{condition-pierce}} 3"]
+            "attributes": ["{{effect-pierce}} 3"]
           },
           "elite": {
             "health": 15,
@@ -4044,7 +4044,7 @@
             "attack": 3,
             "range": 5,
             "attributes": [
-              "{{condition-pierce}} 3",
+              "{{effect-pierce}} 3",
               "{{ability-shield}} 1"
             ]
           }
@@ -4057,7 +4057,7 @@
             "attack": 3,
             "range": 4,
             "attributes": [
-              "{{condition-pierce}} 3",
+              "{{effect-pierce}} 3",
               "{{ability-shield}} 1"
             ]
           },
@@ -4067,7 +4067,7 @@
             "attack": 4,
             "range": 6,
             "attributes": [
-              "{{condition-pierce}} 3",
+              "{{effect-pierce}} 3",
               "{{ability-shield}} 1"
             ]
           }
@@ -4080,7 +4080,7 @@
             "attack": 3,
             "range": 5,
             "attributes": [
-              "{{condition-pierce}} 3",
+              "{{effect-pierce}} 3",
               "{{ability-shield}} 1"
             ]
           },
@@ -4090,7 +4090,7 @@
             "attack": 4,
             "range": 6,
             "attributes": [
-              "{{condition-pierce}} 3",
+              "{{effect-pierce}} 3",
               "{{ability-shield}} 2"
             ]
           }
@@ -4103,7 +4103,7 @@
             "attack": 4,
             "range": 5,
             "attributes": [
-              "{{condition-pierce}} 3",
+              "{{effect-pierce}} 3",
               "{{ability-shield}} 1"
             ]
           },
@@ -4113,7 +4113,7 @@
             "attack": 5,
             "range": 6,
             "attributes": [
-              "{{condition-pierce}} 3",
+              "{{effect-pierce}} 3",
               "{{ability-shield}} 2"
             ]
           }
@@ -4126,7 +4126,7 @@
             "attack": 4,
             "range": 5,
             "attributes": [
-              "{{condition-pierce}} 3",
+              "{{effect-pierce}} 3",
               "{{ability-shield}} 2"
             ]
           },
@@ -4136,7 +4136,7 @@
             "attack": 6,
             "range": 6,
             "attributes": [
-              "{{condition-pierce}} 3",
+              "{{effect-pierce}} 3",
               "{{ability-shield}} 2"
             ]
           }
@@ -4149,7 +4149,7 @@
             "attack": 4,
             "range": 6,
             "attributes": [
-              "{{condition-pierce}} 3",
+              "{{effect-pierce}} 3",
               "{{ability-shield}} 2"
             ]
           },
@@ -4159,7 +4159,7 @@
             "attack": 6,
             "range": 6,
             "attributes": [
-              "{{condition-pierce}} 4",
+              "{{effect-pierce}} 4",
               "{{ability-shield}} 3"
             ]
           }
@@ -4192,14 +4192,14 @@
             "move": 3,
             "attack": 2,
             "range": 0,
-            "attributes": ["{{condition-poison}}"]
+            "attributes": ["{{effect-poison}}"]
           },
           "elite": {
             "health": 15,
             "move": 3,
             "attack": 3,
             "range": 0,
-            "attributes": ["{{condition-wound}}"]
+            "attributes": ["{{effect-wound}}"]
           }
         },
         {
@@ -4209,7 +4209,7 @@
             "move": 3,
             "attack": 3,
             "range": 0,
-            "attributes": ["{{condition-poison}}"]
+            "attributes": ["{{effect-poison}}"]
           },
           "elite": {
             "health": 18,
@@ -4217,8 +4217,8 @@
             "attack": 3,
             "range": 0,
             "attributes": [
-              "{{condition-poison}}",
-              "{{condition-wound}}"
+              "{{effect-poison}}",
+              "{{effect-wound}}"
             ]
           }
         },
@@ -4229,7 +4229,7 @@
             "move": 3,
             "attack": 3,
             "range": 0,
-            "attributes": ["{{condition-poison}}"]
+            "attributes": ["{{effect-poison}}"]
           },
           "elite": {
             "health": 21,
@@ -4237,8 +4237,8 @@
             "attack": 4,
             "range": 0,
             "attributes": [
-              "{{condition-poison}}",
-              "{{condition-wound}}"
+              "{{effect-poison}}",
+              "{{effect-wound}}"
             ]
           }
         },
@@ -4249,7 +4249,7 @@
             "move": 3,
             "attack": 4,
             "range": 0,
-            "attributes": ["{{condition-poison}}"]
+            "attributes": ["{{effect-poison}}"]
           },
           "elite": {
             "health": 24,
@@ -4257,8 +4257,8 @@
             "attack": 4,
             "range": 0,
             "attributes": [
-              "{{condition-poison}}",
-              "{{condition-wound}}"
+              "{{effect-poison}}",
+              "{{effect-wound}}"
             ]
           }
         },
@@ -4270,8 +4270,8 @@
             "attack": 4,
             "range": 0,
             "attributes": [
-              "{{condition-poison}}",
-              "{{condition-wound}}"
+              "{{effect-poison}}",
+              "{{effect-wound}}"
             ]
           },
           "elite": {
@@ -4280,8 +4280,8 @@
             "attack": 5,
             "range": 0,
             "attributes": [
-              "{{condition-poison}}",
-              "{{condition-wound}}"
+              "{{effect-poison}}",
+              "{{effect-wound}}"
             ]
           }
         },
@@ -4293,8 +4293,8 @@
             "attack": 4,
             "range": 0,
             "attributes": [
-              "{{condition-poison}}",
-              "{{condition-wound}}"
+              "{{effect-poison}}",
+              "{{effect-wound}}"
             ]
           },
           "elite": {
@@ -4303,8 +4303,8 @@
             "attack": 6,
             "range": 0,
             "attributes": [
-              "{{condition-poison}}",
-              "{{condition-wound}}"
+              "{{effect-poison}}",
+              "{{effect-wound}}"
             ]
           }
         },
@@ -4316,8 +4316,8 @@
             "attack": 4,
             "range": 0,
             "attributes": [
-              "{{condition-poison}}",
-              "{{condition-wound}}"
+              "{{effect-poison}}",
+              "{{effect-wound}}"
             ]
           },
           "elite": {
@@ -4326,8 +4326,8 @@
             "attack": 6,
             "range": 0,
             "attributes": [
-              "{{condition-poison}}",
-              "{{condition-wound}}"
+              "{{effect-poison}}",
+              "{{effect-wound}}"
             ]
           }
         }
@@ -4368,7 +4368,7 @@
             "range": 4,
             "attributes": [
               "{{ability-flying}}",
-              "{{condition-muddle}}"
+              "{{effect-muddle}}"
             ]
           }
         },
@@ -4381,7 +4381,7 @@
             "range": 3,
             "attributes": [
               "{{ability-flying}}",
-              "{{condition-muddle}}"
+              "{{effect-muddle}}"
             ]
           },
           "elite": {
@@ -4391,7 +4391,7 @@
             "range": 4,
             "attributes": [
               "{{ability-flying}}",
-              "{{condition-muddle}}"
+              "{{effect-muddle}}"
             ]
           }
         },
@@ -4404,7 +4404,7 @@
             "range": 4,
             "attributes": [
               "{{ability-flying}}",
-              "{{condition-muddle}}"
+              "{{effect-muddle}}"
             ]
           },
           "elite": {
@@ -4414,7 +4414,7 @@
             "range": 5,
             "attributes": [
               "{{ability-flying}}",
-              "{{condition-muddle}}"
+              "{{effect-muddle}}"
             ]
           }
         },
@@ -4427,7 +4427,7 @@
             "range": 4,
             "attributes": [
               "{{ability-flying}}",
-              "{{condition-muddle}}"
+              "{{effect-muddle}}"
             ]
           },
           "elite": {
@@ -4437,7 +4437,7 @@
             "range": 5,
             "attributes": [
               "{{ability-flying}}",
-              "{{condition-muddle}}"
+              "{{effect-muddle}}"
             ]
           }
         },
@@ -4450,7 +4450,7 @@
             "range": 4,
             "attributes": [
               "{{ability-flying}}",
-              "{{condition-muddle}}"
+              "{{effect-muddle}}"
             ]
           },
           "elite": {
@@ -4460,7 +4460,7 @@
             "range": 5,
             "attributes": [
               "{{ability-flying}}",
-              "{{condition-muddle}}"
+              "{{effect-muddle}}"
             ]
           }
         },
@@ -4473,7 +4473,7 @@
             "range": 4,
             "attributes": [
               "{{ability-flying}}",
-              "{{condition-muddle}}"
+              "{{effect-muddle}}"
             ]
           },
           "elite": {
@@ -4483,7 +4483,7 @@
             "range": 5,
             "attributes": [
               "{{ability-flying}}",
-              "{{condition-muddle}}"
+              "{{effect-muddle}}"
             ]
           }
         },
@@ -4496,7 +4496,7 @@
             "range": 4,
             "attributes": [
               "{{ability-flying}}",
-              "{{condition-muddle}}"
+              "{{effect-muddle}}"
             ]
           },
           "elite": {
@@ -4506,7 +4506,7 @@
             "range": 5,
             "attributes": [
               "{{ability-flying}}",
-              "{{condition-muddle}}"
+              "{{effect-muddle}}"
             ]
           }
         }
@@ -5074,7 +5074,7 @@
             "attack": 2,
             "range": 4,
             "attributes": [
-              "{{condition-muddle}}",
+              "{{effect-muddle}}",
               "{{ability-shield}} 3"
             ]
           },
@@ -5084,7 +5084,7 @@
             "attack": 3,
             "range": 4,
             "attributes": [
-              "{{condition-muddle}}",
+              "{{effect-muddle}}",
               "{{ability-shield}} 4"
             ]
           }
@@ -5097,7 +5097,7 @@
             "attack": 3,
             "range": 4,
             "attributes": [
-              "{{condition-muddle}}",
+              "{{effect-muddle}}",
               "{{ability-shield}} 3"
             ]
           },
@@ -5107,7 +5107,7 @@
             "attack": 4,
             "range": 4,
             "attributes": [
-              "{{condition-muddle}}",
+              "{{effect-muddle}}",
               "{{ability-shield}} 4"
             ]
           }
@@ -5120,7 +5120,7 @@
             "attack": 4,
             "range": 4,
             "attributes": [
-              "{{condition-muddle}}",
+              "{{effect-muddle}}",
               "{{ability-shield}} 3"
             ]
           },
@@ -5130,7 +5130,7 @@
             "attack": 4,
             "range": 4,
             "attributes": [
-              "{{condition-muddle}}",
+              "{{effect-muddle}}",
               "{{ability-shield}} 5"
             ]
           }
@@ -5143,7 +5143,7 @@
             "attack": 4,
             "range": 4,
             "attributes": [
-              "{{condition-muddle}}",
+              "{{effect-muddle}}",
               "{{ability-shield}} 3"
             ]
           },
@@ -5153,7 +5153,7 @@
             "attack": 4,
             "range": 4,
             "attributes": [
-              "{{condition-muddle}}",
+              "{{effect-muddle}}",
               "{{ability-shield}} 5"
             ]
           }
@@ -5273,7 +5273,7 @@
             "range": 4,
             "attributes": [
               "{{ability-flying}}",
-              "{{condition-disarm}}",
+              "{{effect-disarm}}",
               "{{ability-shield}} 2"
             ]
           }
@@ -5297,7 +5297,7 @@
             "range": 4,
             "attributes": [
               "{{ability-flying}}",
-              "{{condition-disarm}}",
+              "{{effect-disarm}}",
               "{{ability-shield}} 2"
             ]
           }
@@ -5321,7 +5321,7 @@
             "range": 4,
             "attributes": [
               "{{ability-flying}}",
-              "{{condition-disarm}}",
+              "{{effect-disarm}}",
               "{{ability-shield}} 3"
             ]
           }
@@ -5345,7 +5345,7 @@
             "range": 4,
             "attributes": [
               "{{ability-flying}}",
-              "{{condition-disarm}}",
+              "{{effect-disarm}}",
               "{{ability-shield}} 3"
             ]
           }
@@ -5365,9 +5365,9 @@
           "special1": ["Move to next door and reveal room"],
           "special2": ["Summon Living Bones"],
           "immunities": [
-            "{{condition-stun}}",
-            "{{condition-immobilize}}",
-            "{{condition-curse}}"
+            "{{effect-stun}}",
+            "{{effect-immobilize}}",
+            "{{effect-curse}}"
           ],
           "notes": ""
         },
@@ -5380,9 +5380,9 @@
           "special1": ["Move to next door and reveal room"],
           "special2": ["Summon Living Bones"],
           "immunities": [
-            "{{condition-stun}}",
-            "{{condition-immobilize}}",
-            "{{condition-curse}}"
+            "{{effect-stun}}",
+            "{{effect-immobilize}}",
+            "{{effect-curse}}"
           ],
           "notes": ""
         },
@@ -5395,9 +5395,9 @@
           "special1": ["Move to next door and reveal room"],
           "special2": ["Summon Living Bones"],
           "immunities": [
-            "{{condition-stun}}",
-            "{{condition-immobilize}}",
-            "{{condition-curse}}"
+            "{{effect-stun}}",
+            "{{effect-immobilize}}",
+            "{{effect-curse}}"
           ],
           "notes": ""
         },
@@ -5410,9 +5410,9 @@
           "special1": ["Move to next door and reveal room"],
           "special2": ["Summon Living Bones"],
           "immunities": [
-            "{{condition-stun}}",
-            "{{condition-immobilize}}",
-            "{{condition-curse}}"
+            "{{effect-stun}}",
+            "{{effect-immobilize}}",
+            "{{effect-curse}}"
           ],
           "notes": ""
         },
@@ -5425,9 +5425,9 @@
           "special1": ["Move to next door and reveal room"],
           "special2": ["Summon Living Bones"],
           "immunities": [
-            "{{condition-stun}}",
-            "{{condition-immobilize}}",
-            "{{condition-curse}}"
+            "{{effect-stun}}",
+            "{{effect-immobilize}}",
+            "{{effect-curse}}"
           ],
           "notes": ""
         },
@@ -5440,9 +5440,9 @@
           "special1": ["Move to next door and reveal room"],
           "special2": ["Summon Living Bones"],
           "immunities": [
-            "{{condition-stun}}",
-            "{{condition-immobilize}}",
-            "{{condition-curse}}"
+            "{{effect-stun}}",
+            "{{effect-immobilize}}",
+            "{{effect-curse}}"
           ],
           "notes": ""
         },
@@ -5455,9 +5455,9 @@
           "special1": ["Move to next door and reveal room"],
           "special2": ["Summon Living Bones"],
           "immunities": [
-            "{{condition-stun}}",
-            "{{condition-immobilize}}",
-            "{{condition-curse}}"
+            "{{effect-stun}}",
+            "{{effect-immobilize}}",
+            "{{effect-curse}}"
           ],
           "notes": ""
         },
@@ -5470,9 +5470,9 @@
           "special1": ["Move to next door and reveal room"],
           "special2": ["Summon Living Bones"],
           "immunities": [
-            "{{condition-stun}}",
-            "{{condition-immobilize}}",
-            "{{condition-curse}}"
+            "{{effect-stun}}",
+            "{{effect-immobilize}}",
+            "{{effect-curse}}"
           ],
           "notes": ""
         }
@@ -5489,11 +5489,11 @@
           "special1": ["Summon Giant Viper and Fear"],
           "special2": ["Mind Control"],
           "immunities": [
-            "{{condition-wound}}",
-            "{{condition-poison}}",
-            "{{condition-stun}}",
-            "{{condition-disarm}}",
-            "{{condition-curse}}"
+            "{{effect-wound}}",
+            "{{effect-poison}}",
+            "{{effect-stun}}",
+            "{{effect-disarm}}",
+            "{{effect-curse}}"
           ],
           "notes": ""
         },
@@ -5506,11 +5506,11 @@
           "special1": ["Summon Giant Viper and Fear"],
           "special2": ["Mind Control"],
           "immunities": [
-            "{{condition-wound}}",
-            "{{condition-poison}}",
-            "{{condition-stun}}",
-            "{{condition-disarm}}",
-            "{{condition-curse}}"
+            "{{effect-wound}}",
+            "{{effect-poison}}",
+            "{{effect-stun}}",
+            "{{effect-disarm}}",
+            "{{effect-curse}}"
           ],
           "notes": ""
         },
@@ -5523,11 +5523,11 @@
           "special1": ["Summon Giant Viper and Fear"],
           "special2": ["Mind Control"],
           "immunities": [
-            "{{condition-wound}}",
-            "{{condition-poison}}",
-            "{{condition-stun}}",
-            "{{condition-disarm}}",
-            "{{condition-curse}}"
+            "{{effect-wound}}",
+            "{{effect-poison}}",
+            "{{effect-stun}}",
+            "{{effect-disarm}}",
+            "{{effect-curse}}"
           ],
           "notes": ""
         },
@@ -5540,11 +5540,11 @@
           "special1": ["Summon Giant Viper and Fear"],
           "special2": ["Mind Control"],
           "immunities": [
-            "{{condition-wound}}",
-            "{{condition-poison}}",
-            "{{condition-stun}}",
-            "{{condition-disarm}}",
-            "{{condition-curse}}"
+            "{{effect-wound}}",
+            "{{effect-poison}}",
+            "{{effect-stun}}",
+            "{{effect-disarm}}",
+            "{{effect-curse}}"
           ],
           "notes": ""
         },
@@ -5557,11 +5557,11 @@
           "special1": ["Summon Giant Viper and Fear"],
           "special2": ["Mind Control"],
           "immunities": [
-            "{{condition-wound}}",
-            "{{condition-poison}}",
-            "{{condition-stun}}",
-            "{{condition-disarm}}",
-            "{{condition-curse}}"
+            "{{effect-wound}}",
+            "{{effect-poison}}",
+            "{{effect-stun}}",
+            "{{effect-disarm}}",
+            "{{effect-curse}}"
           ],
           "notes": ""
         },
@@ -5574,11 +5574,11 @@
           "special1": ["Summon Giant Viper and Fear"],
           "special2": ["Mind Control"],
           "immunities": [
-            "{{condition-wound}}",
-            "{{condition-poison}}",
-            "{{condition-stun}}",
-            "{{condition-disarm}}",
-            "{{condition-curse}}"
+            "{{effect-wound}}",
+            "{{effect-poison}}",
+            "{{effect-stun}}",
+            "{{effect-disarm}}",
+            "{{effect-curse}}"
           ],
           "notes": ""
         },
@@ -5591,11 +5591,11 @@
           "special1": ["Summon Giant Viper and Fear"],
           "special2": ["Mind Control"],
           "immunities": [
-            "{{condition-wound}}",
-            "{{condition-poison}}",
-            "{{condition-stun}}",
-            "{{condition-disarm}}",
-            "{{condition-curse}}"
+            "{{effect-wound}}",
+            "{{effect-poison}}",
+            "{{effect-stun}}",
+            "{{effect-disarm}}",
+            "{{effect-curse}}"
           ],
           "notes": ""
         },
@@ -5608,11 +5608,11 @@
           "special1": ["Summon Giant Viper and Fear"],
           "special2": ["Mind Control"],
           "immunities": [
-            "{{condition-wound}}",
-            "{{condition-poison}}",
-            "{{condition-stun}}",
-            "{{condition-disarm}}",
-            "{{condition-curse}}"
+            "{{effect-wound}}",
+            "{{effect-poison}}",
+            "{{effect-stun}}",
+            "{{effect-disarm}}",
+            "{{effect-curse}}"
           ],
           "notes": ""
         }
@@ -5634,10 +5634,10 @@
             "{{ability-attack}} +1"
           ],
           "immunities": [
-            "{{condition-disarm}}",
-            "{{condition-wound}}",
-            "{{condition-muddle}}",
-            "{{condition-stun}}"
+            "{{effect-disarm}}",
+            "{{effect-wound}}",
+            "{{effect-muddle}}",
+            "{{effect-stun}}"
           ],
           "notes": ""
         },
@@ -5655,10 +5655,10 @@
             "{{ability-attack}} +1"
           ],
           "immunities": [
-            "{{condition-disarm}}",
-            "{{condition-wound}}",
-            "{{condition-muddle}}",
-            "{{condition-stun}}"
+            "{{effect-disarm}}",
+            "{{effect-wound}}",
+            "{{effect-muddle}}",
+            "{{effect-stun}}"
           ],
           "notes": ""
         },
@@ -5676,10 +5676,10 @@
             "{{ability-attack}} +1"
           ],
           "immunities": [
-            "{{condition-disarm}}",
-            "{{condition-wound}}",
-            "{{condition-muddle}}",
-            "{{condition-stun}}"
+            "{{effect-disarm}}",
+            "{{effect-wound}}",
+            "{{effect-muddle}}",
+            "{{effect-stun}}"
           ],
           "notes": ""
         },
@@ -5697,10 +5697,10 @@
             "{{ability-attack}} +1"
           ],
           "immunities": [
-            "{{condition-disarm}}",
-            "{{condition-wound}}",
-            "{{condition-muddle}}",
-            "{{condition-stun}}"
+            "{{effect-disarm}}",
+            "{{effect-wound}}",
+            "{{effect-muddle}}",
+            "{{effect-stun}}"
           ],
           "notes": ""
         },
@@ -5718,10 +5718,10 @@
             "{{ability-attack}} +1"
           ],
           "immunities": [
-            "{{condition-disarm}}",
-            "{{condition-wound}}",
-            "{{condition-muddle}}",
-            "{{condition-stun}}"
+            "{{effect-disarm}}",
+            "{{effect-wound}}",
+            "{{effect-muddle}}",
+            "{{effect-stun}}"
           ],
           "notes": ""
         },
@@ -5739,10 +5739,10 @@
             "{{ability-attack}} +1"
           ],
           "immunities": [
-            "{{condition-disarm}}",
-            "{{condition-wound}}",
-            "{{condition-muddle}}",
-            "{{condition-stun}}"
+            "{{effect-disarm}}",
+            "{{effect-wound}}",
+            "{{effect-muddle}}",
+            "{{effect-stun}}"
           ],
           "notes": ""
         },
@@ -5760,10 +5760,10 @@
             "{{ability-attack}} +1"
           ],
           "immunities": [
-            "{{condition-disarm}}",
-            "{{condition-wound}}",
-            "{{condition-muddle}}",
-            "{{condition-stun}}"
+            "{{effect-disarm}}",
+            "{{effect-wound}}",
+            "{{effect-muddle}}",
+            "{{effect-stun}}"
           ],
           "notes": ""
         },
@@ -5781,10 +5781,10 @@
             "{{ability-attack}} +1"
           ],
           "immunities": [
-            "{{condition-disarm}}",
-            "{{condition-wound}}",
-            "{{condition-muddle}}",
-            "{{condition-stun}}"
+            "{{effect-disarm}}",
+            "{{effect-wound}}",
+            "{{effect-muddle}}",
+            "{{effect-stun}}"
           ],
           "notes": ""
         }
@@ -5800,7 +5800,7 @@
           "range": 0,
           "special1": [
             "{{element-dark}}{{element-use}}: Summon Night Demon",
-            "{{condition-invisible}}, Self"
+            "{{effect-invisible}}, Self"
           ],
           "special2": [
             "{{element-light}}{{element-use}}: Summon Sun Demon",
@@ -5808,11 +5808,11 @@
             "{{ability-shield}} 1"
           ],
           "immunities": [
-            "{{condition-wound}}",
-            "{{condition-poison}}",
-            "{{condition-muddle}}",
-            "{{condition-stun}}",
-            "{{condition-disarm}}"
+            "{{effect-wound}}",
+            "{{effect-poison}}",
+            "{{effect-muddle}}",
+            "{{effect-stun}}",
+            "{{effect-disarm}}"
           ],
           "notes": ""
         },
@@ -5824,7 +5824,7 @@
           "range": 0,
           "special1": [
             "{{element-dark}}{{element-use}}: Summon Night Demon",
-            "{{condition-invisible}}, Self"
+            "{{effect-invisible}}, Self"
           ],
           "special2": [
             "{{element-light}}{{element-use}}: Summon Sun Demon",
@@ -5832,11 +5832,11 @@
             "{{ability-shield}} 1"
           ],
           "immunities": [
-            "{{condition-wound}}",
-            "{{condition-poison}}",
-            "{{condition-muddle}}",
-            "{{condition-stun}}",
-            "{{condition-disarm}}"
+            "{{effect-wound}}",
+            "{{effect-poison}}",
+            "{{effect-muddle}}",
+            "{{effect-stun}}",
+            "{{effect-disarm}}"
           ],
           "notes": ""
         },
@@ -5848,7 +5848,7 @@
           "range": 0,
           "special1": [
             "{{element-dark}}{{element-use}}: Summon Night Demon",
-            "{{condition-invisible}}, Self"
+            "{{effect-invisible}}, Self"
           ],
           "special2": [
             "{{element-light}}{{element-use}}: Summon Sun Demon",
@@ -5856,11 +5856,11 @@
             "{{ability-shield}} 1"
           ],
           "immunities": [
-            "{{condition-wound}}",
-            "{{condition-poison}}",
-            "{{condition-muddle}}",
-            "{{condition-stun}}",
-            "{{condition-disarm}}"
+            "{{effect-wound}}",
+            "{{effect-poison}}",
+            "{{effect-muddle}}",
+            "{{effect-stun}}",
+            "{{effect-disarm}}"
           ],
           "notes": ""
         },
@@ -5872,7 +5872,7 @@
           "range": 0,
           "special1": [
             "{{element-dark}}{{element-use}}: Summon Night Demon",
-            "{{condition-invisible}}, Self"
+            "{{effect-invisible}}, Self"
           ],
           "special2": [
             "{{element-light}}{{element-use}}: Summon Sun Demon",
@@ -5880,11 +5880,11 @@
             "{{ability-shield}} 1"
           ],
           "immunities": [
-            "{{condition-wound}}",
-            "{{condition-poison}}",
-            "{{condition-muddle}}",
-            "{{condition-stun}}",
-            "{{condition-disarm}}"
+            "{{effect-wound}}",
+            "{{effect-poison}}",
+            "{{effect-muddle}}",
+            "{{effect-stun}}",
+            "{{effect-disarm}}"
           ],
           "notes": ""
         },
@@ -5896,7 +5896,7 @@
           "range": 0,
           "special1": [
             "{{element-dark}}{{element-use}}: Summon Night Demon",
-            "{{condition-invisible}}, Self"
+            "{{effect-invisible}}, Self"
           ],
           "special2": [
             "{{element-light}}{{element-use}}: Summon Sun Demon",
@@ -5904,11 +5904,11 @@
             "{{ability-shield}} 1"
           ],
           "immunities": [
-            "{{condition-wound}}",
-            "{{condition-poison}}",
-            "{{condition-muddle}}",
-            "{{condition-stun}}",
-            "{{condition-disarm}}"
+            "{{effect-wound}}",
+            "{{effect-poison}}",
+            "{{effect-muddle}}",
+            "{{effect-stun}}",
+            "{{effect-disarm}}"
           ],
           "notes": ""
         },
@@ -5920,7 +5920,7 @@
           "range": 0,
           "special1": [
             "{{element-dark}}{{element-use}}: Summon Night Demon",
-            "{{condition-invisible}}, Self"
+            "{{effect-invisible}}, Self"
           ],
           "special2": [
             "{{element-light}}{{element-use}}: Summon Sun Demon",
@@ -5928,11 +5928,11 @@
             "{{ability-shield}} 1"
           ],
           "immunities": [
-            "{{condition-wound}}",
-            "{{condition-poison}}",
-            "{{condition-muddle}}",
-            "{{condition-stun}}",
-            "{{condition-disarm}}"
+            "{{effect-wound}}",
+            "{{effect-poison}}",
+            "{{effect-muddle}}",
+            "{{effect-stun}}",
+            "{{effect-disarm}}"
           ],
           "notes": ""
         },
@@ -5944,7 +5944,7 @@
           "range": 0,
           "special1": [
             "{{element-dark}}{{element-use}}: Summon Night Demon",
-            "{{condition-invisible}}, Self"
+            "{{effect-invisible}}, Self"
           ],
           "special2": [
             "{{element-light}}{{element-use}}: Summon Sun Demon",
@@ -5952,11 +5952,11 @@
             "{{ability-shield}} 1"
           ],
           "immunities": [
-            "{{condition-wound}}",
-            "{{condition-poison}}",
-            "{{condition-muddle}}",
-            "{{condition-stun}}",
-            "{{condition-disarm}}"
+            "{{effect-wound}}",
+            "{{effect-poison}}",
+            "{{effect-muddle}}",
+            "{{effect-stun}}",
+            "{{effect-disarm}}"
           ],
           "notes": ""
         },
@@ -5968,7 +5968,7 @@
           "range": 0,
           "special1": [
             "{{element-dark}}{{element-use}}: Summon Night Demon",
-            "{{condition-invisible}}, Self"
+            "{{effect-invisible}}, Self"
           ],
           "special2": [
             "{{element-light}}{{element-use}}: Summon Sun Demon",
@@ -5976,11 +5976,11 @@
             "{{ability-shield}} 1"
           ],
           "immunities": [
-            "{{condition-wound}}",
-            "{{condition-poison}}",
-            "{{condition-muddle}}",
-            "{{condition-stun}}",
-            "{{condition-disarm}}"
+            "{{effect-wound}}",
+            "{{effect-poison}}",
+            "{{effect-muddle}}",
+            "{{effect-stun}}",
+            "{{effect-disarm}}"
           ],
           "notes": ""
         }
@@ -6004,10 +6004,10 @@
             "{{ability-attack}} -1"
           ],
           "immunities": [
-            "{{condition-immobilize}}",
-            "{{condition-poison}}",
-            "{{condition-stun}}",
-            "{{condition-disarm}}"
+            "{{effect-immobilize}}",
+            "{{effect-poison}}",
+            "{{effect-stun}}",
+            "{{effect-disarm}}"
           ],
           "notes": "X = Hexes moved"
         },
@@ -6027,10 +6027,10 @@
             "{{ability-attack}} -1"
           ],
           "immunities": [
-            "{{condition-immobilize}}",
-            "{{condition-poison}}",
-            "{{condition-stun}}",
-            "{{condition-disarm}}"
+            "{{effect-immobilize}}",
+            "{{effect-poison}}",
+            "{{effect-stun}}",
+            "{{effect-disarm}}"
           ],
           "notes": "X = Hexes moved"
         },
@@ -6050,10 +6050,10 @@
             "{{ability-attack}} -1"
           ],
           "immunities": [
-            "{{condition-immobilize}}",
-            "{{condition-poison}}",
-            "{{condition-stun}}",
-            "{{condition-disarm}}"
+            "{{effect-immobilize}}",
+            "{{effect-poison}}",
+            "{{effect-stun}}",
+            "{{effect-disarm}}"
           ],
           "notes": "X = Hexes moved"
         },
@@ -6073,10 +6073,10 @@
             "{{ability-attack}} -1"
           ],
           "immunities": [
-            "{{condition-immobilize}}",
-            "{{condition-poison}}",
-            "{{condition-stun}}",
-            "{{condition-disarm}}"
+            "{{effect-immobilize}}",
+            "{{effect-poison}}",
+            "{{effect-stun}}",
+            "{{effect-disarm}}"
           ],
           "notes": "X = Hexes moved"
         },
@@ -6096,10 +6096,10 @@
             "{{ability-attack}} -1"
           ],
           "immunities": [
-            "{{condition-immobilize}}",
-            "{{condition-poison}}",
-            "{{condition-stun}}",
-            "{{condition-disarm}}"
+            "{{effect-immobilize}}",
+            "{{effect-poison}}",
+            "{{effect-stun}}",
+            "{{effect-disarm}}"
           ],
           "notes": "X = Hexes moved"
         },
@@ -6119,10 +6119,10 @@
             "{{ability-attack}} -1"
           ],
           "immunities": [
-            "{{condition-immobilize}}",
-            "{{condition-poison}}",
-            "{{condition-stun}}",
-            "{{condition-disarm}}"
+            "{{effect-immobilize}}",
+            "{{effect-poison}}",
+            "{{effect-stun}}",
+            "{{effect-disarm}}"
           ],
           "notes": "X = Hexes moved"
         },
@@ -6142,10 +6142,10 @@
             "{{ability-attack}} -1"
           ],
           "immunities": [
-            "{{condition-immobilize}}",
-            "{{condition-poison}}",
-            "{{condition-stun}}",
-            "{{condition-disarm}}"
+            "{{effect-immobilize}}",
+            "{{effect-poison}}",
+            "{{effect-stun}}",
+            "{{effect-disarm}}"
           ],
           "notes": "X = Hexes moved"
         },
@@ -6165,10 +6165,10 @@
             "{{ability-attack}} -1"
           ],
           "immunities": [
-            "{{condition-immobilize}}",
-            "{{condition-poison}}",
-            "{{condition-stun}}",
-            "{{condition-disarm}}"
+            "{{effect-immobilize}}",
+            "{{effect-poison}}",
+            "{{effect-stun}}",
+            "{{effect-disarm}}"
           ],
           "notes": "X = Hexes moved"
         }
@@ -6189,11 +6189,11 @@
             "{{ability-move}} and summon 2 Zephyrs"
           ],
           "immunities": [
-            "{{condition-wound}}",
-            "{{condition-poison}}",
-            "{{condition-disarm}}",
-            "{{condition-immobilize}}",
-            "{{condition-stun}}"
+            "{{effect-wound}}",
+            "{{effect-poison}}",
+            "{{effect-disarm}}",
+            "{{effect-immobilize}}",
+            "{{effect-stun}}"
           ],
           "notes": ""
         },
@@ -6210,11 +6210,11 @@
             "{{ability-move}} and summon 2 Zephyrs"
           ],
           "immunities": [
-            "{{condition-wound}}",
-            "{{condition-poison}}",
-            "{{condition-disarm}}",
-            "{{condition-immobilize}}",
-            "{{condition-stun}}"
+            "{{effect-wound}}",
+            "{{effect-poison}}",
+            "{{effect-disarm}}",
+            "{{effect-immobilize}}",
+            "{{effect-stun}}"
           ],
           "notes": ""
         },
@@ -6231,11 +6231,11 @@
             "{{ability-move}} and summon 2 Zephyrs"
           ],
           "immunities": [
-            "{{condition-wound}}",
-            "{{condition-poison}}",
-            "{{condition-disarm}}",
-            "{{condition-immobilize}}",
-            "{{condition-stun}}"
+            "{{effect-wound}}",
+            "{{effect-poison}}",
+            "{{effect-disarm}}",
+            "{{effect-immobilize}}",
+            "{{effect-stun}}"
           ],
           "notes": ""
         },
@@ -6252,11 +6252,11 @@
             "{{ability-move}} and summon 2 Zephyrs"
           ],
           "immunities": [
-            "{{condition-wound}}",
-            "{{condition-poison}}",
-            "{{condition-disarm}}",
-            "{{condition-immobilize}}",
-            "{{condition-stun}}"
+            "{{effect-wound}}",
+            "{{effect-poison}}",
+            "{{effect-disarm}}",
+            "{{effect-immobilize}}",
+            "{{effect-stun}}"
           ],
           "notes": ""
         },
@@ -6273,11 +6273,11 @@
             "{{ability-move}} and summon 2 Zephyrs"
           ],
           "immunities": [
-            "{{condition-wound}}",
-            "{{condition-poison}}",
-            "{{condition-disarm}}",
-            "{{condition-immobilize}}",
-            "{{condition-stun}}"
+            "{{effect-wound}}",
+            "{{effect-poison}}",
+            "{{effect-disarm}}",
+            "{{effect-immobilize}}",
+            "{{effect-stun}}"
           ],
           "notes": ""
         },
@@ -6294,11 +6294,11 @@
             "{{ability-move}} and summon 2 Zephyrs"
           ],
           "immunities": [
-            "{{condition-wound}}",
-            "{{condition-poison}}",
-            "{{condition-disarm}}",
-            "{{condition-immobilize}}",
-            "{{condition-stun}}"
+            "{{effect-wound}}",
+            "{{effect-poison}}",
+            "{{effect-disarm}}",
+            "{{effect-immobilize}}",
+            "{{effect-stun}}"
           ],
           "notes": ""
         },
@@ -6315,11 +6315,11 @@
             "{{ability-move}} and summon 2 Zephyrs"
           ],
           "immunities": [
-            "{{condition-wound}}",
-            "{{condition-poison}}",
-            "{{condition-disarm}}",
-            "{{condition-immobilize}}",
-            "{{condition-stun}}"
+            "{{effect-wound}}",
+            "{{effect-poison}}",
+            "{{effect-disarm}}",
+            "{{effect-immobilize}}",
+            "{{effect-stun}}"
           ],
           "notes": ""
         },
@@ -6336,11 +6336,11 @@
             "{{ability-move}} and summon 2 Zephyrs"
           ],
           "immunities": [
-            "{{condition-wound}}",
-            "{{condition-poison}}",
-            "{{condition-disarm}}",
-            "{{condition-immobilize}}",
-            "{{condition-stun}}"
+            "{{effect-wound}}",
+            "{{effect-poison}}",
+            "{{effect-disarm}}",
+            "{{effect-immobilize}}",
+            "{{effect-stun}}"
           ],
           "notes": ""
         }
@@ -6361,18 +6361,18 @@
           "special2": [
             "Teleport",
             "{{ability-attack}} +1, {{ability-range}} 5",
-            "{{condition-poison}}",
-            "{{condition-wound}}",
-            "{{condition-stun}}"
+            "{{effect-poison}}",
+            "{{effect-wound}}",
+            "{{effect-stun}}"
           ],
           "immunities": [
-            "{{condition-wound}}",
-            "{{condition-poison}}",
-            "{{condition-disarm}}",
-            "{{condition-immobilize}}",
-            "{{condition-muddle}}",
-            "{{condition-stun}}",
-            "{{condition-curse}}"
+            "{{effect-wound}}",
+            "{{effect-poison}}",
+            "{{effect-disarm}}",
+            "{{effect-immobilize}}",
+            "{{effect-muddle}}",
+            "{{effect-stun}}",
+            "{{effect-curse}}"
           ],
           "notes": ""
         },
@@ -6389,18 +6389,18 @@
           "special2": [
             "Teleport",
             "{{ability-attack}} +1, {{ability-range}} 5",
-            "{{condition-poison}}",
-            "{{condition-wound}}",
-            "{{condition-stun}}"
+            "{{effect-poison}}",
+            "{{effect-wound}}",
+            "{{effect-stun}}"
           ],
           "immunities": [
-            "{{condition-wound}}",
-            "{{condition-poison}}",
-            "{{condition-disarm}}",
-            "{{condition-immobilize}}",
-            "{{condition-muddle}}",
-            "{{condition-stun}}",
-            "{{condition-curse}}"
+            "{{effect-wound}}",
+            "{{effect-poison}}",
+            "{{effect-disarm}}",
+            "{{effect-immobilize}}",
+            "{{effect-muddle}}",
+            "{{effect-stun}}",
+            "{{effect-curse}}"
           ],
           "notes": ""
         },
@@ -6417,18 +6417,18 @@
           "special2": [
             "Teleport",
             "{{ability-attack}} +1, {{ability-range}} 5",
-            "{{condition-poison}}",
-            "{{condition-wound}}",
-            "{{condition-stun}}"
+            "{{effect-poison}}",
+            "{{effect-wound}}",
+            "{{effect-stun}}"
           ],
           "immunities": [
-            "{{condition-wound}}",
-            "{{condition-poison}}",
-            "{{condition-disarm}}",
-            "{{condition-immobilize}}",
-            "{{condition-muddle}}",
-            "{{condition-stun}}",
-            "{{condition-curse}}"
+            "{{effect-wound}}",
+            "{{effect-poison}}",
+            "{{effect-disarm}}",
+            "{{effect-immobilize}}",
+            "{{effect-muddle}}",
+            "{{effect-stun}}",
+            "{{effect-curse}}"
           ],
           "notes": ""
         },
@@ -6445,18 +6445,18 @@
           "special2": [
             "Teleport",
             "{{ability-attack}} +1, {{ability-range}} 5",
-            "{{condition-poison}}",
-            "{{condition-wound}}",
-            "{{condition-stun}}"
+            "{{effect-poison}}",
+            "{{effect-wound}}",
+            "{{effect-stun}}"
           ],
           "immunities": [
-            "{{condition-wound}}",
-            "{{condition-poison}}",
-            "{{condition-disarm}}",
-            "{{condition-immobilize}}",
-            "{{condition-muddle}}",
-            "{{condition-stun}}",
-            "{{condition-curse}}"
+            "{{effect-wound}}",
+            "{{effect-poison}}",
+            "{{effect-disarm}}",
+            "{{effect-immobilize}}",
+            "{{effect-muddle}}",
+            "{{effect-stun}}",
+            "{{effect-curse}}"
           ],
           "notes": ""
         },
@@ -6473,18 +6473,18 @@
           "special2": [
             "Teleport",
             "{{ability-attack}} +1, {{ability-range}} 5",
-            "{{condition-poison}}",
-            "{{condition-wound}}",
-            "{{condition-stun}}"
+            "{{effect-poison}}",
+            "{{effect-wound}}",
+            "{{effect-stun}}"
           ],
           "immunities": [
-            "{{condition-wound}}",
-            "{{condition-poison}}",
-            "{{condition-disarm}}",
-            "{{condition-immobilize}}",
-            "{{condition-muddle}}",
-            "{{condition-stun}}",
-            "{{condition-curse}}"
+            "{{effect-wound}}",
+            "{{effect-poison}}",
+            "{{effect-disarm}}",
+            "{{effect-immobilize}}",
+            "{{effect-muddle}}",
+            "{{effect-stun}}",
+            "{{effect-curse}}"
           ],
           "notes": ""
         },
@@ -6501,18 +6501,18 @@
           "special2": [
             "Teleport",
             "{{ability-attack}} +1, {{ability-range}} 5",
-            "{{condition-poison}}",
-            "{{condition-wound}}",
-            "{{condition-stun}}"
+            "{{effect-poison}}",
+            "{{effect-wound}}",
+            "{{effect-stun}}"
           ],
           "immunities": [
-            "{{condition-wound}}",
-            "{{condition-poison}}",
-            "{{condition-disarm}}",
-            "{{condition-immobilize}}",
-            "{{condition-muddle}}",
-            "{{condition-stun}}",
-            "{{condition-curse}}"
+            "{{effect-wound}}",
+            "{{effect-poison}}",
+            "{{effect-disarm}}",
+            "{{effect-immobilize}}",
+            "{{effect-muddle}}",
+            "{{effect-stun}}",
+            "{{effect-curse}}"
           ],
           "notes": ""
         },
@@ -6529,18 +6529,18 @@
           "special2": [
             "Teleport",
             "{{ability-attack}} +1, {{ability-range}} 5",
-            "{{condition-poison}}",
-            "{{condition-wound}}",
-            "{{condition-stun}}"
+            "{{effect-poison}}",
+            "{{effect-wound}}",
+            "{{effect-stun}}"
           ],
           "immunities": [
-            "{{condition-wound}}",
-            "{{condition-poison}}",
-            "{{condition-disarm}}",
-            "{{condition-immobilize}}",
-            "{{condition-muddle}}",
-            "{{condition-stun}}",
-            "{{condition-curse}}"
+            "{{effect-wound}}",
+            "{{effect-poison}}",
+            "{{effect-disarm}}",
+            "{{effect-immobilize}}",
+            "{{effect-muddle}}",
+            "{{effect-stun}}",
+            "{{effect-curse}}"
           ],
           "notes": ""
         },
@@ -6557,18 +6557,18 @@
           "special2": [
             "Teleport",
             "{{ability-attack}} +1, {{ability-range}} 5",
-            "{{condition-poison}}",
-            "{{condition-wound}}",
-            "{{condition-stun}}"
+            "{{effect-poison}}",
+            "{{effect-wound}}",
+            "{{effect-stun}}"
           ],
           "immunities": [
-            "{{condition-wound}}",
-            "{{condition-poison}}",
-            "{{condition-disarm}}",
-            "{{condition-immobilize}}",
-            "{{condition-muddle}}",
-            "{{condition-stun}}",
-            "{{condition-curse}}"
+            "{{effect-wound}}",
+            "{{effect-poison}}",
+            "{{effect-disarm}}",
+            "{{effect-immobilize}}",
+            "{{effect-muddle}}",
+            "{{effect-stun}}",
+            "{{effect-curse}}"
           ],
           "notes": ""
         }
@@ -6592,10 +6592,10 @@
             "{{ability-retaliate}} 3"
           ],
           "immunities": [
-            "{{condition-disarm}}",
-            "{{condition-poison}}",
-            "{{condition-muddle}}",
-            "{{condition-stun}}"
+            "{{effect-disarm}}",
+            "{{effect-poison}}",
+            "{{effect-muddle}}",
+            "{{effect-stun}}"
           ],
           "notes": "C = Number of Characters"
         },
@@ -6615,10 +6615,10 @@
             "{{ability-retaliate}} 3"
           ],
           "immunities": [
-            "{{condition-disarm}}",
-            "{{condition-poison}}",
-            "{{condition-muddle}}",
-            "{{condition-stun}}"
+            "{{effect-disarm}}",
+            "{{effect-poison}}",
+            "{{effect-muddle}}",
+            "{{effect-stun}}"
           ],
           "notes": "C = Number of Characters"
         },
@@ -6638,10 +6638,10 @@
             "{{ability-retaliate}} 3"
           ],
           "immunities": [
-            "{{condition-disarm}}",
-            "{{condition-poison}}",
-            "{{condition-muddle}}",
-            "{{condition-stun}}"
+            "{{effect-disarm}}",
+            "{{effect-poison}}",
+            "{{effect-muddle}}",
+            "{{effect-stun}}"
           ],
           "notes": "C = Number of Characters"
         },
@@ -6661,10 +6661,10 @@
             "{{ability-retaliate}} 4"
           ],
           "immunities": [
-            "{{condition-disarm}}",
-            "{{condition-poison}}",
-            "{{condition-muddle}}",
-            "{{condition-stun}}"
+            "{{effect-disarm}}",
+            "{{effect-poison}}",
+            "{{effect-muddle}}",
+            "{{effect-stun}}"
           ],
           "notes": "C = Number of Characters"
         },
@@ -6684,10 +6684,10 @@
             "{{ability-retaliate}} 4"
           ],
           "immunities": [
-            "{{condition-disarm}}",
-            "{{condition-poison}}",
-            "{{condition-muddle}}",
-            "{{condition-stun}}"
+            "{{effect-disarm}}",
+            "{{effect-poison}}",
+            "{{effect-muddle}}",
+            "{{effect-stun}}"
           ],
           "notes": "C = Number of Characters"
         },
@@ -6707,10 +6707,10 @@
             "{{ability-retaliate}} 5"
           ],
           "immunities": [
-            "{{condition-disarm}}",
-            "{{condition-poison}}",
-            "{{condition-muddle}}",
-            "{{condition-stun}}"
+            "{{effect-disarm}}",
+            "{{effect-poison}}",
+            "{{effect-muddle}}",
+            "{{effect-stun}}"
           ],
           "notes": "C = Number of Characters"
         },
@@ -6730,10 +6730,10 @@
             "{{ability-retaliate}} 5"
           ],
           "immunities": [
-            "{{condition-disarm}}",
-            "{{condition-poison}}",
-            "{{condition-muddle}}",
-            "{{condition-stun}}"
+            "{{effect-disarm}}",
+            "{{effect-poison}}",
+            "{{effect-muddle}}",
+            "{{effect-stun}}"
           ],
           "notes": "C = Number of Characters"
         },
@@ -6753,10 +6753,10 @@
             "{{ability-retaliate}} 5"
           ],
           "immunities": [
-            "{{condition-disarm}}",
-            "{{condition-poison}}",
-            "{{condition-muddle}}",
-            "{{condition-stun}}"
+            "{{effect-disarm}}",
+            "{{effect-poison}}",
+            "{{effect-muddle}}",
+            "{{effect-stun}}"
           ],
           "notes": "C = Number of Characters"
         }
@@ -6780,10 +6780,10 @@
             "{{ability-attack}} +2"
           ],
           "immunities": [
-            "{{condition-disarm}}",
-            "{{condition-wound}}",
-            "{{condition-curse}}",
-            "{{condition-stun}}"
+            "{{effect-disarm}}",
+            "{{effect-wound}}",
+            "{{effect-curse}}",
+            "{{effect-stun}}"
           ],
           "notes": ""
         },
@@ -6803,10 +6803,10 @@
             "{{ability-attack}} +2"
           ],
           "immunities": [
-            "{{condition-disarm}}",
-            "{{condition-wound}}",
-            "{{condition-curse}}",
-            "{{condition-stun}}"
+            "{{effect-disarm}}",
+            "{{effect-wound}}",
+            "{{effect-curse}}",
+            "{{effect-stun}}"
           ],
           "notes": ""
         },
@@ -6826,10 +6826,10 @@
             "{{ability-attack}} +2"
           ],
           "immunities": [
-            "{{condition-disarm}}",
-            "{{condition-wound}}",
-            "{{condition-curse}}",
-            "{{condition-stun}}"
+            "{{effect-disarm}}",
+            "{{effect-wound}}",
+            "{{effect-curse}}",
+            "{{effect-stun}}"
           ],
           "notes": ""
         },
@@ -6849,10 +6849,10 @@
             "{{ability-attack}} +2"
           ],
           "immunities": [
-            "{{condition-disarm}}",
-            "{{condition-wound}}",
-            "{{condition-curse}}",
-            "{{condition-stun}}"
+            "{{effect-disarm}}",
+            "{{effect-wound}}",
+            "{{effect-curse}}",
+            "{{effect-stun}}"
           ],
           "notes": ""
         },
@@ -6872,10 +6872,10 @@
             "{{ability-attack}} +2"
           ],
           "immunities": [
-            "{{condition-disarm}}",
-            "{{condition-wound}}",
-            "{{condition-curse}}",
-            "{{condition-stun}}"
+            "{{effect-disarm}}",
+            "{{effect-wound}}",
+            "{{effect-curse}}",
+            "{{effect-stun}}"
           ],
           "notes": ""
         },
@@ -6895,10 +6895,10 @@
             "{{ability-attack}} +2"
           ],
           "immunities": [
-            "{{condition-disarm}}",
-            "{{condition-wound}}",
-            "{{condition-curse}}",
-            "{{condition-stun}}"
+            "{{effect-disarm}}",
+            "{{effect-wound}}",
+            "{{effect-curse}}",
+            "{{effect-stun}}"
           ],
           "notes": ""
         },
@@ -6918,10 +6918,10 @@
             "{{ability-attack}} +2"
           ],
           "immunities": [
-            "{{condition-disarm}}",
-            "{{condition-wound}}",
-            "{{condition-curse}}",
-            "{{condition-stun}}"
+            "{{effect-disarm}}",
+            "{{effect-wound}}",
+            "{{effect-curse}}",
+            "{{effect-stun}}"
           ],
           "notes": ""
         },
@@ -6941,10 +6941,10 @@
             "{{ability-attack}} +2"
           ],
           "immunities": [
-            "{{condition-disarm}}",
-            "{{condition-wound}}",
-            "{{condition-curse}}",
-            "{{condition-stun}}"
+            "{{effect-disarm}}",
+            "{{effect-wound}}",
+            "{{effect-curse}}",
+            "{{effect-stun}}"
           ],
           "notes": ""
         }
@@ -6961,10 +6961,10 @@
           "special1": ["All Scouts act again"],
           "special2": ["Summon Vermling Scout"],
           "immunities": [
-            "{{condition-disarm}}",
-            "{{condition-wound}}",
-            "{{condition-curse}}",
-            "{{condition-stun}}"
+            "{{effect-disarm}}",
+            "{{effect-wound}}",
+            "{{effect-curse}}",
+            "{{effect-stun}}"
           ],
           "notes": "V = Number of Scouts present"
         },
@@ -6977,10 +6977,10 @@
           "special1": ["All Scouts act again"],
           "special2": ["Summon Vermling Scout"],
           "immunities": [
-            "{{condition-disarm}}",
-            "{{condition-wound}}",
-            "{{condition-curse}}",
-            "{{condition-stun}}"
+            "{{effect-disarm}}",
+            "{{effect-wound}}",
+            "{{effect-curse}}",
+            "{{effect-stun}}"
           ],
           "notes": "V = Number of Scouts present"
         },
@@ -6993,10 +6993,10 @@
           "special1": ["All Scouts act again"],
           "special2": ["Summon Vermling Scout"],
           "immunities": [
-            "{{condition-disarm}}",
-            "{{condition-wound}}",
-            "{{condition-curse}}",
-            "{{condition-stun}}"
+            "{{effect-disarm}}",
+            "{{effect-wound}}",
+            "{{effect-curse}}",
+            "{{effect-stun}}"
           ],
           "notes": "V = Number of Scouts present"
         },
@@ -7009,10 +7009,10 @@
           "special1": ["All Scouts act again"],
           "special2": ["Summon Vermling Scout"],
           "immunities": [
-            "{{condition-disarm}}",
-            "{{condition-wound}}",
-            "{{condition-curse}}",
-            "{{condition-stun}}"
+            "{{effect-disarm}}",
+            "{{effect-wound}}",
+            "{{effect-curse}}",
+            "{{effect-stun}}"
           ],
           "notes": "V = Number of Scouts present"
         },
@@ -7025,10 +7025,10 @@
           "special1": ["All Scouts act again"],
           "special2": ["Summon Vermling Scout"],
           "immunities": [
-            "{{condition-disarm}}",
-            "{{condition-wound}}",
-            "{{condition-curse}}",
-            "{{condition-stun}}"
+            "{{effect-disarm}}",
+            "{{effect-wound}}",
+            "{{effect-curse}}",
+            "{{effect-stun}}"
           ],
           "notes": "V = Number of Scouts present"
         },
@@ -7041,10 +7041,10 @@
           "special1": ["All Scouts act again"],
           "special2": ["Summon Vermling Scout"],
           "immunities": [
-            "{{condition-disarm}}",
-            "{{condition-wound}}",
-            "{{condition-curse}}",
-            "{{condition-stun}}"
+            "{{effect-disarm}}",
+            "{{effect-wound}}",
+            "{{effect-curse}}",
+            "{{effect-stun}}"
           ],
           "notes": "V = Number of Scouts present"
         },
@@ -7057,10 +7057,10 @@
           "special1": ["All Scouts act again"],
           "special2": ["Summon Vermling Scout"],
           "immunities": [
-            "{{condition-disarm}}",
-            "{{condition-wound}}",
-            "{{condition-curse}}",
-            "{{condition-stun}}"
+            "{{effect-disarm}}",
+            "{{effect-wound}}",
+            "{{effect-curse}}",
+            "{{effect-stun}}"
           ],
           "notes": "V = Number of Scouts present"
         },
@@ -7073,10 +7073,10 @@
           "special1": ["All Scouts act again"],
           "special2": ["Summon Vermling Scout"],
           "immunities": [
-            "{{condition-disarm}}",
-            "{{condition-wound}}",
-            "{{condition-curse}}",
-            "{{condition-stun}}"
+            "{{effect-disarm}}",
+            "{{effect-wound}}",
+            "{{effect-curse}}",
+            "{{effect-stun}}"
           ],
           "notes": "V = Number of Scouts present"
         }
@@ -7103,12 +7103,12 @@
             "{{ability-attack}} -1"
           ],
           "immunities": [
-            "{{condition-wound}}",
-            "{{condition-poison}}",
-            "{{condition-disarm}}",
-            "{{condition-immobilize}}",
-            "{{condition-muddle}}",
-            "{{condition-stun}}"
+            "{{effect-wound}}",
+            "{{effect-poison}}",
+            "{{effect-disarm}}",
+            "{{effect-immobilize}}",
+            "{{effect-muddle}}",
+            "{{effect-stun}}"
           ],
           "notes": ""
         },
@@ -7131,12 +7131,12 @@
             "{{ability-attack}} -1"
           ],
           "immunities": [
-            "{{condition-wound}}",
-            "{{condition-poison}}",
-            "{{condition-disarm}}",
-            "{{condition-immobilize}}",
-            "{{condition-muddle}}",
-            "{{condition-stun}}"
+            "{{effect-wound}}",
+            "{{effect-poison}}",
+            "{{effect-disarm}}",
+            "{{effect-immobilize}}",
+            "{{effect-muddle}}",
+            "{{effect-stun}}"
           ],
           "notes": ""
         },
@@ -7159,12 +7159,12 @@
             "{{ability-attack}} -1"
           ],
           "immunities": [
-            "{{condition-wound}}",
-            "{{condition-poison}}",
-            "{{condition-disarm}}",
-            "{{condition-immobilize}}",
-            "{{condition-muddle}}",
-            "{{condition-stun}}"
+            "{{effect-wound}}",
+            "{{effect-poison}}",
+            "{{effect-disarm}}",
+            "{{effect-immobilize}}",
+            "{{effect-muddle}}",
+            "{{effect-stun}}"
           ],
           "notes": ""
         },
@@ -7187,12 +7187,12 @@
             "{{ability-attack}} -1"
           ],
           "immunities": [
-            "{{condition-wound}}",
-            "{{condition-poison}}",
-            "{{condition-disarm}}",
-            "{{condition-immobilize}}",
-            "{{condition-muddle}}",
-            "{{condition-stun}}"
+            "{{effect-wound}}",
+            "{{effect-poison}}",
+            "{{effect-disarm}}",
+            "{{effect-immobilize}}",
+            "{{effect-muddle}}",
+            "{{effect-stun}}"
           ],
           "notes": ""
         },
@@ -7215,12 +7215,12 @@
             "{{ability-attack}} -1"
           ],
           "immunities": [
-            "{{condition-wound}}",
-            "{{condition-poison}}",
-            "{{condition-disarm}}",
-            "{{condition-immobilize}}",
-            "{{condition-muddle}}",
-            "{{condition-stun}}"
+            "{{effect-wound}}",
+            "{{effect-poison}}",
+            "{{effect-disarm}}",
+            "{{effect-immobilize}}",
+            "{{effect-muddle}}",
+            "{{effect-stun}}"
           ],
           "notes": ""
         },
@@ -7243,12 +7243,12 @@
             "{{ability-attack}} -1"
           ],
           "immunities": [
-            "{{condition-wound}}",
-            "{{condition-poison}}",
-            "{{condition-disarm}}",
-            "{{condition-immobilize}}",
-            "{{condition-muddle}}",
-            "{{condition-stun}}"
+            "{{effect-wound}}",
+            "{{effect-poison}}",
+            "{{effect-disarm}}",
+            "{{effect-immobilize}}",
+            "{{effect-muddle}}",
+            "{{effect-stun}}"
           ],
           "notes": ""
         },
@@ -7271,12 +7271,12 @@
             "{{ability-attack}} -1"
           ],
           "immunities": [
-            "{{condition-wound}}",
-            "{{condition-poison}}",
-            "{{condition-disarm}}",
-            "{{condition-immobilize}}",
-            "{{condition-muddle}}",
-            "{{condition-stun}}"
+            "{{effect-wound}}",
+            "{{effect-poison}}",
+            "{{effect-disarm}}",
+            "{{effect-immobilize}}",
+            "{{effect-muddle}}",
+            "{{effect-stun}}"
           ],
           "notes": ""
         },
@@ -7299,12 +7299,12 @@
             "{{ability-attack}} -1"
           ],
           "immunities": [
-            "{{condition-wound}}",
-            "{{condition-poison}}",
-            "{{condition-disarm}}",
-            "{{condition-immobilize}}",
-            "{{condition-muddle}}",
-            "{{condition-stun}}"
+            "{{effect-wound}}",
+            "{{effect-poison}}",
+            "{{effect-disarm}}",
+            "{{effect-immobilize}}",
+            "{{effect-muddle}}",
+            "{{effect-stun}}"
           ],
           "notes": ""
         }
@@ -7327,10 +7327,10 @@
             "{{ability-attack}} -2 {{aoe-sightless-eye-sp2}}"
           ],
           "immunities": [
-            "{{condition-stun}}",
-            "{{condition-disarm}}",
-            "{{condition-curse}}",
-            "{{condition-muddle}}"
+            "{{effect-stun}}",
+            "{{effect-disarm}}",
+            "{{effect-curse}}",
+            "{{effect-muddle}}"
           ],
           "notes": ""
         },
@@ -7349,10 +7349,10 @@
             "{{ability-attack}} -2 {{aoe-sightless-eye-sp2}}"
           ],
           "immunities": [
-            "{{condition-stun}}",
-            "{{condition-disarm}}",
-            "{{condition-curse}}",
-            "{{condition-muddle}}"
+            "{{effect-stun}}",
+            "{{effect-disarm}}",
+            "{{effect-curse}}",
+            "{{effect-muddle}}"
           ],
           "notes": ""
         },
@@ -7371,10 +7371,10 @@
             "{{ability-attack}} -2 {{aoe-sightless-eye-sp2}}"
           ],
           "immunities": [
-            "{{condition-stun}}",
-            "{{condition-disarm}}",
-            "{{condition-curse}}",
-            "{{condition-muddle}}"
+            "{{effect-stun}}",
+            "{{effect-disarm}}",
+            "{{effect-curse}}",
+            "{{effect-muddle}}"
           ],
           "notes": ""
         },
@@ -7393,10 +7393,10 @@
             "{{ability-attack}} -2 {{aoe-sightless-eye-sp2}}"
           ],
           "immunities": [
-            "{{condition-stun}}",
-            "{{condition-disarm}}",
-            "{{condition-curse}}",
-            "{{condition-muddle}}"
+            "{{effect-stun}}",
+            "{{effect-disarm}}",
+            "{{effect-curse}}",
+            "{{effect-muddle}}"
           ],
           "notes": ""
         },
@@ -7415,10 +7415,10 @@
             "{{ability-attack}} -2 {{aoe-sightless-eye-sp2}}"
           ],
           "immunities": [
-            "{{condition-stun}}",
-            "{{condition-disarm}}",
-            "{{condition-curse}}",
-            "{{condition-muddle}}"
+            "{{effect-stun}}",
+            "{{effect-disarm}}",
+            "{{effect-curse}}",
+            "{{effect-muddle}}"
           ],
           "notes": ""
         },
@@ -7437,10 +7437,10 @@
             "{{ability-attack}} -2 {{aoe-sightless-eye-sp2}}"
           ],
           "immunities": [
-            "{{condition-stun}}",
-            "{{condition-disarm}}",
-            "{{condition-curse}}",
-            "{{condition-muddle}}"
+            "{{effect-stun}}",
+            "{{effect-disarm}}",
+            "{{effect-curse}}",
+            "{{effect-muddle}}"
           ],
           "notes": ""
         },
@@ -7459,10 +7459,10 @@
             "{{ability-attack}} -2 {{aoe-sightless-eye-sp2}}"
           ],
           "immunities": [
-            "{{condition-stun}}",
-            "{{condition-disarm}}",
-            "{{condition-curse}}",
-            "{{condition-muddle}}"
+            "{{effect-stun}}",
+            "{{effect-disarm}}",
+            "{{effect-curse}}",
+            "{{effect-muddle}}"
           ],
           "notes": ""
         },
@@ -7481,10 +7481,10 @@
             "{{ability-attack}} -2 {{aoe-sightless-eye-sp2}}"
           ],
           "immunities": [
-            "{{condition-stun}}",
-            "{{condition-disarm}}",
-            "{{condition-curse}}",
-            "{{condition-muddle}}"
+            "{{effect-stun}}",
+            "{{effect-disarm}}",
+            "{{effect-curse}}",
+            "{{effect-muddle}}"
           ],
           "notes": ""
         }
@@ -7509,11 +7509,11 @@
             "{{ability-attack}} +0"
           ],
           "immunities": [
-            "{{condition-disarm}}",
-            "{{condition-poison}}",
-            "{{condition-muddle}}",
-            "{{condition-stun}}",
-            "{{condition-curse}}"
+            "{{effect-disarm}}",
+            "{{effect-poison}}",
+            "{{effect-muddle}}",
+            "{{effect-stun}}",
+            "{{effect-curse}}"
           ],
           "notes": ""
         },
@@ -7534,11 +7534,11 @@
             "{{ability-attack}} +0"
           ],
           "immunities": [
-            "{{condition-disarm}}",
-            "{{condition-poison}}",
-            "{{condition-muddle}}",
-            "{{condition-stun}}",
-            "{{condition-curse}}"
+            "{{effect-disarm}}",
+            "{{effect-poison}}",
+            "{{effect-muddle}}",
+            "{{effect-stun}}",
+            "{{effect-curse}}"
           ],
           "notes": ""
         },
@@ -7559,11 +7559,11 @@
             "{{ability-attack}} +0"
           ],
           "immunities": [
-            "{{condition-disarm}}",
-            "{{condition-poison}}",
-            "{{condition-muddle}}",
-            "{{condition-stun}}",
-            "{{condition-curse}}"
+            "{{effect-disarm}}",
+            "{{effect-poison}}",
+            "{{effect-muddle}}",
+            "{{effect-stun}}",
+            "{{effect-curse}}"
           ],
           "notes": ""
         },
@@ -7584,11 +7584,11 @@
             "{{ability-attack}} +0"
           ],
           "immunities": [
-            "{{condition-disarm}}",
-            "{{condition-poison}}",
-            "{{condition-muddle}}",
-            "{{condition-stun}}",
-            "{{condition-curse}}"
+            "{{effect-disarm}}",
+            "{{effect-poison}}",
+            "{{effect-muddle}}",
+            "{{effect-stun}}",
+            "{{effect-curse}}"
           ],
           "notes": ""
         },
@@ -7609,11 +7609,11 @@
             "{{ability-attack}} +0"
           ],
           "immunities": [
-            "{{condition-disarm}}",
-            "{{condition-poison}}",
-            "{{condition-muddle}}",
-            "{{condition-stun}}",
-            "{{condition-curse}}"
+            "{{effect-disarm}}",
+            "{{effect-poison}}",
+            "{{effect-muddle}}",
+            "{{effect-stun}}",
+            "{{effect-curse}}"
           ],
           "notes": ""
         },
@@ -7634,11 +7634,11 @@
             "{{ability-attack}} +0"
           ],
           "immunities": [
-            "{{condition-disarm}}",
-            "{{condition-poison}}",
-            "{{condition-muddle}}",
-            "{{condition-stun}}",
-            "{{condition-curse}}"
+            "{{effect-disarm}}",
+            "{{effect-poison}}",
+            "{{effect-muddle}}",
+            "{{effect-stun}}",
+            "{{effect-curse}}"
           ],
           "notes": ""
         },
@@ -7659,11 +7659,11 @@
             "{{ability-attack}} +0"
           ],
           "immunities": [
-            "{{condition-disarm}}",
-            "{{condition-poison}}",
-            "{{condition-muddle}}",
-            "{{condition-stun}}",
-            "{{condition-curse}}"
+            "{{effect-disarm}}",
+            "{{effect-poison}}",
+            "{{effect-muddle}}",
+            "{{effect-stun}}",
+            "{{effect-curse}}"
           ],
           "notes": ""
         },
@@ -7684,11 +7684,11 @@
             "{{ability-attack}} +0"
           ],
           "immunities": [
-            "{{condition-disarm}}",
-            "{{condition-poison}}",
-            "{{condition-muddle}}",
-            "{{condition-stun}}",
-            "{{condition-curse}}"
+            "{{effect-disarm}}",
+            "{{effect-poison}}",
+            "{{effect-muddle}}",
+            "{{effect-stun}}",
+            "{{effect-curse}}"
           ],
           "notes": ""
         }

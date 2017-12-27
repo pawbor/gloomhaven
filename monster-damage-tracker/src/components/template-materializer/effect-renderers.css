@@ -1,0 +1,10 @@
+.EffectMacro {
+  --effect-macro-icon-size: 1.2em;
+  white-space: nowrap;
+}
+
+.EffectMacro-Icon {
+  width: var(--effect-macro-icon-size);
+  height: var(--effect-macro-icon-size);
+  vertical-align: middle;
+}

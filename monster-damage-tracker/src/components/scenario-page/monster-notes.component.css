@@ -7,3 +7,7 @@
 .MonsterNotes-Value {
   margin-left: 1em;
 }
+
+.MonsterNotes-Label {
+  font-weight: bold;
+}

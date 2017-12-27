@@ -25,7 +25,7 @@
       [
         false,
         "37",
-        "* {{condition-push}} 1",
+        "* {{effect-push}} 1",
         "** Target all adjacent enemies",
         "* {{ability-attack}} -1 {{aoe-triangle-2-side}}",
         "** {{ability-range}} -1"
@@ -33,7 +33,7 @@
       [
         false,
         "37",
-        "* {{condition-push}} 1",
+        "* {{effect-push}} 1",
         "** Target all adjacent enemies",
         "* {{ability-attack}} -1 {{aoe-circle}}",
         "** {{ability-range}} -1"
@@ -41,7 +41,7 @@
       [
         false,
         "17",
-        "* {{condition-push}} 2",
+        "* {{effect-push}} 2",
         "** Target all adjacent enemies",
         "* {{ability-shield}} 2",
         "* {{ability-attack}} -2",
@@ -58,7 +58,7 @@
         "46",
         "* {{ability-attack}} -1 {{aoe-triangle-2-side}}",
         "** {{ability-range}} +0",
-        "** {{condition-immobilize}}"
+        "** {{effect-immobilize}}"
       ]
     ]
   },
@@ -120,7 +120,7 @@
         "* {{ability-move}} +0",
         "* {{ability-attack}} -1",
         "** {{ability-range}} +1",
-        "** {{condition-immobilize}}"
+        "** {{effect-immobilize}}"
       ]
     ]
   },
@@ -163,13 +163,13 @@
         "14",
         "* {{ability-move}} -1",
         "* {{ability-attack}} -1",
-        "** {{condition-immobilize}}"
+        "** {{effect-immobilize}}"
       ],
       [
         true,
         "34",
         "* {{ability-attack}} +1",
-        "** {{condition-wound}}"
+        "** {{effect-wound}}"
       ],
       [
         false,
@@ -189,7 +189,7 @@
         "* {{ability-attack}} -1",
         "* {{ability-move}} -2",
         "* {{ability-attack}} -1",
-        "** {{condition-wound}}"
+        "** {{effect-wound}}"
       ],
       [
         false,
@@ -277,19 +277,19 @@
         "* {{ability-attack}} +0",
         "** {{ability-range}} 3",
         "** {{ability-target}} 3",
-        "** {{condition-curse}}"
+        "** {{effect-curse}}"
       ],
       [
         true,
         "60",
         "* {{ability-attack}} +0 {{aoe-line-6-with-black}}",
-        "** {{condition-pierce}} 3"
+        "** {{effect-pierce}} 3"
       ],
       [
         true,
         "60",
         "* {{ability-attack}} +0 {{aoe-line-6-with-black}}",
-        "** {{condition-pierce}} 3"
+        "** {{effect-pierce}} 3"
       ],
       [
         false,
@@ -298,23 +298,23 @@
         "** Target all adjacent enemies",
         "* {{ability-attack}} +0",
         "** {{ability-range}} 4",
-        "** {{condition-wound}}"
+        "** {{effect-wound}}"
       ],
       [
         false,
         "75",
         "* {{ability-attack}} +0",
-        "** {{condition-poison}}",
+        "** {{effect-poison}}",
         "* {{ability-attack}} -1",
         "** {{ability-range}} 5",
-        "** {{condition-immobilize}}"
+        "** {{effect-immobilize}}"
       ],
       [
         false,
         "75",
         "* {{ability-attack}} -2",
         "** Target all adjacent enemies",
-        "** {{condition-disarm}}",
+        "** {{effect-disarm}}",
         "* {{ability-attack}} +0",
         "** {{ability-range}} 3",
         "** {{ability-target}} 2"
@@ -329,7 +329,7 @@
       [
         false,
         "54",
-        "* {{condition-wound}} and {{condition-poison}}",
+        "* {{effect-wound}} and {{effect-poison}}",
         "** Target all adjacent enemies",
         "* {{ability-attack}} +0",
         "** {{ability-range}} 4"
@@ -344,7 +344,7 @@
         "40",
         "* {{ability-heal}} 3",
         "** Self",
-        "* {{element-earth}}{{element-use}}: <span class='small'>{{condition-immobilize}} Target all enemies within {{ability-range}} 3</span>"
+        "* {{element-earth}}{{element-use}}: <span class='small'>{{effect-immobilize}} Target all enemies within {{ability-range}} 3</span>"
       ],
       [
         true,
@@ -379,7 +379,7 @@
         "* {{ability-move}} -1",
         "* {{ability-attack}} -1",
         "** Target all adjacent enemies",
-        "* {{element-earth}}{{element-use}}: {{condition-push}} 1"
+        "* {{element-earth}}{{element-use}}: {{effect-push}} 1"
       ],
       [
         false,
@@ -427,7 +427,7 @@
         false,
         "49",
         "* {{ability-attack}} +0 {{aoe-line-3-with-black}}",
-        "** <table align='center'><tr><td>{{element-fire}}{{element-use}}:</td> <td> +1 {{ability-attack}} <br> {{condition-wound}} </td> </tr> </table>"
+        "** <table align='center'><tr><td>{{element-fire}}{{element-use}}:</td> <td> +1 {{ability-attack}} <br> {{effect-wound}} </td> </tr> </table>"
       ],
       [
         false,
@@ -450,7 +450,7 @@
         "* <table align='center'><tr> <td>  {{element-fire}}{{element-use}}: </td> <td> <span class='small'>All adjacent enemies<br/>suffer 2 damage.</span> </td> </tr> </table>",
         "* {{ability-move}} +0",
         "* {{ability-attack}} -2",
-        "** {{condition-wound}}",
+        "** {{effect-wound}}",
         "** {{ability-target}} 2"
       ],
       [
@@ -468,7 +468,7 @@
       [
         false,
         "18",
-        "* {{condition-immobilize}}",
+        "* {{effect-immobilize}}",
         "** Target all enemies within {{ability-range}} 2",
         "* {{element-ice}}{{element-use}}: <span class='small'>{{ability-heal}} 3<br/>Self</span>"
       ],
@@ -511,7 +511,7 @@
         "58",
         "* {{ability-move}} -1",
         "* {{ability-attack}} -1",
-        "** {{condition-pierce}} 3",
+        "** {{effect-pierce}} 3",
         "* {{element-any}}{{element-use}}: {{element-ice}}"
       ],
       [
@@ -581,7 +581,7 @@
         "23",
         "* {{ability-move}} -1",
         "* {{ability-attack}} -1",
-        "** {{condition-immobilize}}",
+        "** {{effect-immobilize}}",
         "* {{ability-attack}} -1"
       ]
     ]
@@ -631,7 +631,7 @@
         "55",
         "* {{ability-move}} -1",
         "* {{ability-attack}} +0",
-        "* {{condition-strengthen}}",
+        "* {{effect-strengthen}}",
         "** Self"
       ],
       [
@@ -639,7 +639,7 @@
         "15",
         "* {{ability-shield}} 1",
         "* {{ability-attack}} +0",
-        "** {{condition-poison}}"
+        "** {{effect-poison}}"
       ]
     ]
   },
@@ -658,7 +658,7 @@
         "07",
         "* {{ability-move}} +0",
         "* {{ability-attack}} -1",
-        "** {{condition-poison}}",
+        "** {{effect-poison}}",
         "* {{element-dark}}"
       ],
       [
@@ -673,7 +673,7 @@
         false,
         "16",
         "* {{ability-attack}} +2",
-        "** {{condition-immobilize}}",
+        "** {{effect-immobilize}}",
         "* {{ability-retaliate}} 2"
       ],
       [
@@ -696,14 +696,14 @@
         "* {{ability-move}} +0",
         "* {{ability-attack}} -1",
         "** {{ability-target}} 2",
-        "** {{element-dark}}{{element-use}}: +2 {{ability-attack}}, {{condition-disarm}}"
+        "** {{element-dark}}{{element-use}}: +2 {{ability-attack}}, {{effect-disarm}}"
       ],
       [
         true,
         "07",
         "* {{ability-attack}} -1",
         "** {{ability-range}} 3",
-        "** {{condition-muddle}}",
+        "** {{effect-muddle}}",
         "* {{ability-heal}} 4",
         "** Self"
       ]
@@ -717,13 +717,13 @@
         "06",
         "* {{ability-move}} -1",
         "* {{ability-attack}} +0",
-        "** {{condition-immobilize}}"
+        "** {{effect-immobilize}}"
       ],
       [
         false,
         "07",
         "* {{ability-move}} +0",
-        "* {{condition-muddle}}",
+        "* {{effect-muddle}}",
         "** Target all adjacent enemies"
       ],
       [
@@ -762,10 +762,10 @@
         false,
         "72",
         "* {{ability-attack}} -1",
-        "** {{condition-pierce}} 2",
+        "** {{effect-pierce}} 2",
         "* {{ability-move}} -2",
         "* {{ability-attack}} -1",
-        "** {{condition-pierce}} 2"
+        "** {{effect-pierce}} 2"
       ]
     ]
   },
@@ -804,7 +804,7 @@
         "43",
         "* {{ability-move}} +0",
         "* {{ability-attack}} -1",
-        "** {{ability-range}} +0, {{ability-target}} 2, {{condition-poison}}"
+        "** {{ability-range}} +0, {{ability-target}} 2, {{effect-poison}}"
       ],
       [
         false,
@@ -818,14 +818,14 @@
         "43",
         "* {{ability-move}} +0",
         "* {{ability-attack}} -1",
-        "** {{ability-range}} +0, {{ability-target}} 2, {{condition-curse}}"
+        "** {{ability-range}} +0, {{ability-target}} 2, {{effect-curse}}"
       ],
       [
         false,
         "24",
-        "* {{condition-strengthen}}",
+        "* {{effect-strengthen}}",
         "** Affect all allies within {{ability-range}} 2",
-        "* {{condition-muddle}}",
+        "* {{effect-muddle}}",
         "** Target all enemies within {{ability-range}} 2"
       ]
     ]
@@ -889,7 +889,7 @@
         false,
         "21",
         "* {{ability-move}} +1",
-        "* {{condition-muddle}} and {{condition-immobilize}}",
+        "* {{effect-muddle}} and {{effect-immobilize}}",
         "** Target one adjacent enemy"
       ],
       [
@@ -927,14 +927,14 @@
         "71",
         "* {{ability-move}} +0",
         "* {{ability-attack}} +1",
-        "* {{condition-poison}}",
+        "* {{effect-poison}}",
         "** Target all adjacent enemies"
       ],
       [
         false,
         "32",
         "* {{ability-attack}} +2",
-        "** {{condition-push}} 1",
+        "** {{effect-push}} 1",
         "* Living Corpse suffers 1 damage."
       ]
     ]
@@ -948,7 +948,7 @@
         "* {{ability-move}} -1",
         "* {{ability-attack}} -1",
         "** {{ability-range}} +0",
-        "** {{condition-muddle}}"
+        "** {{effect-muddle}}"
       ],
       [
         true,
@@ -992,7 +992,7 @@
         false,
         "55",
         "* {{ability-move}} +0",
-        "* {{condition-curse}}",
+        "* {{effect-curse}}",
         "** {{ability-range}} +0",
         "** Target all enemies within range",
         "* {{element-ice}}"
@@ -1003,7 +1003,7 @@
         "* {{ability-move}} -1",
         "* {{ability-attack}} +1",
         "** {{ability-range}} +0",
-        "** {{element-ice}}{{element-use}}: {{condition-stun}}"
+        "** {{element-ice}}{{element-use}}: {{effect-stun}}"
       ]
     ]
   },
@@ -1015,7 +1015,7 @@
         "11",
         "* {{ability-shield}} 1",
         "** {{element-ice}}{{element-use}}: {{ability-shield}} 2 instead",
-        "* {{condition-wound}}",
+        "* {{effect-wound}}",
         "** Target all adjacent enemies"
       ],
       [
@@ -1052,11 +1052,11 @@
       [
         false,
         "41",
-        "* {{element-ice}}{{element-use}}: {{condition-strengthen}}",
+        "* {{element-ice}}{{element-use}}: {{effect-strengthen}}",
         "** Self",
         "* {{ability-move}} +0",
         "* {{ability-attack}} -1",
-        "** {{condition-wound}}"
+        "** {{effect-wound}}"
       ],
       [
         true,
@@ -1083,7 +1083,7 @@
         "07",
         "* {{ability-move}} +1",
         "* {{ability-attack}} -1",
-        "* {{element-dark}}{{element-use}}: {{condition-invisible}}",
+        "* {{element-dark}}{{element-use}}: {{effect-invisible}}",
         "** Self"
       ],
       [
@@ -1099,7 +1099,7 @@
         "* {{ability-attack}} -2",
         "** {{ability-range}} 3",
         "** {{ability-target}} 3",
-        "** {{element-dark}}{{element-use}}: {{condition-muddle}}"
+        "** {{element-dark}}{{element-use}}: {{effect-muddle}}"
       ],
       [
         true,
@@ -1120,8 +1120,8 @@
         "35",
         "* {{ability-attack}} -1",
         "* {{ability-attack}} -1",
-        "** {{condition-pierce}} 2",
-        "* {{element-light}}{{element-use}}: {{condition-curse}}",
+        "** {{effect-pierce}} 2",
+        "* {{element-light}}{{element-use}}: {{effect-curse}}",
         "** Self"
       ],
       [
@@ -1157,7 +1157,7 @@
         "* {{ability-attack}} +0",
         "** {{ability-range}} +0",
         "** {{ability-target}} 2",
-        "** {{condition-poison}}"
+        "** {{effect-poison}}"
       ],
       [
         false,
@@ -1181,8 +1181,8 @@
       [
         false,
         "85",
-        "* {{condition-push}} 1 and",
-        "* {{condition-poison}}",
+        "* {{effect-push}} 1 and",
+        "* {{effect-poison}}",
         "** Target all adjacent enemies",
         "* {{ability-attack}} +1",
         "** {{ability-range}} -1"
@@ -1232,7 +1232,7 @@
         "* {{ability-attack}} -1",
         "** {{ability-range}} 3",
         "** {{ability-target}} 2",
-        "** {{condition-poison}}"
+        "** {{effect-poison}}"
       ],
       [
         false,
@@ -1247,7 +1247,7 @@
         "* {{ability-shield}} 2",
         "* {{ability-heal}} 2",
         "** Self",
-        "* {{condition-strengthen}}",
+        "* {{effect-strengthen}}",
         "** Self"
       ],
       [
@@ -1265,9 +1265,9 @@
       [
         false,
         "70",
-        "* {{condition-push}} 2",
+        "* {{effect-push}} 2",
         "** Target all adjacent enemies",
-        "** {{element-air}}{{element-use}}: {{condition-push}} 4 instead",
+        "** {{element-air}}{{element-use}}: {{effect-push}} 4 instead",
         "* {{ability-attack}} +1",
         "** {{ability-range}} +1"
       ],
@@ -1298,7 +1298,7 @@
         "14",
         "* {{ability-attack}} +0",
         "** {{ability-range}} +0",
-        "** {{element-ice}}{{element-use}}: +2 {{ability-attack}}, {{condition-immobilize}}",
+        "** {{element-ice}}{{element-use}}: +2 {{ability-attack}}, {{effect-immobilize}}",
         "* {{ability-retaliate}} 2",
         "* {{element-air}}"
       ],
@@ -1313,7 +1313,7 @@
       [
         true,
         "47",
-        "* {{condition-disarm}}",
+        "* {{effect-disarm}}",
         "** Target all adjacent enemies",
         "* {{ability-move}} +0",
         "* {{ability-attack}} -1",
@@ -1366,14 +1366,14 @@
         "41",
         "* {{ability-move}} +0",
         "* {{ability-attack}} -1 {{aoe-line-4-with-black}} ",
-        "** {{element-earth}}{{element-use}}: +2 {{ability-attack}}, {{condition-immobilize}}"
+        "** {{element-earth}}{{element-use}}: +2 {{ability-attack}}, {{effect-immobilize}}"
       ],
       [
         false,
         "51",
         "* All enemies suffer 2 damage.",
-        "* {{element-fire}}{{element-use}}: {{condition-wound}} all enemies",
-        "* {{element-earth}}{{element-use}}: {{condition-disarm}} all enemies"
+        "* {{element-fire}}{{element-use}}: {{effect-wound}} all enemies",
+        "* {{element-earth}}{{element-use}}: {{effect-disarm}} all enemies"
       ],
       [
         false,
@@ -1421,7 +1421,7 @@
         "* {{ability-move}} -2",
         "* {{ability-attack}} +0",
         "** {{ability-range}} 3",
-        "** {{condition-poison}}"
+        "** {{effect-poison}}"
       ],
       [
         false,
@@ -1433,7 +1433,7 @@
         true,
         "92",
         "* {{ability-attack}} +2",
-        "** {{condition-poison}} "
+        "** {{effect-poison}} "
       ],
       [
         true,
@@ -1460,7 +1460,7 @@
         "* {{ability-move}} +0",
         "* {{ability-attack}} -1",
         "** {{ability-range}} +0",
-        "** {{condition-disarm}}"
+        "** {{effect-disarm}}"
       ],
       [
         false,
@@ -1468,7 +1468,7 @@
         "* {{ability-move}} -1",
         "* {{ability-attack}} +0",
         "** {{ability-range}} +0",
-        "** {{condition-immobilize}}"
+        "** {{effect-immobilize}}"
       ],
       [
         true,
@@ -1502,7 +1502,7 @@
         "* {{ability-move}} -1",
         "* {{ability-heal}} 1",
         "** Affect all adjacent allies",
-        "* {{condition-bless}}",
+        "* {{effect-bless}}",
         "** Self"
       ],
       [
@@ -1510,7 +1510,7 @@
         "09",
         "* {{ability-move}} +1",
         "* {{ability-attack}} -1",
-        "** {{ability-range}} +0, {{condition-curse}}, {{ability-target}} 2"
+        "** {{ability-range}} +0, {{effect-curse}}, {{ability-target}} 2"
       ]
     ]
   },
@@ -1542,7 +1542,7 @@
         false,
         "27",
         "* {{ability-attack}} +0",
-        "** {{ability-range}} +0,  {{ability-target}} 2, {{condition-poison}}"
+        "** {{ability-range}} +0,  {{ability-target}} 2, {{effect-poison}}"
       ],
       [
         false,
@@ -1556,7 +1556,7 @@
         "89",
         "* {{ability-attack}} -2",
         "** {{ability-range}} +0",
-        "** {{condition-stun}}"
+        "** {{effect-stun}}"
       ],
       [
         false,
@@ -1564,7 +1564,7 @@
         "* {{ability-shield}} 2",
         "* {{ability-heal}} 2",
         "** Self",
-        "* {{condition-strengthen}}",
+        "* {{effect-strengthen}}",
         "** Self"
       ],
       [
@@ -1573,7 +1573,7 @@
         "* {{ability-move}} -1",
         "* {{ability-attack}} -2 {{aoe-circle}}",
         "** {{ability-range}} +0",
-        "** {{condition-poison}}"
+        "** {{effect-poison}}"
       ]
     ]
   },
@@ -1624,8 +1624,8 @@
         "* {{ability-move}} +1",
         "* {{ability-attack}} -2",
         "** {{ability-range}} 3",
-        "* {{condition-pull}} 2",
-        "** {{condition-immobilize}}"
+        "* {{effect-pull}} 2",
+        "** {{effect-immobilize}}"
       ],
       [
         false,
@@ -1691,7 +1691,7 @@
         "* {{ability-move}} -1",
         "* {{ability-attack}} -1",
         "** Target all adjacent enemies",
-        "* {{element-dark}}{{element-use}}: {{condition-muddle}}",
+        "* {{element-dark}}{{element-use}}: {{effect-muddle}}",
         "** Self"
       ],
       [
@@ -1714,14 +1714,14 @@
         "** {{ability-range}} +0",
         "* {{ability-heal}} 1",
         "** Self",
-        "* {{element-air}}{{element-use}}: {{condition-invisible}}<br/><span class='small'>Self</span>"
+        "* {{element-air}}{{element-use}}: {{effect-invisible}}<br/><span class='small'>Self</span>"
       ],
       [
         true,
         "21",
         "* {{ability-move}} +0",
         "* {{ability-attack}} +0",
-        "** {{ability-range}} +0, {{condition-pull}} 1",
+        "** {{ability-range}} +0, {{effect-pull}} 1",
         "* {{element-air}}"
       ],
       [
@@ -1729,7 +1729,7 @@
         "21",
         "* {{ability-move}} +0",
         "* {{ability-attack}} +0",
-        "** {{ability-range}} +0, {{condition-pull}} 1",
+        "** {{ability-range}} +0, {{effect-pull}} 1",
         "* {{element-air}}"
       ],
       [
@@ -1738,7 +1738,7 @@
         "* {{ability-move}} +0",
         "* {{ability-attack}} -1",
         "** {{ability-range}} +0, {{ability-target}} 2",
-        "** {{element-air}}{{element-use}}: {{condition-push}} 2"
+        "** {{element-air}}{{element-use}}: {{effect-push}} 2"
       ],
       [
         false,
@@ -1758,7 +1758,7 @@
       [
         false,
         "43",
-        "* {{condition-push}} 1",
+        "* {{effect-push}} 1",
         "** Target all adjacent enemies",
         "* {{ability-attack}} +0",
         "** {{ability-range}} +0",

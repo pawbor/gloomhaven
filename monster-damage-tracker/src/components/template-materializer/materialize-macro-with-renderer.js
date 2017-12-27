@@ -1,12 +1,12 @@
 import abilityRenderers from './ability-renderers';
 import aoeRenderers from './aoe-renderers';
-import conditionRenderers from './condition-renderers';
+import effectRenderers from './effect-renderers';
 import elementRenderers from './element-renderers';
 
 const allRenderers = {
   ...abilityRenderers,
   ...aoeRenderers,
-  ...conditionRenderers,
+  ...effectRenderers,
   ...elementRenderers,
 };
 
