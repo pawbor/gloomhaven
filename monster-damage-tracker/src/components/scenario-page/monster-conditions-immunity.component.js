@@ -20,10 +20,12 @@ const MonsterConditionsImmunity = ({
         className
       )}
     >
-      <span className="MonsterConditionsImmunity-Label">
-        Immune to:
-      </span>
-      {elements}
+      <div className="MonsterConditionsImmunity-Wrapper">
+        <span className="MonsterConditionsImmunity-Label">
+          Immune to:
+        </span>
+        {elements}
+      </div>
     </div>
   );
 

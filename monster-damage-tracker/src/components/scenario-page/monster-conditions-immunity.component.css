@@ -1,8 +1,8 @@
-.MonsterConditionsImmunity {
+.MonsterConditionsImmunity-Wrapper {
   display: flex;
   flex-flow: row wrap;
   align-items: baseline;
-  padding: 0.5em;
+  margin-top: calc(-0.5 * var(--vertical-spacing));
 }
 
 .MonsterConditionsImmunity-Label {
@@ -11,4 +11,5 @@
 
 * ~ .MonsterConditionsImmunity-Element {
   margin-left: 1em;
+  margin-top: calc(0.5 * var(--vertical-spacing));
 }

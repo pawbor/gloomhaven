@@ -1,4 +1,26 @@
 :root {
+  --font-size-scale: 1.4;
+  --font-size-base: 1.6rem;
+  --line-height-base: 1.2;
+
+  --font-size-normal: var(--font-size-base);
+  --font-size-small: calc(
+    var(--font-size-normal) / var(--font-size-scale)
+  );
+  --font-size-large: calc(
+    var(--font-size-normal) * var(--font-size-scale)
+  );
+  --font-size-extra-small: calc(
+    var(--font-size-small) / var(--font-size-scale)
+  );
+  --font-size-extra-large: calc(
+    var(--font-size-large) * var(--font-size-scale)
+  );
+
+  --vertical-spacing: calc(
+    var(--font-size-base) * var(--line-height-base)
+  );
+
   --bg-color-primary: #ffffff;
   --bg-color-secondary: #e0e0e0;
   --text-color-primary: rgba(0, 0, 0, 0.87);

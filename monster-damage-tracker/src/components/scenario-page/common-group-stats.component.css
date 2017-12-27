@@ -1,8 +1,13 @@
+.CommonGroupStats-Normal,
 .CommonGroupStats-Elite {
-  margin-top: 1em;
+  padding: calc(0.5 * var(--vertical-spacing));
+}
+
+.CommonGroupStats-Elite {
+  margin-top: var(--vertical-spacing);
   background-color: var(--elite-monster-color);
 }
 
 .MonsterTraits {
-  margin-top: 0.5em;
+  margin-top: var(--vertical-spacing);
 }

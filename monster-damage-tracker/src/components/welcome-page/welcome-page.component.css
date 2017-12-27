@@ -1,31 +1,33 @@
 .WelcomePage {
   font-size: 1rem;
   display: flex;
-  height: 100%;
-  flex-flow: row;
-  align-items: center;
-  justify-content: center;
-}
-
-.WelcomePage-Content {
-  display: flex;
   flex-flow: column;
   align-items: center;
   justify-content: center;
-  margin-top: -10em;
-  overflow: hidden;
+  padding: var(--vertical-spacing);
+}
+
+@media (min-height: 20rem) {
+  .WelcomePage {
+    height: 100%;
+  }
+}
+
+.WelcomePage-Message,
+.WelcomePage-Actions {
+  flex: none;
 }
 
 .WelcomePage-Message {
-  font-size: 2em;
+  font-size: var(--font-size-large);
   color: var(--text-color-secondary);
   text-align: center;
 }
 
 .WelcomePage-Message :first-child {
-  font-size: 1.5em;
+  font-size: var(--font-size-extra-large);
 }
 
-.WelcomePage-NewScenario {
-  margin-top: 2em;
+.WelcomePage-Actions {
+  margin-top: var(--vertical-spacing);
 }

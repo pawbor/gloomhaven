@@ -12,8 +12,10 @@ const MonsterTraits = ({ traits, className }) => {
 
   return (
     <div className={classNames('MonsterTraits', className)}>
-      <span className="MonsterTraits-Label">Traits:</span>
-      {elements}
+      <div className="MonsterTraits-Wrapper">
+        <span className="MonsterTraits-Label">Traits:</span>
+        {elements}
+      </div>
     </div>
   );
 

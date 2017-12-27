@@ -1,12 +1,7 @@
 .App {
   display: block;
   height: 100vh;
-  overflow: hidden;
-  background-color: var(--bg-color-secondary);
-}
-
-.App > * {
-  max-height: 100%;
   overflow-x: hidden;
   overflow-y: auto;
+  background-color: var(--bg-color-secondary);
 }

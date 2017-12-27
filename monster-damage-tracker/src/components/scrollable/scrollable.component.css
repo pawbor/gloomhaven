@@ -1,37 +1,41 @@
 .Scrollable {
+  --scrollable-overlay-height: var(--vertical-spacing);
+  --scrollable-overlay-color: white;
+
   position: relative;
   overflow: hidden;
   height: 100%;
 }
 
-.Scrollable::before {
-  content: '';
-  display: block;
-  position: absolute;
-  z-index: 1;
-  top: 0;
-  height: 3em;
-  width: 100%;
-  background: linear-gradient(white 5%, transparent);
-}
-
+.Scrollable::before,
 .Scrollable::after {
   content: '';
   display: block;
   position: absolute;
   z-index: 1;
-  bottom: 0;
-  height: 3em;
+  height: var(--scrollable-overlay-height);
   width: 100%;
+}
+
+.Scrollable::before {
+  top: 0;
   background: linear-gradient(
-    to top,
-    white 5%,
+    to bottom,
+    var(--scrollable-overlay-color) 5%,
     transparent
   );
 }
 .Scrollable-Wrapper {
   position: relative;
   overflow-y: auto;
-  padding: 3em 0;
+  padding: var(--scrollable-overlay-height) 0;
   height: 100%;
+}
+.Scrollable::after {
+  bottom: 0;
+  background: linear-gradient(
+    to top,
+    var(--scrollable-overlay-color) 5%,
+    transparent
+  );
 }

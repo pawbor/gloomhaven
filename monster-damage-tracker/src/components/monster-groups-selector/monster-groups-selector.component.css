@@ -5,14 +5,20 @@
   justify-content: center;
 }
 
+@media (min-height: 20rem) {
+  .MonsterGroupsSelector {
+    max-height: 100%;
+  }
+}
+
 .MonsterGroupsSelector-Card {
   display: flex;
   flex-flow: column;
   min-width: 50vw;
-  padding: 1em;
+  padding: var(--vertical-spacing);
   overflow: hidden;
   border-radius: 2px;
-  margin: 2em;
+  margin: var(--vertical-spacing);
 }
 
 .MonsterGroupsSelector-List {
@@ -22,7 +28,7 @@
 
 .MonsterGroupsSelector-Actions {
   flex: none;
-  margin-top: 1em;
+  margin-top: var(--vertical-spacing);
   display: flex;
   flex-flow: row;
 }

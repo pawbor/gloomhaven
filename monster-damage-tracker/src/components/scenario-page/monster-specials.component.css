@@ -1,7 +1,6 @@
 .MonsterSpecials {
   display: flex;
   flex-flow: column;
-  padding: 0.5em;
 }
 
 .MonsterSpecials-Element {
@@ -10,7 +9,7 @@
 }
 
 * ~ .MonsterSpecials-Element {
-  margin-top: 0.5em;
+  margin-top: var(--vertical-spacing);
 }
 
 .MonsterSpecials-Label {
@@ -19,5 +18,5 @@
 
 .MonsterSpecials-Action {
   margin-left: 1em;
-  margin-top: 0.5em;
+  margin-top: calc(0.5 * var(--vertical-spacing));
 }

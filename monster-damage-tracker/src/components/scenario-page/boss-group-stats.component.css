@@ -1,8 +1,11 @@
 .BossGroupStats {
   display: flex;
   flex-flow: column;
+  padding: calc(0.5 * var(--vertical-spacing));
 }
 
-.MonsterConditionsImmunity {
-  margin-top: 0.5em;
+.MonsterConditionsImmunity,
+.MonsterSpecials,
+.MonsterNotes {
+  margin-top: var(--vertical-spacing);
 }

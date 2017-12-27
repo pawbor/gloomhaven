@@ -1,7 +1,6 @@
 .MonsterBasicStats {
   display: flex;
   flex-flow: row;
-  padding: 0.5em;
 }
 
 * ~ .MonsterBasicStats-Element {

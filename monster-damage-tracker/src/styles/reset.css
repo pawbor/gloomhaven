@@ -32,5 +32,6 @@ table {
 
 html {
   font-size: 10px;
+  line-height: var(--line-height-base);
   font-family: 'Roboto', sans-serif;
 }

@@ -11,11 +11,11 @@ const WelcomePage = ({ onStartNewScenario = noop }) => {
 
   return (
     <div className="WelcomePage">
-      <div className="WelcomePage-Content">
-        <div className="WelcomePage-Message">
-          <div>{welcomeMessage1}</div>
-          <div>{welcomeMessage2}</div>
-        </div>
+      <div className="WelcomePage-Message">
+        <div>{welcomeMessage1}</div>
+        <div>{welcomeMessage2}</div>
+      </div>
+      <div className="WelcomePage-Actions">
         <button
           className="WelcomePage-NewScenario"
           onClick={handleClickNewScenarioButton}

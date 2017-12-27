@@ -1,13 +1,8 @@
-.MonsterTraits {
+.MonsterTraits-Wrapper {
   display: flex;
   flex-flow: row wrap;
   align-items: baseline;
-  padding: 0.5em;
-}
-
-.MonsterTraits-Label,
-.MonsterTraits-Element {
-  display: inline;
+  margin-top: calc(-0.5 * var(--vertical-spacing));
 }
 
 .MonsterTraits-Label {
@@ -16,4 +11,5 @@
 
 * ~ .MonsterTraits-Element {
   margin-left: 1em;
+  margin-top: calc(0.5 * var(--vertical-spacing));
 }
