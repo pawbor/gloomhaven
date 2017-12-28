@@ -1,4 +1,8 @@
 import React from 'react';
+import {
+  BrowserRouter as Router,
+  Route,
+} from 'react-router-dom';
 
 import MonsterGroupsSelector from 'components/monster-groups-selector/monster-groups-selector.component';
 import ScenarioPage from 'components/scenario-page/scenario-page.component';
@@ -11,79 +15,81 @@ class App extends React.Component {
     super(props);
 
     this.state = {
-      isMonsterGroupsSelectorOpened: false,
-      currentScenario: null,
+      currentScenario: {
+        monsterGroups: {},
+      },
     };
   }
 
   render() {
-    const content = this.renderContent();
-    return <div className="App">{content}</div>;
-  }
-
-  handleStartNewScenario = (currentScenario) => {
-    this.setState({
-      isMonsterGroupsSelectorOpened: true,
-      currentScenario: {
-        monsterGroups: {},
-      },
-    });
-  };
-
-  handleCloseMonsterGroupsSelector = () => {
-    this.setState({
-      isMonsterGroupsSelectorOpened: false,
-    });
-  };
-
-  handleChangeCurrentScenario = (currentScenario) => {
-    this.setState({
-      currentScenario,
-    });
-  };
-
-  renderContent = () => {
     const {
       handleStartNewScenario,
       handleCloseMonsterGroupsSelector,
       handleChangeCurrentScenario,
     } = this;
 
-    const {
-      isMonsterGroupsSelectorOpened,
-      currentScenario,
-    } = this.state;
-
-    if (isMonsterGroupsSelectorOpened) {
-      return (
-        <MonsterGroupsSelector
-          currentScenario={currentScenario}
-          onChangeCurrentScenario={
-            handleChangeCurrentScenario
-          }
-          onCloseMonsterGroupsSelector={
-            handleCloseMonsterGroupsSelector
-          }
-        />
-      );
-    }
-
-    if (currentScenario) {
-      return (
-        <ScenarioPage
-          currentScenario={currentScenario}
-          onChangeCurrentScenario={
-            handleChangeCurrentScenario
-          }
-        />
-      );
-    }
+    const { currentScenario } = this.state;
 
     return (
-      <WelcomePage
-        onStartNewScenario={handleStartNewScenario}
-      />
+      <Router basename={process.env.PUBLIC_URL}>
+        <div className="App">
+          <Route
+            exact
+            path="/"
+            render={({ history }) => (
+              <WelcomePage
+                onStartNewScenario={handleStartNewScenario(
+                  history
+                )}
+              />
+            )}
+          />
+
+          <Route
+            path="/groups-selector"
+            render={({ history }) => (
+              <MonsterGroupsSelector
+                currentScenario={currentScenario}
+                onChangeCurrentScenario={
+                  handleChangeCurrentScenario
+                }
+                onCloseMonsterGroupsSelector={handleCloseMonsterGroupsSelector(
+                  history
+                )}
+              />
+            )}
+          />
+
+          <Route
+            path="/groups-statistics"
+            render={() => (
+              <ScenarioPage
+                currentScenario={currentScenario}
+                onChangeCurrentScenario={
+                  handleChangeCurrentScenario
+                }
+              />
+            )}
+          />
+        </div>
+      </Router>
     );
+  }
+
+  handleStartNewScenario = (history) => (
+    currentScenario
+  ) => {
+    history.push('/groups-selector');
+  };
+
+  handleCloseMonsterGroupsSelector = (history) => () => {
+    history.push('/groups-statistics');
+  };
+
+  handleChangeCurrentScenario = (currentScenario) => {
+    this.setState({
+      currentScenario,
+    });
   };
 }
 
