@@ -27,6 +27,7 @@
 }
 .Scrollable-Wrapper {
   position: relative;
+  z-index: 0;
   overflow-y: auto;
   padding: var(--scrollable-overlay-height) 0;
   height: 100%;

@@ -1,6 +1,5 @@
 import React from 'react';
 
-import Card from 'components/card/card.component';
 import MonsterGroupList from 'components/monster-group-list/monster-group-list.component';
 import Scrollable from 'components/scrollable/scrollable.component';
 import { noop } from 'utils/function-utils';
@@ -39,31 +38,28 @@ class MonsterGroupsSelector extends React.Component {
 
     return (
       <div className="MonsterGroupsSelector">
-        <Card className="MonsterGroupsSelector-Card">
-          <Scrollable className="MonsterGroupsSelector-List">
-            <MonsterGroupList
-              monsterGroups={allMonsterGroups}
-              selectedMonsterGroups={selectedMonsterGroups}
-              onClickMonsterGroup={handleClickMonster}
-            />
-          </Scrollable>
+        <div className="MonsterGroupsSelector-Actions">
+          <button
+            className="MonsterGroupsSelector-CancelButton Button-danger"
+            onClick={handleClickCancel}
+          >
+            Cancel
+          </button>
 
-          <div className="MonsterGroupsSelector-Actions">
-            <button
-              className="MonsterGroupsSelector-CancelButton Button-danger"
-              onClick={handleClickCancel}
-            >
-              Cancel
-            </button>
-
-            <button
-              className="MonsterGroupsSelector-ApplyButton Button-primary"
-              onClick={handleClickApply}
-            >
-              Apply
-            </button>
-          </div>
-        </Card>
+          <button
+            className="MonsterGroupsSelector-ApplyButton Button-primary"
+            onClick={handleClickApply}
+          >
+            Apply
+          </button>
+        </div>
+        <Scrollable className="MonsterGroupsSelector-List">
+          <MonsterGroupList
+            monsterGroups={allMonsterGroups}
+            selectedMonsterGroups={selectedMonsterGroups}
+            onClickMonsterGroup={handleClickMonster}
+          />
+        </Scrollable>
       </div>
     );
   }

@@ -1,26 +1,30 @@
 .MonsterGroupListElement {
+  font-size: var(--font-size-normal);
+  width: 15em;
+  margin: calc(0.5 * var(--vertical-spacing));
+}
+
+.MonsterGroupListElement-Card {
   display: flex;
   flex-flow: row;
   align-items: center;
-  font-size: var(--font-size-normal);
-  padding: 0.5em 1em;
+  padding: 1em;
   border-bottom: 1px solid lightgrey;
 }
 
-.MonsterGroupListElement-selected {
+.MonsterGroupListElement-selected
+  > .MonsterGroupListElement-Card {
   background-color: rgba(46, 89, 206, 0.2);
 }
 
-.MonsterGroupListElement-clickable {
+.MonsterGroupListElement-clickable
+  > .MonsterGroupListElement-Card {
   cursor: pointer;
 }
 
-.MonsterGroupListElement-clickable:hover {
+.MonsterGroupListElement-clickable:hover
+  > .MonsterGroupListElement-Card {
   background-color: rgba(92, 92, 105, 0.1);
-}
-
-.MonsterGroupListElement:first-child {
-  border-top: 1px solid lightgrey;
 }
 
 .MonsterGroupListElement-Checkbox {

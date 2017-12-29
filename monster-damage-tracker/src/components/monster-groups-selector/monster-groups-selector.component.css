@@ -1,38 +1,19 @@
 .MonsterGroupsSelector {
   font-size: 1rem;
   display: flex;
-  align-items: stretch;
-  justify-content: center;
-}
-
-@media (min-height: 20rem) {
-  .MonsterGroupsSelector {
-    max-height: 100%;
-  }
-}
-
-.MonsterGroupsSelector-Card {
-  display: flex;
-  flex-flow: column;
-  min-width: 50vw;
-  padding: var(--vertical-spacing);
-  overflow: hidden;
-  border-radius: 2px;
-  margin: var(--vertical-spacing);
-}
-
-.MonsterGroupsSelector-List {
-  flex: 1 1 0;
+  flex-flow: column nowrap;
+  height: 100%;
   overflow: hidden;
 }
 
 .MonsterGroupsSelector-Actions {
   flex: none;
-  margin-top: var(--vertical-spacing);
+  padding: calc(0.5 * var(--vertical-spacing));
   display: flex;
-  flex-flow: row;
+  align-items: center;
+  justify-content: flex-end;
 }
 
-.MonsterGroupsSelector-CancelButton {
-  margin-left: auto;
+.MonsterGroupsSelector-List.Scrollable {
+  --scrollable-overlay-color: var(--bg-color-secondary);
 }

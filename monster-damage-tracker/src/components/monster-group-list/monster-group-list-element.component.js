@@ -1,6 +1,7 @@
 import React from 'react';
+import classNames from 'classnames';
 
-import { classNameFromHashMap } from 'utils/class-name-utils';
+import Card from 'components/card/card.component';
 import { noop } from 'utils/function-utils';
 
 import './monster-group-list-element.component.css';
@@ -10,11 +11,13 @@ const MonsterGroupListElement = ({
   isSelected = false,
   onClick = noop,
 }) => {
-  const className = classNameFromHashMap({
-    MonsterGroupListElement: true,
-    'MonsterGroupListElement-clickable': true,
-    'MonsterGroupListElement-selected': isSelected,
-  });
+  const className = classNames(
+    'MonsterGroupListElement',
+    'MonsterGroupListElement-clickable',
+    {
+      'MonsterGroupListElement-selected': isSelected,
+    }
+  );
 
   const handleClick = () => {
     onClick(groupData);
@@ -22,10 +25,12 @@ const MonsterGroupListElement = ({
 
   return (
     <li className={className} onClick={handleClick}>
-      <span className="MonsterGroupListElement-Checkbox" />
-      <span className="MonsterGroupListElement-Label">
-        {groupData.name}
-      </span>
+      <Card className="MonsterGroupListElement-Card">
+        <span className="MonsterGroupListElement-Checkbox" />
+        <span className="MonsterGroupListElement-Label">
+          {groupData.name}
+        </span>
+      </Card>
     </li>
   );
 };

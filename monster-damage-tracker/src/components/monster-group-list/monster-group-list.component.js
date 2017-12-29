@@ -1,4 +1,5 @@
 import React from 'react';
+import classNames from 'classnames';
 
 import { noop } from 'utils/function-utils';
 
@@ -6,12 +7,15 @@ import MonsterGroupListElement from './monster-group-list-element.component';
 import './monster-group-list.component.css';
 
 const MonsterGroupList = ({
+  className,
   monsterGroups,
   selectedMonsterGroups,
   onClickMonsterGroup = noop,
 }) => {
   return (
-    <ul className="MonsterGroupList">
+    <ul
+      className={classNames('MonsterGroupList', className)}
+    >
       {monsterGroups.map(renderListElement)}
     </ul>
   );
