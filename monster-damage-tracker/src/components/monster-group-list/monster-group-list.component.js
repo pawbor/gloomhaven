@@ -2,15 +2,16 @@ import React from 'react';
 import classNames from 'classnames';
 
 import { noop } from 'utils/function-utils';
+import { toggleArrayElement } from 'utils/array-utils';
 
 import MonsterGroupListElement from './monster-group-list-element.component';
 import './monster-group-list.component.css';
 
 const MonsterGroupList = ({
   className,
-  monsterGroups,
-  selectedMonsterGroups,
-  onClickMonsterGroup = noop,
+  monsterGroups = [],
+  selectedMonsterGroups = [],
+  onChangeSelectedMonsterGroups = noop,
 }) => {
   return (
     <ul
@@ -29,9 +30,17 @@ const MonsterGroupList = ({
         key={groupData.name}
         groupData={groupData}
         isSelected={isSelected}
-        onClick={onClickMonsterGroup}
+        onClick={handleClickMonsterGroup}
       />
     );
+  }
+
+  function handleClickMonsterGroup(groupData) {
+    const newSelectedMonsterGroups = toggleArrayElement(
+      selectedMonsterGroups,
+      groupData.name
+    );
+    onChangeSelectedMonsterGroups(newSelectedMonsterGroups);
   }
 };
 

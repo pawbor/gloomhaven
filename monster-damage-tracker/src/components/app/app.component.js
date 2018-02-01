@@ -4,9 +4,9 @@ import {
   Route,
 } from 'react-router-dom';
 
-import MonsterGroupsSelector from 'components/monster-groups-selector/monster-groups-selector.component';
 import ScenarioPage from 'components/scenario-page/scenario-page.component';
 import WelcomePage from 'components/welcome-page/welcome-page.component';
+import MonsterGroupsSelector from './scenario-monster-groups-selector.component';
 
 import './app.component.css';
 
@@ -50,9 +50,6 @@ class App extends React.Component {
             render={({ history }) => (
               <MonsterGroupsSelector
                 currentScenario={currentScenario}
-                onChangeCurrentScenario={
-                  handleChangeCurrentScenario
-                }
                 onCloseMonsterGroupsSelector={handleCloseMonsterGroupsSelector(
                   history
                 )}
@@ -82,8 +79,20 @@ class App extends React.Component {
     history.push('/groups-selector');
   };
 
-  handleCloseMonsterGroupsSelector = (history) => () => {
-    history.push('/groups-statistics');
+  handleCloseMonsterGroupsSelector = (history) => (
+    currentScenario
+  ) => {
+    this.setState({
+      currentScenario,
+    });
+
+    const redirectUrl = isAnyMonsterGroupSelected(
+      currentScenario
+    )
+      ? '/groups-statistics'
+      : '/';
+
+    history.push(redirectUrl);
   };
 
   handleChangeCurrentScenario = (currentScenario) => {
@@ -94,3 +103,7 @@ class App extends React.Component {
 }
 
 export default App;
+
+function isAnyMonsterGroupSelected(scenario) {
+  return !!Object.keys(scenario.monsterGroups).length;
+}

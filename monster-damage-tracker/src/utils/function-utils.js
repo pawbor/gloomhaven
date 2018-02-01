@@ -1,14 +1,29 @@
-export const pipe = (...fns) => initialX =>
-  fns.reduce((f1, f2) => (x, initialX) =>
-    f2(f1(x, initialX), initialX)
-  )(initialX, initialX);
+export function pipe(...fns) {
+  return fns.reduce((f1, f2) => (x) => f2(f1(x)));
+}
 
-export const noop = () => {};
+export function constant(x) {
+  return () => x;
+}
 
-export const identity = x => x;
+export function extractProperty(name) {
+  return (x) => x[name];
+}
 
-export const isTruthy = x => !!x;
+export function noop() {}
 
-export const isFalsy = x => !x;
+export function identity(x) {
+  return x;
+}
 
-export const isSet = x => x !== undefined && x !== null;
+export function isTruthy(x) {
+  return !!x;
+}
+
+export function isFalsy(x) {
+  return !x;
+}
+
+export function isSet(x) {
+  return x !== undefined && x !== null;
+}

@@ -8,7 +8,8 @@
 
 .MonsterGroupsSelector-Actions {
   flex: none;
-  padding: calc(0.5 * var(--vertical-spacing));
+  padding: calc(0.5 * var(--vertical-spacing)) 0;
+  padding-right: calc(1.5 * var(--vertical-spacing));
   display: flex;
   align-items: center;
   justify-content: flex-end;
@@ -16,4 +17,5 @@
 
 .MonsterGroupsSelector-List.Scrollable {
   --scrollable-overlay-color: var(--bg-color-secondary);
+  margin-bottom: calc(0.5 * var(--vertical-spacing));
 }
