@@ -1,8 +1,9 @@
 import React from 'react';
 
-import MonsterGroupList from 'components/monster-group-list/monster-group-list.component';
 import Scrollable from 'components/scrollable/scrollable.component';
 import { noop } from 'utils/function-utils';
+
+import MonsterGroupList from './monster-group-list.component';
 
 import './monster-groups-selector.component.css';
 

@@ -1,8 +1,9 @@
 import React from 'react';
 
-import MonsterGroupsSelector from 'components/monster-groups-selector/monster-groups-selector.component';
 import { noop } from 'utils/function-utils';
 import { allMonsterGroups } from 'utils/monsters-data-utils';
+
+import MonsterGroupsSelector from './components/monster-groups-selector.component';
 
 class ScenarioMonsterGroupsSelector extends React.Component {
   static defaultProps = {

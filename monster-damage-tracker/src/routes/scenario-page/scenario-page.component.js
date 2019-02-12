@@ -4,7 +4,7 @@ import { hashMapToArray } from 'utils/hash-map-utils';
 import { noop } from 'utils/function-utils';
 import { monsterGroupsByName } from 'utils/monsters-data-utils';
 
-import MonsterGroupTracker from './monster-group-tracker.component';
+import MonsterGroupTracker from './components/monster-group-tracker.component';
 import './scenario-page.component.css';
 
 class ScenarioPage extends React.Component {

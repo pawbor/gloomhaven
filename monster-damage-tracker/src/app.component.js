@@ -4,9 +4,9 @@ import {
   Route,
 } from 'react-router-dom';
 
-import ScenarioPage from 'components/scenario-page/scenario-page.component';
-import WelcomePage from 'components/welcome-page/welcome-page.component';
-import MonsterGroupsSelector from './scenario-monster-groups-selector.component';
+import ScenarioPage from 'routes/scenario-page/scenario-page.component';
+import WelcomePage from 'routes/welcome-page/welcome-page.component';
+import MonsterGroupsSelector from 'routes/scenario-monster-groups-selector-page/scenario-monster-groups-selector-page.component';
 
 import './app.component.css';
 
